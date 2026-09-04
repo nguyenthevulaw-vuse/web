@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+:root {
+  /* Bảng màu nhận diện thương hiệu */
+  --color-primary: #0eb689; /* Xanh ngọc - màu chủ đạo */
+  --color-primary-dark: #007860; /* Xanh rêu đậm */
+  --color-secondary: #3eab6a; /* Xanh lá */
+  --color-accent: #f7941d; /* Cam - điểm nhấn */
+  --color-ink: #424143; /* Xám đậm - văn bản, nền tối */
+
+  --background: #ffffff;
+  --foreground: var(--color-ink);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-primary: var(--color-primary);
+  --color-primary-dark: var(--color-primary-dark);
+  --color-secondary: var(--color-secondary);
+  --color-accent: var(--color-accent);
+  --color-ink: var(--color-ink);
+
+  --font-sans: var(--font-be-vietnam-pro);
+  --font-display: var(--font-be-vietnam-pro);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+::selection {
+  background: color-mix(in srgb, var(--color-primary) 30%, transparent);
+}
+
+.container-page {
+  width: 100%;
+  max-width: 80rem;
+  margin-inline: auto;
+  padding-inline: 1.25rem;
+}
+
+@media (min-width: 640px) {
+  .container-page {
+    padding-inline: 2rem;
+  }
+}
+
+.prose-legal {
+  color: var(--color-ink);
+  line-height: 1.8;
+}
+
+.prose-legal p + p {
+  margin-top: 1.1rem;
+}
