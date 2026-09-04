@@ -1,18 +1,21 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import { CalendarCheck, MessageCircle, Phone, ArrowUp } from "lucide-react";
+import { useEffect, useState, type ComponentType } from "react";
+import { CalendarCheck, Phone, ArrowUp } from "lucide-react";
 import { siteConfig } from "@/lib/site-config";
 import { cn } from "@/lib/utils";
+import { ZaloIcon } from "@/components/icons/zalo-icon";
 
 type ActionItem = {
   label: string;
   href: string;
-  icon: typeof Phone;
+  icon: ComponentType<{ className?: string }>;
   className: string;
   // Chọn màu icon theo độ sáng của nền để đủ tương phản: nền cam (secondary)
-  // dùng icon tối (text-ink), nền xanh lá đậm (primary/primary-dark) dùng
-  // icon trắng.
+  // dùng icon tối (text-ink), nền xanh lá (primary) dùng icon trắng. Mỗi nút
+  // một màu khác nhau (cam/xanh lá) thay vì cùng một tông cho đỡ đơn điệu;
+  // riêng Zalo dùng luôn icon thương hiệu tự tô màu xanh dương của Zalo, nên
+  // không cần className nền riêng.
   iconClassName: string;
   external?: boolean;
 };
@@ -22,15 +25,15 @@ const actions: ActionItem[] = [
     label: "Gọi ngay",
     href: `tel:${siteConfig.contact.hotline.replace(/\s/g, "")}`,
     icon: Phone,
-    className: "bg-primary-dark hover:brightness-110",
-    iconClassName: "text-white",
+    className: "bg-secondary hover:bg-secondary/90",
+    iconClassName: "text-ink",
   },
   {
     label: "Chat Zalo",
     href: siteConfig.social.zalo,
-    icon: MessageCircle,
-    className: "bg-secondary hover:bg-secondary/90",
-    iconClassName: "text-ink",
+    icon: ZaloIcon,
+    className: "",
+    iconClassName: "",
     external: true,
   },
   {
@@ -72,12 +75,12 @@ export function FloatingActions() {
         >
           <span
             className={cn(
-              "flex h-12 w-12 items-center justify-center rounded-full shadow-lg shadow-ink/20 ring-2 ring-white transition-colors",
+              "flex h-12 w-12 items-center justify-center overflow-hidden rounded-full shadow-lg shadow-ink/20 ring-2 ring-white transition-colors",
               action.className,
               action.iconClassName,
             )}
           >
-            <action.icon className="h-5 w-5" />
+            <action.icon className={action.className ? "h-5 w-5" : "h-12 w-12"} />
           </span>
           <span className="hidden rounded-full bg-white px-2 py-0.5 text-[10px] font-medium text-ink shadow-sm sm:block">
             {action.label}

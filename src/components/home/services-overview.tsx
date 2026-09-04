@@ -4,6 +4,15 @@ import { Container } from "@/components/ui/container";
 import { SectionHeading } from "@/components/ui/section-heading";
 import { PracticeIcon } from "@/components/ui/practice-icon";
 import type { PracticeArea } from "@/lib/types";
+import { cn } from "@/lib/utils";
+
+// Nền icon luân phiên xanh lá - cam - xanh dương thay vì một màu cố định
+// cho đỡ đơn điệu.
+const ICON_BG = [
+  "bg-primary/10 text-primary-dark group-hover:bg-primary group-hover:text-white",
+  "bg-secondary/10 text-secondary group-hover:bg-secondary group-hover:text-ink",
+  "bg-accent/10 text-accent group-hover:bg-accent group-hover:text-white",
+];
 
 export function ServicesOverview({ areas }: { areas: PracticeArea[] }) {
   return (
@@ -25,13 +34,18 @@ export function ServicesOverview({ areas }: { areas: PracticeArea[] }) {
         </div>
 
         <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
-          {areas.slice(0, 8).map((area) => (
+          {areas.slice(0, 8).map((area, index) => (
             <Link
               key={area.slug}
               href={`/dich-vu/${area.slug}`}
               className="group rounded-2xl border border-ink/10 bg-white p-6 transition-all hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5"
             >
-              <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10 text-primary-dark transition-colors group-hover:bg-primary group-hover:text-white">
+              <span
+                className={cn(
+                  "flex h-12 w-12 items-center justify-center rounded-xl transition-colors",
+                  ICON_BG[index % ICON_BG.length],
+                )}
+              >
                 <PracticeIcon name={area.icon} className="h-6 w-6" />
               </span>
               <h3 className="mt-5 text-base font-bold text-ink">{area.title}</h3>

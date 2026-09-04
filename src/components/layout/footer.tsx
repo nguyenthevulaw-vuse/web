@@ -3,8 +3,10 @@ import Image from "next/image";
 import { MapPin, Phone, Mail } from "lucide-react";
 import { Container } from "@/components/ui/container";
 import { SocialIcon } from "@/components/ui/social-icon";
+import { ZaloIcon } from "@/components/icons/zalo-icon";
 import { siteConfig } from "@/lib/site-config";
 import { practiceAreas } from "@/lib/data";
+import { cn } from "@/lib/utils";
 
 export function Footer() {
   const year = new Date().getFullYear();
@@ -40,9 +42,14 @@ export function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={label}
-                  className="flex h-9 w-9 items-center justify-center rounded-full bg-white text-ink/70 shadow-sm transition-colors hover:bg-primary hover:text-white"
+                  className={cn(
+                    "flex h-9 w-9 items-center justify-center overflow-hidden rounded-full shadow-sm transition-colors",
+                    label === "Zalo"
+                      ? ""
+                      : "bg-white text-ink/70 hover:bg-primary hover:text-white",
+                  )}
                 >
-                  <SocialIcon label={short} />
+                  {label === "Zalo" ? <ZaloIcon className="h-9 w-9" /> : <SocialIcon label={short} />}
                 </a>
               ))}
             </div>
