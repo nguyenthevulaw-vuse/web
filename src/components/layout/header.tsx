@@ -1,12 +1,12 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Container } from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
-import { Logo } from "@/components/ui/logo-mark";
 import { siteConfig } from "@/lib/site-config";
 import { cn } from "@/lib/utils";
 
@@ -22,7 +22,14 @@ export function Header() {
           className="flex items-center gap-3"
           onClick={() => setOpen(false)}
         >
-          <Logo className="h-11" />
+          <Image
+            src="/brand/ntvlaw-logo.png"
+            alt={siteConfig.name}
+            width={809}
+            height={651}
+            priority
+            className="h-14 w-auto"
+          />
           <span className="hidden text-[11px] font-medium uppercase leading-tight tracking-wider text-primary-dark sm:block">
             {siteConfig.shortLegalName}
           </span>

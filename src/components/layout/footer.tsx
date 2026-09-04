@@ -1,8 +1,8 @@
 import Link from "next/link";
+import Image from "next/image";
 import { MapPin, Phone, Mail } from "lucide-react";
 import { Container } from "@/components/ui/container";
 import { SocialIcon } from "@/components/ui/social-icon";
-import { LogoIcon } from "@/components/ui/logo-mark";
 import { siteConfig } from "@/lib/site-config";
 import { practiceAreas } from "@/lib/data";
 
@@ -21,11 +21,14 @@ export function Footer() {
     <footer className="bg-ink text-white/70">
       <Container className="grid gap-10 py-14 sm:grid-cols-2 lg:grid-cols-4">
         <div>
-          <Link href="/" className="flex items-center gap-2.5">
-            <span className="flex h-10 w-10 items-center justify-center rounded-full bg-white">
-              <LogoIcon className="h-8 w-8" />
-            </span>
-            <span className="text-lg font-bold text-white">{siteConfig.name}</span>
+          <Link href="/" className="flex items-center">
+            <Image
+              src="/brand/ntvlaw-logo.png"
+              alt={siteConfig.name}
+              width={809}
+              height={651}
+              className="h-14 w-auto"
+            />
           </Link>
           <p className="mt-4 text-sm leading-relaxed">{siteConfig.description}</p>
           {socialLinks.length > 0 ? (
