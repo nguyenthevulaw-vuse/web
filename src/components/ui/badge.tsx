@@ -11,7 +11,7 @@ export function Badge({
 }) {
   const tones = {
     primary: "bg-primary/10 text-primary-dark",
-    accent: "bg-accent/10 text-accent",
+    accent: "bg-accent/10 text-primary-dark",
     neutral: "bg-ink/5 text-ink/70",
   } as const;
 

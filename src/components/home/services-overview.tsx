@@ -17,7 +17,7 @@ export function ServicesOverview({ areas }: { areas: PracticeArea[] }) {
           />
           <Link
             href="/dich-vu"
-            className="inline-flex items-center gap-1.5 text-sm font-semibold text-primary-dark hover:text-primary"
+            className="inline-flex items-center gap-1.5 text-sm font-semibold text-primary-dark hover:text-ink"
           >
             Xem tất cả dịch vụ
             <ArrowRight className="h-4 w-4" />
@@ -31,7 +31,7 @@ export function ServicesOverview({ areas }: { areas: PracticeArea[] }) {
               href={`/dich-vu/${area.slug}`}
               className="group rounded-2xl border border-ink/10 bg-white p-6 transition-all hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5"
             >
-              <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10 text-primary-dark transition-colors group-hover:bg-primary group-hover:text-white">
+              <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10 text-primary-dark transition-colors group-hover:bg-primary group-hover:text-ink">
                 <PracticeIcon name={area.icon} className="h-6 w-6" />
               </span>
               <h3 className="mt-5 text-base font-bold text-ink">{area.title}</h3>

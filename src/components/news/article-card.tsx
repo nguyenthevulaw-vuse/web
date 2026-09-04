@@ -11,8 +11,8 @@ export function ArticleCard({ article }: { article: Article }) {
       href={`/kien-thuc-phap-luat/${article.slug}`}
       className="group flex flex-col overflow-hidden rounded-2xl border border-ink/10 bg-white transition-all hover:-translate-y-1 hover:shadow-lg hover:shadow-primary/5"
     >
-      <div className="flex aspect-[16/9] items-center justify-center bg-gradient-to-br from-secondary/80 to-primary-dark px-6 text-center">
-        <span className="text-sm font-semibold uppercase tracking-wide text-white/90">
+      <div className="flex aspect-[16/9] items-center justify-center bg-gradient-to-br from-ink to-secondary px-6 text-center">
+        <span className="text-sm font-semibold uppercase tracking-wide text-accent">
           {categoryLabels[article.category]}
         </span>
       </div>

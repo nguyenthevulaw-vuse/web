@@ -17,7 +17,7 @@ export function LatestNews({ articles }: { articles: Article[] }) {
           />
           <Link
             href="/kien-thuc-phap-luat"
-            className="inline-flex items-center gap-1.5 text-sm font-semibold text-primary-dark hover:text-primary"
+            className="inline-flex items-center gap-1.5 text-sm font-semibold text-primary-dark hover:text-ink"
           >
             Xem tất cả bài viết
             <ArrowRight className="h-4 w-4" />

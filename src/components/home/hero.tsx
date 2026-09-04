@@ -25,9 +25,7 @@ export function Hero() {
             </span>
             <h1 className="mt-6 text-4xl font-extrabold leading-tight text-white sm:text-5xl lg:text-6xl">
               Tư vấn pháp lý{" "}
-              <span className="bg-gradient-to-r from-accent to-orange-300 bg-clip-text text-transparent">
-                tận tâm, chính xác
-              </span>{" "}
+              <span className="text-accent">tận tâm, chính xác</span>{" "}
               cho doanh nghiệp và cá nhân
             </h1>
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-white/70">
@@ -57,7 +55,7 @@ export function Hero() {
           <div className="relative hidden lg:block">
             <div className="rounded-3xl border border-white/10 bg-white/5 p-8 backdrop-blur-sm">
               <div className="flex items-center gap-3 rounded-2xl bg-white/10 p-4">
-                <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-primary text-white">
+                <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-primary text-ink">
                   <Award className="h-5 w-5" />
                 </span>
                 <div>
@@ -66,7 +64,7 @@ export function Hero() {
                 </div>
               </div>
               <div className="mt-4 flex items-center gap-3 rounded-2xl bg-white/10 p-4">
-                <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-accent text-white">
+                <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-accent text-ink">
                   <Users className="h-5 w-5" />
                 </span>
                 <div>

@@ -78,7 +78,7 @@ export default async function ArticleDetailPage({
 
             <Link
               href="/kien-thuc-phap-luat"
-              className="mt-8 inline-flex items-center gap-1.5 text-sm font-semibold text-primary-dark hover:text-primary"
+              className="mt-8 inline-flex items-center gap-1.5 text-sm font-semibold text-primary-dark hover:text-ink"
             >
               <ArrowLeft className="h-4 w-4" />
               Quay lại danh sách bài viết

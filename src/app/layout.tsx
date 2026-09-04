@@ -4,6 +4,7 @@ import "./globals.css";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { TopBar } from "@/components/layout/topbar";
+import { FloatingActions } from "@/components/layout/floating-actions";
 import { siteConfig } from "@/lib/site-config";
 
 const beVietnamPro = Be_Vietnam_Pro({
@@ -37,6 +38,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
+        <FloatingActions />
       </body>
     </html>
   );

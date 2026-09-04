@@ -27,7 +27,7 @@ export function SectionHeading({
         <span
           className={cn(
             "inline-flex items-center gap-2 text-sm font-semibold uppercase tracking-wide",
-            tone === "dark" ? "text-accent" : "text-primary",
+            tone === "dark" ? "text-accent" : "text-primary-dark",
           )}
         >
           <span className="h-1.5 w-1.5 rounded-full bg-accent" />

@@ -50,7 +50,7 @@ export default async function ServiceDetailPage({
         <Container>
           <div className="grid gap-12 lg:grid-cols-[1fr_320px]">
             <article>
-              <span className="flex h-14 w-14 items-center justify-center rounded-2xl bg-primary text-white">
+              <span className="flex h-14 w-14 items-center justify-center rounded-2xl bg-primary text-ink">
                 <PracticeIcon name={area.icon} className="h-7 w-7" />
               </span>
               <div className="prose-legal mt-6 text-base">

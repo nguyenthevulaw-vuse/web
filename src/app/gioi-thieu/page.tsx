@@ -126,7 +126,7 @@ export default async function AboutPage() {
                 key={value.title}
                 className="rounded-2xl border border-ink/10 p-6 text-center"
               >
-                <span className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-primary text-white">
+                <span className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-primary text-ink">
                   <value.icon className="h-6 w-6" />
                 </span>
                 <h3 className="mt-5 text-base font-bold text-ink">{value.title}</h3>

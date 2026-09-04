@@ -46,7 +46,7 @@ export function ContactForm() {
   if (status === "success") {
     return (
       <div className="flex flex-col items-center gap-3 rounded-2xl border border-primary/20 bg-primary/5 px-6 py-14 text-center">
-        <CircleCheck className="h-10 w-10 text-primary" />
+        <CircleCheck className="h-10 w-10 text-primary-dark" />
         <h3 className="text-lg font-bold text-ink">Gửi yêu cầu thành công!</h3>
         <p className="max-w-sm text-sm text-ink/60">
           Cảm ơn bạn đã liên hệ. Đội ngũ của chúng tôi sẽ phản hồi trong thời gian sớm nhất.
@@ -74,13 +74,13 @@ export function ContactForm() {
       <div className="grid gap-4 sm:grid-cols-2">
         <div>
           <label htmlFor="name" className="mb-1.5 block text-sm font-medium text-ink">
-            Họ và tên <span className="text-accent">*</span>
+            Họ và tên <span className="text-primary-dark">*</span>
           </label>
           <input id="name" name="name" required className={inputClasses} placeholder="Nguyễn Văn A" />
         </div>
         <div>
           <label htmlFor="phone" className="mb-1.5 block text-sm font-medium text-ink">
-            Số điện thoại <span className="text-accent">*</span>
+            Số điện thoại <span className="text-primary-dark">*</span>
           </label>
           <input
             id="phone"
@@ -94,7 +94,7 @@ export function ContactForm() {
 
       <div>
         <label htmlFor="email" className="mb-1.5 block text-sm font-medium text-ink">
-          Email <span className="text-accent">*</span>
+          Email <span className="text-primary-dark">*</span>
         </label>
         <input
           id="email"
@@ -108,7 +108,7 @@ export function ContactForm() {
 
       <div>
         <label htmlFor="subject" className="mb-1.5 block text-sm font-medium text-ink">
-          Chủ đề <span className="text-accent">*</span>
+          Chủ đề <span className="text-primary-dark">*</span>
         </label>
         <input
           id="subject"
@@ -121,7 +121,7 @@ export function ContactForm() {
 
       <div>
         <label htmlFor="message" className="mb-1.5 block text-sm font-medium text-ink">
-          Nội dung <span className="text-accent">*</span>
+          Nội dung <span className="text-primary-dark">*</span>
         </label>
         <textarea
           id="message"

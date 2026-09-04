@@ -6,7 +6,7 @@ export default function NotFound() {
   return (
     <section className="flex min-h-[60vh] items-center py-20">
       <Container className="text-center">
-        <p className="text-sm font-semibold uppercase tracking-wide text-primary">Lỗi 404</p>
+        <p className="text-sm font-semibold uppercase tracking-wide text-primary-dark">Lỗi 404</p>
         <h1 className="mt-3 text-3xl font-extrabold text-ink sm:text-4xl">
           Không tìm thấy trang bạn yêu cầu
         </h1>

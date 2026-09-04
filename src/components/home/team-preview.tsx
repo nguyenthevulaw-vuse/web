@@ -17,7 +17,7 @@ export function TeamPreview({ members }: { members: TeamMember[] }) {
           />
           <Link
             href="/doi-ngu"
-            className="inline-flex items-center gap-1.5 text-sm font-semibold text-primary-dark hover:text-primary"
+            className="inline-flex items-center gap-1.5 text-sm font-semibold text-primary-dark hover:text-ink"
           >
             Xem toàn bộ đội ngũ
             <ArrowRight className="h-4 w-4" />
