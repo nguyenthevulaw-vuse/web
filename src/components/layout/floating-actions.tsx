@@ -21,7 +21,7 @@ const actions: ActionItem[] = [
     label: "Gọi ngay",
     href: `tel:${siteConfig.contact.hotline.replace(/\s/g, "")}`,
     icon: Phone,
-    className: "bg-ink hover:bg-ink/90",
+    className: "bg-primary-dark hover:brightness-110",
     iconClassName: "text-white",
   },
   {

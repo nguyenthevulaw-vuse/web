@@ -8,8 +8,8 @@ export function TeamCard({ member }: { member: TeamMember }) {
       href={`/doi-ngu/${member.slug}`}
       className="group block overflow-hidden rounded-2xl border border-ink/10 bg-white transition-all hover:-translate-y-1 hover:shadow-lg hover:shadow-primary/5"
     >
-      <div className="flex aspect-[4/3] items-center justify-center bg-gradient-to-br from-ink to-secondary">
-        <span className="text-4xl font-extrabold tracking-wide text-white">
+      <div className="flex aspect-[4/3] items-center justify-center bg-gradient-to-br from-primary/25 to-secondary/25">
+        <span className="text-4xl font-extrabold tracking-wide text-ink">
           {member.initials}
         </span>
       </div>

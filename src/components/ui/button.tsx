@@ -4,12 +4,12 @@ import { cn } from "@/lib/utils";
 type Variant = "primary" | "secondary" | "outline" | "ghost";
 type Size = "md" | "lg";
 
-// Chữ màu ink (navy đậm) trên nút vàng gold thay vì trắng — chữ trắng trên
-// nền vàng không đạt độ tương phản tối thiểu (WCAG AA ~4.5:1).
+// Chữ màu ink (navy đậm) trên nút cyan/cam thay vì trắng — chữ trắng trên
+// nền sáng không đạt độ tương phản tối thiểu (WCAG AA ~4.5:1).
 const variantClasses: Record<Variant, string> = {
   primary: "bg-primary text-ink hover:brightness-95 shadow-sm shadow-primary/20",
   secondary: "bg-accent text-ink hover:brightness-95 shadow-sm shadow-accent/20",
-  outline: "border border-white/40 text-white hover:bg-white/10 backdrop-blur-sm",
+  outline: "border-2 border-ink/15 text-ink hover:border-primary-dark hover:text-primary-dark",
   ghost: "text-ink hover:bg-ink/5",
 };
 

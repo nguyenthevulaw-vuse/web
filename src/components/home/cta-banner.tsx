@@ -7,15 +7,15 @@ export function CtaBanner() {
   return (
     <section className="py-20 sm:py-24">
       <Container>
-        <div className="relative overflow-hidden rounded-3xl bg-ink px-8 py-14 text-center sm:px-16">
-          <div className="absolute -right-10 -top-10 h-56 w-56 rounded-full bg-primary/20 blur-2xl" />
-          <div className="absolute -bottom-16 -left-10 h-56 w-56 rounded-full bg-secondary/20 blur-2xl" />
+        <div className="relative overflow-hidden rounded-3xl border border-ink/10 bg-gradient-to-br from-primary/25 via-white to-secondary/20 px-8 py-14 text-center sm:px-16">
+          <div className="absolute -right-10 -top-10 h-56 w-56 rounded-full bg-primary/30 blur-2xl" />
+          <div className="absolute -bottom-16 -left-10 h-56 w-56 rounded-full bg-secondary/25 blur-2xl" />
 
           <div className="relative">
-            <h2 className="text-2xl font-extrabold text-white sm:text-3xl">
+            <h2 className="text-2xl font-extrabold text-ink sm:text-3xl">
               Bạn đang gặp vấn đề pháp lý cần tư vấn?
             </h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm leading-relaxed text-white/80 sm:text-base">
+            <p className="mx-auto mt-3 max-w-xl text-sm leading-relaxed text-ink/70 sm:text-base">
               Đội ngũ luật sư của {siteConfig.name} sẵn sàng lắng nghe và đồng hành cùng
               bạn tìm ra giải pháp pháp lý tối ưu nhất.
             </p>

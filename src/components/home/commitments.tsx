@@ -33,13 +33,12 @@ const commitments = [
 
 export function Commitments() {
   return (
-    <section className="bg-ink py-20 sm:py-24">
+    <section className="bg-primary/5 py-20 sm:py-24">
       <Container>
         <SectionHeading
           eyebrow="Cam kết dịch vụ"
           title="Điều khách hàng có thể tin tưởng ở chúng tôi"
           align="center"
-          tone="dark"
           className="mx-auto"
         />
 
@@ -47,13 +46,13 @@ export function Commitments() {
           {commitments.map((c) => (
             <div
               key={c.title}
-              className="rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur-sm"
+              className="rounded-2xl border border-ink/10 bg-white p-6 shadow-sm"
             >
               <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-primary text-ink">
                 <c.icon className="h-6 w-6" />
               </span>
-              <h3 className="mt-5 text-base font-bold text-white">{c.title}</h3>
-              <p className="mt-2 text-sm leading-relaxed text-white/70">{c.description}</p>
+              <h3 className="mt-5 text-base font-bold text-ink">{c.title}</h3>
+              <p className="mt-2 text-sm leading-relaxed text-ink/60">{c.description}</p>
             </div>
           ))}
         </div>
