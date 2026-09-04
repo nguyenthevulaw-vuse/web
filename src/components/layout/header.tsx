@@ -18,8 +18,8 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50">
-      {/* Dải màu chủ đạo: logo, tên công ty cỡ lớn, thông tin liên hệ */}
-      <div className="bg-primary">
+      {/* Dải màu xanh lá: logo, tên công ty, thông tin liên hệ */}
+      <div className="bg-secondary">
         <Container className="flex flex-col gap-3 py-4 sm:flex-row sm:items-center sm:justify-between">
           <Link href="/" className="flex items-center gap-3" onClick={() => setOpen(false)}>
             <Image
@@ -30,27 +30,22 @@ export function Header() {
               priority
               className="h-12 w-auto shrink-0 sm:h-14"
             />
-            <span className="leading-tight">
-              <span className="block text-[11px] font-bold uppercase tracking-widest text-ink/70 sm:text-xs">
-                {siteConfig.shortLegalName}
-              </span>
-              <span className="block text-2xl font-extrabold uppercase tracking-tight text-ink sm:text-3xl">
-                {siteConfig.name}
-              </span>
+            <span className="block text-lg font-extrabold uppercase tracking-tight text-white sm:text-xl">
+              {siteConfig.shortLegalName}
             </span>
           </Link>
 
-          <div className="flex flex-wrap items-center gap-x-6 gap-y-1.5 text-sm font-semibold text-ink/80">
+          <div className="flex flex-wrap items-center gap-x-6 gap-y-1.5 text-sm font-semibold text-white">
             <a
               href={`tel:${siteConfig.contact.hotline.replace(/\s/g, "")}`}
-              className="flex items-center gap-1.5 hover:text-ink"
+              className="flex items-center gap-1.5 hover:underline"
             >
               <Phone className="h-4 w-4" />
               {siteConfig.contact.hotline}
             </a>
             <a
               href={`mailto:${siteConfig.contact.email}`}
-              className="hidden items-center gap-1.5 hover:text-ink sm:flex"
+              className="hidden items-center gap-1.5 hover:underline sm:flex"
             >
               <Mail className="h-4 w-4" />
               {siteConfig.contact.email}
