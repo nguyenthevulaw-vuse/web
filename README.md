@@ -6,12 +6,12 @@ Xây dựng bằng **Next.js (App Router) + TypeScript + Tailwind CSS**, dữ li
 lưu trên **Supabase**, phát triển qua **GitHub** và triển khai trên
 **Vercel**.
 
-Tên công ty, địa chỉ, số điện thoại, thông tin luật sư và số Giấy đăng ký
-hoạt động (79.2011.02.1589/TP/ĐKHĐ) đã được cập nhật theo hồ sơ đăng ký thật.
+Tên công ty, địa chỉ, số điện thoại, email, thông tin luật sư và số Giấy
+đăng ký hoạt động (79.2011.02.1589/TP/ĐKHĐ) đã được cập nhật theo thông tin
+thật.
 
-> ⚠️ **Còn thiếu**: email công ty, tên miền chính thức và các trang mạng xã
-> hội chưa có trong hồ sơ nên đang để giá trị tạm/placeholder
-> (`contact@ntvlaw.vn`, `https://ntvlaw.vn`) và các link mạng xã hội đang để
+> ⚠️ **Còn thiếu**: tên miền chính thức và các trang mạng xã hội chưa có nên
+> `url` đang để tạm `https://ntvlaw.vn` và các link mạng xã hội đang để
 > trống (tự ẩn khỏi Footer cho đến khi có link thật). Cập nhật các giá trị
 > này trong `src/lib/site-config.ts` khi có thông tin chính thức — xem mục
 > [Tùy chỉnh nội dung](#tùy-chỉnh-nội-dung) bên dưới.

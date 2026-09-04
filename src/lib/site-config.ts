@@ -53,7 +53,7 @@ export const siteConfig = {
 
   contact: {
     hotline: "0938 676 864",
-    email: "contact@ntvlaw.vn",
+    email: "vunt@ntvlaw.vn",
     address: "52/1 Quốc lộ 1, Phường Tăng Nhơn Phú, Thành phố Hồ Chí Minh",
     workingHours: "Thứ 2 - Thứ 6: 8:00 - 17:30 | Thứ 7: 8:00 - 12:00",
     mapEmbedUrl:
