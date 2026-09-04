@@ -9,8 +9,8 @@
  * thành viên" số 79.2011.02.1589/TP/ĐKHĐ do Sở Tư pháp TP. Hồ Chí Minh cấp
  * (cấp lần đầu 14/10/2011, thay đổi lần thứ 4 ngày 12/11/2025).
  *
- * ⚠️ Email, website và mạng xã hội KHÔNG có trong hồ sơ đăng ký nên chưa
- * điền — hãy cập nhật lại giá trị thật ở các trường tương ứng bên dưới.
+ * ⚠️ Facebook, LinkedIn, YouTube chưa có link chính thức nên đang để trống
+ * (tự ẩn khỏi Footer) — điền vào `social` bên dưới khi có.
  */
 export const siteConfig = {
   name: "NTVLaw",
@@ -23,7 +23,7 @@ export const siteConfig = {
   tagline: "Your Trusted Legal Partner",
   description:
     "NTVLaw là công ty luật cung cấp dịch vụ tư vấn pháp lý, tham gia tố tụng và đại diện ngoài tố tụng cho doanh nghiệp và cá nhân, đồng thời chia sẻ kiến thức pháp luật hữu ích tới cộng đồng.",
-  url: "https://ntvlaw.vn",
+  url: "https://www.ntvlaw.vn",
   locale: "vi_VN",
 
   // Thông tin đăng ký hoạt động — hiển thị ở Footer/Giới thiệu để tăng độ tin cậy.
@@ -60,13 +60,12 @@ export const siteConfig = {
       "https://www.google.com/maps?q=52%2F1+Qu%E1%BB%91c+l%E1%BB%99+1%2C+Ph%C6%B0%E1%BB%9Dng+T%C4%83ng+Nh%C6%A1n+Ph%C3%BA%2C+Th%C3%A0nh+ph%E1%BB%91+H%E1%BB%93+Ch%C3%AD+Minh&output=embed",
   },
 
-  // Chưa có thông tin mạng xã hội chính thức trong hồ sơ — điền link thật vào
-  // đây khi có, mục nào để trống ("") sẽ tự động ẩn khỏi Footer.
+  // Mục nào để trống ("") sẽ tự động ẩn khỏi Footer.
   social: {
     facebook: "",
     linkedin: "",
     youtube: "",
-    zalo: "",
+    zalo: "https://zalo.me/84938676864",
   },
 
   nav: [
