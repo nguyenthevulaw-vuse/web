@@ -79,13 +79,53 @@ xem trong Supabase Dashboard hoặc bằng service role key.
 Muốn cập nhật nội dung (thêm bài viết mới, sửa dịch vụ...), chỉnh sửa trực
 tiếp trong **Supabase Table Editor** — không cần sửa code hay deploy lại.
 
+## Thiết lập email thông báo (Resend)
+
+Mặc định, yêu cầu tư vấn từ form Liên hệ chỉ được lưu vào Supabase — bạn
+phải chủ động vào Table Editor để xem. Để **tự động nhận email mỗi khi có
+khách hàng gửi yêu cầu**:
+
+1. Tạo tài khoản miễn phí tại [resend.com](https://resend.com) (gói miễn
+   phí: 100 email/ngày — đủ dùng cho form liên hệ của một website).
+2. Vào **API Keys**, tạo key mới, copy lại.
+3. Điền vào `.env.local` hoặc Environment Variables trên Vercel:
+
+   ```
+   RESEND_API_KEY=re_xxxxxxxx
+   ```
+
+4. (Tuỳ chọn) Nếu đã xác minh tên miền `ntvlaw.vn` trên Resend (mục
+   **Domains**), đổi người gửi sang địa chỉ thuộc tên miền riêng để tăng độ
+   tin cậy khi gửi:
+
+   ```
+   RESEND_FROM_EMAIL=NTVLaw <noreply@ntvlaw.vn>
+   ```
+
+   Nếu để trống, email được gửi từ `onboarding@resend.dev` (địa chỉ dùng
+   thử của Resend) — vẫn gửi được bình thường, chỉ là tên người gửi chưa
+   phải tên miền riêng của công ty.
+
+5. (Tuỳ chọn) Muốn nhận thông báo ở một email khác thay vì
+   `contact.email` trong `site-config.ts`:
+
+   ```
+   CONTACT_NOTIFICATION_EMAIL=vunt@ntvlaw.vn
+   ```
+
+Nếu không cấu hình `RESEND_API_KEY`, website vẫn hoạt động bình thường —
+yêu cầu liên hệ chỉ được lưu vào Supabase, không gửi email.
+
 ## Triển khai trên Vercel
 
 1. Đẩy code lên GitHub (repo này).
 2. Vào [vercel.com/new](https://vercel.com/new), import repository từ GitHub.
    Vercel sẽ tự nhận diện đây là dự án Next.js.
-3. Trong bước cấu hình, thêm 2 **Environment Variables** giống `.env.local`
-   ở trên (`NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY`).
+3. Trong bước cấu hình, thêm các **Environment Variables** giống
+   `.env.local` ở trên: bắt buộc `NEXT_PUBLIC_SUPABASE_URL`,
+   `NEXT_PUBLIC_SUPABASE_ANON_KEY`; tuỳ chọn `RESEND_API_KEY` (và
+   `RESEND_FROM_EMAIL`, `CONTACT_NOTIFICATION_EMAIL` nếu cần) để nhận email
+   thông báo liên hệ.
 4. Nhấn **Deploy**. Từ lần deploy sau, mỗi lần push lên nhánh chính, Vercel
    sẽ tự động build & deploy lại (CI/CD); mỗi Pull Request sẽ có một bản
    preview riêng.
@@ -121,7 +161,8 @@ src/
     site-config.ts      # Cấu hình chung (tên công ty, liên hệ, menu...)
     data.ts             # Dữ liệu mẫu / fallback
     queries.ts          # Lớp truy vấn dữ liệu (ưu tiên Supabase, fallback data.ts)
-    supabase/            # Supabase client (server & browser)
+    supabase/            # Supabase client (server)
+    email.ts             # Gửi email thông báo yêu cầu liên hệ (Resend)
     types.ts             # Kiểu dữ liệu dùng chung
 supabase/
   migrations/0001_init.sql   # Schema + RLS
@@ -130,12 +171,12 @@ supabase/
 
 ## Tính năng chính
 
-- Trang chủ giới thiệu tổng quan công ty, dịch vụ, đội ngũ, tin tức, đánh giá khách hàng
+- Trang chủ giới thiệu tổng quan công ty, dịch vụ, đội ngũ, tin tức, cam kết dịch vụ
 - Danh sách & chi tiết dịch vụ pháp lý
 - Danh sách & chi tiết đội ngũ luật sư
 - Kiến thức pháp luật: danh sách bài viết có lọc theo danh mục + trang chi tiết
 - Hỏi đáp pháp luật (FAQ dạng accordion)
-- Trang Liên hệ với form gửi yêu cầu tư vấn (lưu vào Supabase), có chống spam (honeypot)
+- Trang Liên hệ với form gửi yêu cầu tư vấn (lưu vào Supabase + gửi email thông báo qua Resend), có chống spam (honeypot)
 - Trang Chính sách bảo mật, Điều khoản sử dụng
 - SEO: metadata động, `sitemap.xml`, `robots.txt`
 - Responsive, tối ưu cho di động

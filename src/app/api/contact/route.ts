@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { z } from "zod";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
+import { sendContactNotification } from "@/lib/email";
 
 const contactSchema = z.object({
   name: z.string().trim().min(2, "Vui lòng nhập họ tên").max(100),
@@ -41,15 +42,32 @@ export async function POST(request: Request) {
   const { name, email, phone, subject, message } = parsed.data;
   const supabase = await createSupabaseServerClient();
 
+  let persisted = false;
+
   if (!supabase) {
     console.warn(
       "[contact] Supabase chưa được cấu hình — yêu cầu liên hệ chỉ được ghi log, chưa được lưu trữ:",
       { name, email, phone, subject },
     );
-    return NextResponse.json({ success: true, persisted: false });
+  } else {
+    const { error } = await supabase.from("contact_submissions").insert({
+      name,
+      email,
+      phone,
+      subject,
+      message,
+    });
+
+    if (error) {
+      console.error("[contact] Lỗi khi lưu yêu cầu liên hệ vào Supabase:", error.message);
+    } else {
+      persisted = true;
+    }
   }
 
-  const { error } = await supabase.from("contact_submissions").insert({
+  // Gửi email thông báo là kênh độc lập với việc lưu Supabase — thử gửi dù
+  // lưu trữ có thành công hay không, để không bỏ lỡ yêu cầu của khách hàng.
+  const { sent: emailSent } = await sendContactNotification({
     name,
     email,
     phone,
@@ -57,13 +75,12 @@ export async function POST(request: Request) {
     message,
   });
 
-  if (error) {
-    console.error("[contact] Lỗi khi lưu yêu cầu liên hệ vào Supabase:", error.message);
+  if (!persisted && !emailSent) {
     return NextResponse.json(
       { error: "Có lỗi xảy ra, vui lòng thử lại sau hoặc liên hệ trực tiếp qua hotline." },
       { status: 500 },
     );
   }
 
-  return NextResponse.json({ success: true, persisted: true });
+  return NextResponse.json({ success: true, persisted, emailSent });
 }
