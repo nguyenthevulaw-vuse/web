@@ -1,3 +1,4 @@
+import { NewsTicker } from "@/components/home/news-ticker";
 import { Hero } from "@/components/home/hero";
 import { StatsStrip } from "@/components/home/stats-strip";
 import { ServicesOverview } from "@/components/home/services-overview";
@@ -13,18 +14,19 @@ export default async function HomePage() {
   const [areas, members, articles] = await Promise.all([
     getPracticeAreas(),
     getTeamMembers(),
-    getLatestArticles(3),
+    getLatestArticles(6),
   ]);
 
   return (
     <>
+      <NewsTicker articles={articles} />
       <Hero />
       <StatsStrip />
       <ServicesOverview areas={areas} />
       <WhyChooseUs />
       <Process />
       <TeamPreview members={members} />
-      <LatestNews articles={articles} />
+      <LatestNews articles={articles.slice(0, 3)} />
       <Commitments />
       <CtaBanner />
     </>
