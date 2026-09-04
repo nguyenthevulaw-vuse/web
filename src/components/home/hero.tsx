@@ -13,10 +13,7 @@ export function Hero() {
       <Container className="relative py-20 sm:py-28">
         <div className="grid items-center gap-14 lg:grid-cols-[1.1fr_0.9fr]">
           <div>
-            <h1 className="text-4xl font-extrabold leading-tight text-ink sm:text-5xl lg:text-6xl">
-              Tư vấn pháp lý tận tâm, chính xác cho doanh nghiệp và cá nhân
-            </h1>
-            <p className="mt-6 max-w-xl text-lg leading-relaxed text-ink/60">
+            <p className="max-w-xl text-lg leading-relaxed text-ink/60">
               {siteConfig.description} Chúng tôi giúp bạn hiểu rõ quyền lợi và
               đưa ra quyết định đúng đắn trong mọi vấn đề pháp lý.
             </p>
