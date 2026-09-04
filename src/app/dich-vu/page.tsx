@@ -5,6 +5,15 @@ import { PageHero } from "@/components/ui/page-hero";
 import { Container } from "@/components/ui/container";
 import { PracticeIcon } from "@/components/ui/practice-icon";
 import { getPracticeAreas } from "@/lib/queries";
+import { cn } from "@/lib/utils";
+
+// Nền icon luân phiên xanh lá - cam - xanh dương thay vì một màu cố định
+// cho đỡ đơn điệu.
+const ICON_BG = [
+  "bg-primary/10 text-primary-dark group-hover:bg-primary group-hover:text-white",
+  "bg-secondary/10 text-secondary group-hover:bg-secondary group-hover:text-ink",
+  "bg-accent/10 text-accent group-hover:bg-accent group-hover:text-white",
+];
 
 export const metadata: Metadata = {
   title: "Dịch vụ pháp lý",
@@ -27,13 +36,18 @@ export default async function ServicesPage() {
       <section className="py-16 sm:py-20">
         <Container>
           <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {areas.map((area) => (
+            {areas.map((area, index) => (
               <Link
                 key={area.slug}
                 href={`/dich-vu/${area.slug}`}
                 className="group rounded-2xl border border-ink/10 bg-white p-6 transition-all hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5"
               >
-                <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10 text-primary-dark transition-colors group-hover:bg-primary group-hover:text-white">
+                <span
+                  className={cn(
+                    "flex h-12 w-12 items-center justify-center rounded-xl transition-colors",
+                    ICON_BG[index % ICON_BG.length],
+                  )}
+                >
                   <PracticeIcon name={area.icon} className="h-6 w-6" />
                 </span>
                 <h2 className="mt-5 text-lg font-bold text-ink">{area.title}</h2>

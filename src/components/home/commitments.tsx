@@ -1,6 +1,11 @@
 import { HandHeart, Lock, MessageSquareText } from "lucide-react";
 import { Container } from "@/components/ui/container";
 import { SectionHeading } from "@/components/ui/section-heading";
+import { cn } from "@/lib/utils";
+
+// Nền icon luân phiên xanh lá - cam - xanh dương thay vì một màu cố định
+// cho đỡ đơn điệu.
+const ICON_BG = ["bg-primary text-white", "bg-secondary text-ink", "bg-accent text-white"];
 
 /**
  * Cam kết dịch vụ — thay cho mục "đánh giá khách hàng" trước đây, vốn dùng
@@ -43,12 +48,17 @@ export function Commitments() {
         />
 
         <div className="mt-14 grid gap-6 lg:grid-cols-3">
-          {commitments.map((c) => (
+          {commitments.map((c, index) => (
             <div
               key={c.title}
               className="rounded-2xl border border-ink/10 bg-white p-6 shadow-sm"
             >
-              <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-primary text-white">
+              <span
+                className={cn(
+                  "flex h-12 w-12 items-center justify-center rounded-xl",
+                  ICON_BG[index % ICON_BG.length],
+                )}
+              >
                 <c.icon className="h-6 w-6" />
               </span>
               <h3 className="mt-5 text-base font-bold text-ink">{c.title}</h3>

@@ -1,6 +1,11 @@
 import { CheckCircle2, Clock3, ShieldCheck, Users2 } from "lucide-react";
 import { Container } from "@/components/ui/container";
 import { SectionHeading } from "@/components/ui/section-heading";
+import { cn } from "@/lib/utils";
+
+// Nền icon luân phiên xanh lá - cam - xanh dương thay vì một màu cố định
+// cho đỡ đơn điệu.
+const ICON_BG = ["bg-primary text-white", "bg-secondary text-ink", "bg-accent text-white"];
 
 const reasons = [
   {
@@ -42,12 +47,17 @@ export function WhyChooseUs() {
         />
 
         <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-          {reasons.map((reason) => (
+          {reasons.map((reason, index) => (
             <div
               key={reason.title}
               className="rounded-2xl bg-white p-6 text-center shadow-sm ring-1 ring-ink/5"
             >
-              <span className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-primary text-white">
+              <span
+                className={cn(
+                  "mx-auto flex h-14 w-14 items-center justify-center rounded-2xl",
+                  ICON_BG[index % ICON_BG.length],
+                )}
+              >
                 <reason.icon className="h-6 w-6" />
               </span>
               <h3 className="mt-5 text-base font-bold text-ink">{reason.title}</h3>

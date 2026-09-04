@@ -7,11 +7,16 @@ import { StatsStrip } from "@/components/home/stats-strip";
 import { TeamPreview } from "@/components/home/team-preview";
 import { siteConfig } from "@/lib/site-config";
 import { getTeamMembers } from "@/lib/queries";
+import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
   title: "Giới thiệu",
   description: `Tìm hiểu về ${siteConfig.fullName} - sứ mệnh, tầm nhìn và giá trị cốt lõi.`,
 };
+
+// Nền icon luân phiên xanh lá - cam - xanh dương thay vì một màu cố định
+// cho đỡ đơn điệu.
+const ICON_BG = ["bg-primary text-white", "bg-secondary text-ink", "bg-accent text-white"];
 
 const values = [
   {
@@ -121,12 +126,17 @@ export default async function AboutPage() {
             className="mx-auto"
           />
           <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            {values.map((value) => (
+            {values.map((value, index) => (
               <div
                 key={value.title}
                 className="rounded-2xl border border-ink/10 p-6 text-center"
               >
-                <span className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-primary text-white">
+                <span
+                  className={cn(
+                    "mx-auto flex h-14 w-14 items-center justify-center rounded-2xl",
+                    ICON_BG[index % ICON_BG.length],
+                  )}
+                >
                   <value.icon className="h-6 w-6" />
                 </span>
                 <h3 className="mt-5 text-base font-bold text-ink">{value.title}</h3>
