@@ -2,8 +2,8 @@
 
 :root {
   /* Bảng màu nhận diện thương hiệu NTVLaw */
-  --color-primary: #b30000; /* Đỏ mận - màu chủ đạo (logo) */
-  --color-primary-dark: #7a0000; /* Đỏ mận đậm - hover/nhấn */
+  --color-primary: #8b0000; /* Đỏ mận đậm - màu chủ đạo (logo) */
+  --color-primary-dark: #5c0000; /* Đỏ mận rất đậm - hover/nhấn */
   --color-secondary: #0656a5; /* Xanh dương - màu phụ */
   --color-accent: #ef7604; /* Cam - điểm nhấn (logo) */
   --color-ink: #424143; /* Xám đậm - văn bản, nền tối */

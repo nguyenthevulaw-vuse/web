@@ -6,7 +6,7 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Container } from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
-import { LogoMark } from "@/components/ui/logo-mark";
+import { Logo } from "@/components/ui/logo-mark";
 import { siteConfig } from "@/lib/site-config";
 import { cn } from "@/lib/utils";
 
@@ -17,13 +17,14 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-ink/5 bg-white/90 backdrop-blur-md">
       <Container className="flex h-18 items-center justify-between py-3">
-        <Link href="/" className="flex items-center gap-2.5" onClick={() => setOpen(false)}>
-          <LogoMark />
-          <span className="leading-tight">
-            <span className="block text-lg font-bold text-ink">{siteConfig.name}</span>
-            <span className="block text-[11px] font-medium uppercase tracking-wider text-primary-dark">
-              {siteConfig.shortLegalName}
-            </span>
+        <Link
+          href="/"
+          className="flex items-center gap-3"
+          onClick={() => setOpen(false)}
+        >
+          <Logo className="h-11" />
+          <span className="hidden text-[11px] font-medium uppercase leading-tight tracking-wider text-primary-dark sm:block">
+            {siteConfig.shortLegalName}
           </span>
         </Link>
 

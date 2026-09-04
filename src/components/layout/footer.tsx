@@ -2,7 +2,7 @@ import Link from "next/link";
 import { MapPin, Phone, Mail } from "lucide-react";
 import { Container } from "@/components/ui/container";
 import { SocialIcon } from "@/components/ui/social-icon";
-import { LogoMark } from "@/components/ui/logo-mark";
+import { LogoIcon } from "@/components/ui/logo-mark";
 import { siteConfig } from "@/lib/site-config";
 import { practiceAreas } from "@/lib/data";
 
@@ -22,7 +22,9 @@ export function Footer() {
       <Container className="grid gap-10 py-14 sm:grid-cols-2 lg:grid-cols-4">
         <div>
           <Link href="/" className="flex items-center gap-2.5">
-            <LogoMark />
+            <span className="flex h-10 w-10 items-center justify-center rounded-full bg-white">
+              <LogoIcon className="h-8 w-8" />
+            </span>
             <span className="text-lg font-bold text-white">{siteConfig.name}</span>
           </Link>
           <p className="mt-4 text-sm leading-relaxed">{siteConfig.description}</p>

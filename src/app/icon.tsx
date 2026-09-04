@@ -16,7 +16,7 @@ export default function Icon() {
           borderRadius: "50%",
           background: "#ffffff",
           border: "2.5px solid #EF7604",
-          color: "#B30000",
+          color: "#8B0000",
           fontSize: 20,
           fontWeight: 700,
           fontFamily: "Georgia, 'Times New Roman', serif",
