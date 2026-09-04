@@ -1,43 +1,45 @@
 import Link from "next/link";
-import { MapPin, Phone, Mail, Scale } from "lucide-react";
+import { MapPin, Phone, Mail } from "lucide-react";
 import { Container } from "@/components/ui/container";
 import { SocialIcon } from "@/components/ui/social-icon";
+import { LogoMark } from "@/components/ui/logo-mark";
 import { siteConfig } from "@/lib/site-config";
 import { practiceAreas } from "@/lib/data";
 
 export function Footer() {
   const year = new Date().getFullYear();
+  const socialLinks = [
+    { href: siteConfig.social.facebook, short: "FB", label: "Facebook" },
+    { href: siteConfig.social.linkedin, short: "in", label: "LinkedIn" },
+    { href: siteConfig.social.youtube, short: "YT", label: "YouTube" },
+    { href: siteConfig.social.zalo, short: "Za", label: "Zalo" },
+  ].filter((link) => link.href);
 
   return (
     <footer className="bg-ink text-white/70">
       <Container className="grid gap-10 py-14 sm:grid-cols-2 lg:grid-cols-4">
         <div>
           <Link href="/" className="flex items-center gap-2.5">
-            <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-primary text-white">
-              <Scale className="h-5 w-5" />
-            </span>
+            <LogoMark />
             <span className="text-lg font-bold text-white">{siteConfig.name}</span>
           </Link>
           <p className="mt-4 text-sm leading-relaxed">{siteConfig.description}</p>
-          <div className="mt-5 flex items-center gap-3">
-            {[
-              { href: siteConfig.social.facebook, short: "FB", label: "Facebook" },
-              { href: siteConfig.social.linkedin, short: "in", label: "LinkedIn" },
-              { href: siteConfig.social.youtube, short: "YT", label: "YouTube" },
-              { href: siteConfig.social.zalo, short: "Za", label: "Zalo" },
-            ].map(({ href, short, label }) => (
-              <a
-                key={label}
-                href={href}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label={label}
-                className="flex h-9 w-9 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-primary"
-              >
-                <SocialIcon label={short} />
-              </a>
-            ))}
-          </div>
+          {socialLinks.length > 0 ? (
+            <div className="mt-5 flex items-center gap-3">
+              {socialLinks.map(({ href, short, label }) => (
+                <a
+                  key={label}
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={label}
+                  className="flex h-9 w-9 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-primary"
+                >
+                  <SocialIcon label={short} />
+                </a>
+              ))}
+            </div>
+          ) : null}
         </div>
 
         <div>
@@ -92,10 +94,15 @@ export function Footer() {
       </Container>
 
       <div className="border-t border-white/10 py-5">
-        <Container className="flex flex-col items-center justify-between gap-3 text-xs sm:flex-row">
-          <p>
-            © {year} {siteConfig.fullName}. Bảo lưu mọi quyền.
-          </p>
+        <Container className="flex flex-col items-center justify-between gap-2 text-xs sm:flex-row">
+          <div className="text-center sm:text-left">
+            <p>
+              © {year} {siteConfig.fullName}. Bảo lưu mọi quyền.
+            </p>
+            <p className="mt-1 text-white/50">
+              GĐKHĐ số {siteConfig.license.number} do {siteConfig.license.issuer} cấp
+            </p>
+          </div>
           <div className="flex items-center gap-5">
             {siteConfig.footerLegalLinks.map((link) => (
               <Link key={link.href} href={link.href} className="hover:text-primary">

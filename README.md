@@ -1,13 +1,19 @@
-# An Tín Law — Website Công ty Luật
+# NTVLaw — Website Công ty Luật
 
-Website hiện đại cho công ty luật, giúp khách hàng tra cứu thông tin và tiếp
-cận kiến thức pháp lý. Xây dựng bằng **Next.js (App Router) + TypeScript +
-Tailwind CSS**, dữ liệu lưu trên **Supabase**, phát triển qua **GitHub** và
-triển khai trên **Vercel**.
+Website hiện đại cho **Công ty Luật TNHH Một thành viên Nguyễn Thế Vũ
+(NTVLaw)**, giúp khách hàng tra cứu thông tin và tiếp cận kiến thức pháp lý.
+Xây dựng bằng **Next.js (App Router) + TypeScript + Tailwind CSS**, dữ liệu
+lưu trên **Supabase**, phát triển qua **GitHub** và triển khai trên
+**Vercel**.
 
-> ⚠️ **Thông tin thương hiệu trong repo này là dữ liệu mẫu** (tên công ty
-> "An Tín Law", địa chỉ, hotline, email, tên luật sư...). Hãy cập nhật lại
-> bằng thông tin thật trước khi đưa website vào sử dụng — xem mục
+Tên công ty, địa chỉ, số điện thoại, thông tin luật sư và số Giấy đăng ký
+hoạt động (79.2011.02.1589/TP/ĐKHĐ) đã được cập nhật theo hồ sơ đăng ký thật.
+
+> ⚠️ **Còn thiếu**: email công ty, tên miền chính thức và các trang mạng xã
+> hội chưa có trong hồ sơ nên đang để giá trị tạm/placeholder
+> (`contact@ntvlaw.vn`, `https://ntvlaw.vn`) và các link mạng xã hội đang để
+> trống (tự ẩn khỏi Footer cho đến khi có link thật). Cập nhật các giá trị
+> này trong `src/lib/site-config.ts` khi có thông tin chính thức — xem mục
 > [Tùy chỉnh nội dung](#tùy-chỉnh-nội-dung) bên dưới.
 
 ## Công nghệ sử dụng

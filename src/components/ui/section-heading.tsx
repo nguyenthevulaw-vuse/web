@@ -24,7 +24,12 @@ export function SectionHeading({
       )}
     >
       {eyebrow ? (
-        <span className="inline-flex items-center gap-2 text-sm font-semibold uppercase tracking-wide text-primary">
+        <span
+          className={cn(
+            "inline-flex items-center gap-2 text-sm font-semibold uppercase tracking-wide",
+            tone === "dark" ? "text-accent" : "text-primary",
+          )}
+        >
           <span className="h-1.5 w-1.5 rounded-full bg-accent" />
           {eyebrow}
         </span>

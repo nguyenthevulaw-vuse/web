@@ -13,15 +13,16 @@ export default function Icon() {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          borderRadius: 7,
-          background: "#0EB689",
-          color: "white",
-          fontSize: 18,
-          fontWeight: 800,
-          fontFamily: "sans-serif",
+          borderRadius: "50%",
+          background: "#ffffff",
+          border: "2.5px solid #EF7604",
+          color: "#B30000",
+          fontSize: 20,
+          fontWeight: 700,
+          fontFamily: "Georgia, 'Times New Roman', serif",
         }}
       >
-        A
+        T
       </div>
     ),
     size,

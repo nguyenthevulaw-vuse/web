@@ -1,5 +1,5 @@
 -- ============================================================================
--- An Tín Law — Khởi tạo cơ sở dữ liệu
+-- NTVLaw — Khởi tạo cơ sở dữ liệu
 --
 -- Chạy file này trong Supabase SQL Editor (hoặc `supabase db push` nếu dùng
 -- Supabase CLI) để tạo các bảng, ràng buộc và chính sách bảo mật (RLS) cần

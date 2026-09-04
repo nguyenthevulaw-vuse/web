@@ -3,9 +3,10 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import { Menu, Scale, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { Container } from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
+import { LogoMark } from "@/components/ui/logo-mark";
 import { siteConfig } from "@/lib/site-config";
 import { cn } from "@/lib/utils";
 
@@ -17,13 +18,11 @@ export function Header() {
     <header className="sticky top-0 z-50 border-b border-ink/5 bg-white/90 backdrop-blur-md">
       <Container className="flex h-18 items-center justify-between py-3">
         <Link href="/" className="flex items-center gap-2.5" onClick={() => setOpen(false)}>
-          <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-primary text-white">
-            <Scale className="h-5 w-5" />
-          </span>
+          <LogoMark />
           <span className="leading-tight">
             <span className="block text-lg font-bold text-ink">{siteConfig.name}</span>
             <span className="block text-[11px] font-medium uppercase tracking-wider text-primary-dark">
-              {siteConfig.fullName}
+              {siteConfig.shortLegalName}
             </span>
           </span>
         </Link>

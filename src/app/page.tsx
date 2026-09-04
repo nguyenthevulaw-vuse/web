@@ -5,7 +5,7 @@ import { WhyChooseUs } from "@/components/home/why-choose-us";
 import { Process } from "@/components/home/process";
 import { TeamPreview } from "@/components/home/team-preview";
 import { LatestNews } from "@/components/home/latest-news";
-import { Testimonials } from "@/components/home/testimonials";
+import { Commitments } from "@/components/home/commitments";
 import { CtaBanner } from "@/components/home/cta-banner";
 import { getLatestArticles, getPracticeAreas, getTeamMembers } from "@/lib/queries";
 
@@ -25,7 +25,7 @@ export default async function HomePage() {
       <Process />
       <TeamPreview members={members} />
       <LatestNews articles={articles} />
-      <Testimonials />
+      <Commitments />
       <CtaBanner />
     </>
   );

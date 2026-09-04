@@ -80,7 +80,7 @@ export const practiceAreas: PracticeArea[] = [
     title: "Tranh tụng & Giải quyết tranh chấp",
     summary: "Đại diện tham gia tố tụng tại Tòa án, Trọng tài thương mại.",
     content:
-      "Đội ngũ luật sư tranh tụng giàu kinh nghiệm đại diện, bảo vệ quyền và lợi ích hợp pháp của khách hàng tại Tòa án các cấp và các Trung tâm Trọng tài thương mại.",
+      "Luật sư giàu kinh nghiệm tranh tụng, trực tiếp đại diện và bảo vệ quyền, lợi ích hợp pháp của khách hàng tại Tòa án các cấp và các Trung tâm Trọng tài thương mại.",
     icon: "Scale",
     order: 7,
   },
@@ -96,46 +96,20 @@ export const practiceAreas: PracticeArea[] = [
   },
 ];
 
+// Đội ngũ hiện tại theo Giấy đăng ký hoạt động: NTVLaw là công ty luật TNHH
+// một thành viên do LS. Nguyễn Thế Vũ làm chủ sở hữu kiêm Giám đốc, đồng thời
+// là người đại diện theo pháp luật. Khi công ty có thêm luật sư/chuyên viên,
+// thêm hồ sơ mới vào đây (hoặc qua Supabase Table Editor).
 export const teamMembers: TeamMember[] = [
   {
     id: "1",
-    slug: "nguyen-van-an",
-    name: "LS. Nguyễn Văn An",
-    title: "Luật sư điều hành",
-    summary: "Hơn 20 năm kinh nghiệm trong lĩnh vực doanh nghiệp và M&A.",
-    bio: "Luật sư Nguyễn Văn An là người sáng lập An Tín Law, có hơn 20 năm kinh nghiệm tư vấn cho các tập đoàn trong và ngoài nước về đầu tư, doanh nghiệp và mua bán - sáp nhập.",
-    initials: "AN",
+    slug: "nguyen-the-vu",
+    name: "LS. Nguyễn Thế Vũ",
+    title: "Giám đốc",
+    summary: "Thẻ luật sư số 6396 — Thành viên Đoàn Luật sư TP. Hồ Chí Minh.",
+    bio: "Luật sư Nguyễn Thế Vũ là người sáng lập và Giám đốc NTVLaw, được cấp Thẻ luật sư số 6396 ngày 25/7/2011, thành viên Đoàn Luật sư Thành phố Hồ Chí Minh. Luật sư trực tiếp phụ trách tư vấn pháp luật, tham gia tố tụng và đại diện ngoài tố tụng cho khách hàng là doanh nghiệp và cá nhân.",
+    initials: "NTV",
     order: 1,
-  },
-  {
-    id: "2",
-    slug: "tran-thi-bich",
-    name: "LS. Trần Thị Bích",
-    title: "Luật sư thành viên - Trưởng bộ phận Tranh tụng",
-    summary: "Chuyên sâu tố tụng dân sự, kinh doanh thương mại.",
-    bio: "Luật sư Trần Thị Bích có hơn 15 năm kinh nghiệm tranh tụng tại Tòa án và Trọng tài, từng đại diện thành công cho nhiều khách hàng doanh nghiệp trong các vụ tranh chấp phức tạp.",
-    initials: "TB",
-    order: 2,
-  },
-  {
-    id: "3",
-    slug: "le-minh-cuong",
-    name: "LS. Lê Minh Cường",
-    title: "Luật sư thành viên - Trưởng bộ phận Đầu tư",
-    summary: "Chuyên tư vấn đầu tư nước ngoài, giấy phép đầu tư.",
-    bio: "Luật sư Lê Minh Cường chuyên tư vấn thủ tục đầu tư cho các nhà đầu tư nước ngoài tại Việt Nam, với kinh nghiệm thực hiện hàng trăm dự án đầu tư đa ngành.",
-    initials: "LC",
-    order: 3,
-  },
-  {
-    id: "4",
-    slug: "pham-thu-ha",
-    name: "LS. Phạm Thu Hà",
-    title: "Luật sư thành viên - Trưởng bộ phận Sở hữu trí tuệ",
-    summary: "Chuyên đăng ký và bảo hộ nhãn hiệu, quyền tác giả.",
-    bio: "Luật sư Phạm Thu Hà có nhiều năm kinh nghiệm trong lĩnh vực sở hữu trí tuệ, tư vấn chiến lược bảo hộ thương hiệu cho các doanh nghiệp trong nhiều lĩnh vực.",
-    initials: "PH",
-    order: 4,
   },
 ];
 
@@ -149,7 +123,7 @@ export const articles: Article[] = [
     content:
       "Bài viết tổng hợp các quy định hiện hành về trình tự, thủ tục thành lập doanh nghiệp, hồ sơ đăng ký kinh doanh, các loại hình doanh nghiệp phổ biến và những lưu ý quan trọng giúp nhà đầu tư tránh sai sót trong quá trình khởi nghiệp.",
     category: "doanh-nghiep",
-    author: "LS. Nguyễn Văn An",
+    author: "LS. Nguyễn Thế Vũ",
     published_at: "2026-08-20",
   },
   {
@@ -161,7 +135,7 @@ export const articles: Article[] = [
     content:
       "Bài viết phân tích các điều khoản bắt buộc trong hợp đồng lao động theo quy định pháp luật hiện hành, giúp doanh nghiệp và người lao động hiểu rõ quyền, nghĩa vụ của mình khi giao kết hợp đồng.",
     category: "lao-dong",
-    author: "LS. Trần Thị Bích",
+    author: "LS. Nguyễn Thế Vũ",
     published_at: "2026-08-12",
   },
   {
@@ -172,7 +146,7 @@ export const articles: Article[] = [
     content:
       "Bài viết hướng dẫn chi tiết hồ sơ, trình tự nộp đơn và thời gian giải quyết yêu cầu công nhận thuận tình ly hôn tại Tòa án nhân dân có thẩm quyền.",
     category: "hon-nhan-gia-dinh",
-    author: "LS. Trần Thị Bích",
+    author: "LS. Nguyễn Thế Vũ",
     published_at: "2026-07-28",
   },
   {
@@ -183,7 +157,7 @@ export const articles: Article[] = [
     content:
       "Bài viết cung cấp thông tin về điều kiện, thành phần hồ sơ và trình tự thủ tục xin cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất.",
     category: "dat-dai",
-    author: "LS. Lê Minh Cường",
+    author: "LS. Nguyễn Thế Vũ",
     published_at: "2026-07-15",
   },
   {
@@ -194,7 +168,7 @@ export const articles: Article[] = [
     content:
       "Bài viết trình bày quy trình tra cứu, nộp đơn và theo dõi hồ sơ đăng ký bảo hộ nhãn hiệu tại Cục Sở hữu trí tuệ, cùng những lưu ý giúp tăng khả năng đơn đăng ký được chấp thuận.",
     category: "doanh-nghiep",
-    author: "LS. Phạm Thu Hà",
+    author: "LS. Nguyễn Thế Vũ",
     published_at: "2026-06-30",
   },
   {
@@ -205,7 +179,7 @@ export const articles: Article[] = [
     content:
       "Bài viết phân tích các quy định về trách nhiệm hình sự của pháp nhân thương mại, các tội danh pháp nhân có thể bị truy cứu và biện pháp phòng ngừa rủi ro pháp lý cho doanh nghiệp.",
     category: "hinh-su",
-    author: "LS. Nguyễn Văn An",
+    author: "LS. Nguyễn Thế Vũ",
     published_at: "2026-06-18",
   },
 ];
@@ -215,7 +189,7 @@ export const faqs: FaqItem[] = [
     id: "1",
     question: "Chi phí tư vấn pháp lý ban đầu có mất phí không?",
     answer:
-      "An Tín Law cung cấp buổi tư vấn sơ bộ ban đầu miễn phí để đánh giá tổng quan vụ việc. Chi phí dịch vụ cụ thể sẽ được báo giá minh bạch sau khi luật sư nắm rõ yêu cầu và phạm vi công việc của khách hàng.",
+      "NTVLaw cung cấp buổi tư vấn sơ bộ ban đầu miễn phí để đánh giá tổng quan vụ việc. Chi phí dịch vụ cụ thể sẽ được báo giá minh bạch sau khi luật sư nắm rõ yêu cầu và phạm vi công việc của khách hàng.",
     category: "chung",
   },
   {

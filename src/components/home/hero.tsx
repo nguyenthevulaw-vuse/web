@@ -19,13 +19,13 @@ export function Hero() {
       <Container className="relative py-20 sm:py-28">
         <div className="grid items-center gap-14 lg:grid-cols-[1.1fr_0.9fr]">
           <div>
-            <span className="inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-primary">
+            <span className="inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-accent">
               <ShieldCheck className="h-3.5 w-3.5" />
-              {siteConfig.fullName}
+              {siteConfig.shortLegalName}
             </span>
             <h1 className="mt-6 text-4xl font-extrabold leading-tight text-white sm:text-5xl lg:text-6xl">
               Tư vấn pháp lý{" "}
-              <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-accent to-orange-300 bg-clip-text text-transparent">
                 tận tâm, chính xác
               </span>{" "}
               cho doanh nghiệp và cá nhân

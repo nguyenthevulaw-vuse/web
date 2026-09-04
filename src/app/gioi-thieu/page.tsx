@@ -37,11 +37,18 @@ const values = [
 ];
 
 const milestones = [
-  { year: "2011", text: "Thành lập văn phòng luật sư, tiền thân của An Tín Law." },
-  { year: "2015", text: "Mở rộng quy mô, chuyển đổi thành Công ty Luật TNHH An Tín." },
-  { year: "2019", text: "Thành lập bộ phận chuyên trách Đầu tư nước ngoài & Sở hữu trí tuệ." },
-  { year: "2023", text: "Đạt mốc 1.000 khách hàng doanh nghiệp và cá nhân được phục vụ." },
-  { year: "2026", text: "Ra mắt nền tảng tư vấn pháp lý trực tuyến, mở rộng tiếp cận khách hàng." },
+  {
+    year: "25/7/2011",
+    text: "LS. Nguyễn Thế Vũ được cấp Thẻ luật sư số 6396, gia nhập Đoàn Luật sư Thành phố Hồ Chí Minh.",
+  },
+  {
+    year: "14/10/2011",
+    text: "Được Sở Tư pháp Thành phố Hồ Chí Minh cấp Giấy đăng ký hoạt động số 79.2011.02.1589/TP/ĐKHĐ, chính thức thành lập.",
+  },
+  {
+    year: "12/11/2025",
+    text: "Giấy đăng ký hoạt động được cập nhật, thay đổi lần thứ 4, tiếp tục hoạt động dưới tên giao dịch NTVLaw.",
+  },
 ];
 
 export default async function AboutPage() {
@@ -72,6 +79,21 @@ export default async function AboutPage() {
                 đến cộng đồng thông qua các bài viết, hướng dẫn thực tiễn — giúp khách hàng
                 chủ động hơn trong việc bảo vệ quyền và lợi ích hợp pháp của mình.
               </p>
+
+              <div className="mt-6 rounded-2xl border border-ink/10 bg-primary-dark/[0.03] p-5 text-sm text-ink/70">
+                <p>
+                  <span className="font-semibold text-ink">Giấy đăng ký hoạt động:</span> Số{" "}
+                  {siteConfig.license.number} do {siteConfig.license.issuer} cấp lần đầu ngày{" "}
+                  {siteConfig.license.issuedFirstDate}, thay đổi lần gần nhất ngày{" "}
+                  {siteConfig.license.lastAmendedDate}.
+                </p>
+                <p className="mt-2">
+                  <span className="font-semibold text-ink">Người đại diện theo pháp luật:</span>{" "}
+                  LS. {siteConfig.director.name} — {siteConfig.director.title}, Thẻ luật sư số{" "}
+                  {siteConfig.director.barCardNumber} (cấp {siteConfig.director.barCardDate}),
+                  thành viên {siteConfig.director.barAssociation}.
+                </p>
+              </div>
             </div>
 
             <div className="space-y-5">

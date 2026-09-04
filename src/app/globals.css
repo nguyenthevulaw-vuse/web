@@ -1,11 +1,11 @@
 @import "tailwindcss";
 
 :root {
-  /* Bảng màu nhận diện thương hiệu */
-  --color-primary: #0eb689; /* Xanh ngọc - màu chủ đạo */
-  --color-primary-dark: #007860; /* Xanh rêu đậm */
-  --color-secondary: #3eab6a; /* Xanh lá */
-  --color-accent: #f7941d; /* Cam - điểm nhấn */
+  /* Bảng màu nhận diện thương hiệu NTVLaw */
+  --color-primary: #b30000; /* Đỏ mận - màu chủ đạo (logo) */
+  --color-primary-dark: #7a0000; /* Đỏ mận đậm - hover/nhấn */
+  --color-secondary: #0656a5; /* Xanh dương - màu phụ */
+  --color-accent: #ef7604; /* Cam - điểm nhấn (logo) */
   --color-ink: #424143; /* Xám đậm - văn bản, nền tối */
 
   --background: #ffffff;
