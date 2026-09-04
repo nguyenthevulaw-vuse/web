@@ -13,6 +13,8 @@ export function Footer() {
     { href: siteConfig.social.linkedin, short: "in", label: "LinkedIn" },
     { href: siteConfig.social.youtube, short: "YT", label: "YouTube" },
     { href: siteConfig.social.zalo, short: "Za", label: "Zalo" },
+    { href: siteConfig.social.viber, short: "Vi", label: "Viber" },
+    { href: siteConfig.social.whatsapp, short: "WA", label: "WhatsApp" },
   ].filter((link) => link.href);
 
   return (

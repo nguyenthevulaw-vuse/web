@@ -66,6 +66,8 @@ export const siteConfig = {
     linkedin: "",
     youtube: "",
     zalo: "https://zalo.me/84938676864",
+    viber: "viber://chat?number=%2B84938676864",
+    whatsapp: "https://wa.me/84938676864",
   },
 
   nav: [
