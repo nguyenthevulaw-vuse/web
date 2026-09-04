@@ -89,8 +89,8 @@ export default async function ArticleDetailPage({
             <div className="mx-auto mt-16 max-w-5xl border-t border-ink/10 pt-12">
               <h2 className="text-xl font-bold text-ink">Bài viết liên quan</h2>
               <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-                {related.map((a) => (
-                  <ArticleCard key={a.slug} article={a} />
+                {related.map((a, index) => (
+                  <ArticleCard key={a.slug} article={a} index={index} />
                 ))}
               </div>
             </div>

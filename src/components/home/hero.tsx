@@ -18,11 +18,7 @@ export function Hero() {
               {siteConfig.shortLegalName}
             </span>
             <h1 className="mt-6 text-4xl font-extrabold leading-tight text-ink sm:text-5xl lg:text-6xl">
-              Tư vấn pháp lý{" "}
-              <span className="underline decoration-accent decoration-4 underline-offset-4">
-                tận tâm, chính xác
-              </span>{" "}
-              cho doanh nghiệp và cá nhân
+              Tư vấn pháp lý tận tâm, chính xác cho doanh nghiệp và cá nhân
             </h1>
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-ink/60">
               {siteConfig.description} Chúng tôi giúp bạn hiểu rõ quyền lợi và
@@ -41,7 +37,7 @@ export function Hero() {
             <div className="mt-12 grid max-w-md grid-cols-3 gap-6 border-t border-ink/10 pt-8">
               {siteConfig.stats.slice(0, 3).map((stat) => (
                 <div key={stat.label}>
-                  <p className="text-2xl font-extrabold text-ink">{stat.value}</p>
+                  <p className="text-2xl font-extrabold text-secondary">{stat.value}</p>
                   <p className="mt-1 text-xs leading-snug text-ink/50">{stat.label}</p>
                 </div>
               ))}

@@ -39,7 +39,7 @@ export function Process() {
           {steps.map((item, index) => (
             <div key={item.step} className="relative">
               <div className="flex items-center gap-4">
-                <span className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-primary-dark text-lg font-extrabold text-white">
+                <span className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-accent text-lg font-extrabold text-white">
                   {item.step}
                 </span>
                 {index < steps.length - 1 ? (

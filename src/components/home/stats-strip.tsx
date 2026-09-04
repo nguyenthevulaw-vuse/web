@@ -13,10 +13,10 @@ export function StatsStrip() {
           const Icon = STAT_ICONS[index] ?? Award;
           return (
             <div key={stat.label} className="flex flex-col items-center text-center">
-              <span className="flex h-14 w-14 items-center justify-center rounded-full border-2 border-primary/40 text-primary-dark">
+              <span className="flex h-14 w-14 items-center justify-center rounded-full border-2 border-secondary/40 text-secondary">
                 <Icon className="h-6 w-6" />
               </span>
-              <p className="mt-3 text-3xl font-extrabold text-ink sm:text-4xl">{stat.value}</p>
+              <p className="mt-3 text-3xl font-extrabold text-secondary sm:text-4xl">{stat.value}</p>
               <p className="mt-1 text-sm text-ink/60">{stat.label}</p>
             </div>
           );

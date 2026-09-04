@@ -3,15 +3,24 @@ import { ArrowRight, CalendarDays } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import type { Article } from "@/lib/types";
 import { categoryLabels } from "@/lib/types";
-import { formatDate } from "@/lib/utils";
+import { cn, formatDate } from "@/lib/utils";
 
-export function ArticleCard({ article }: { article: Article }) {
+// Nền ảnh minh hoạ đổi màu lần lượt cam - xanh lá - xanh dương theo vị trí
+// thẻ trong danh sách để tạo điểm nhấn đa sắc thay vì một màu cố định.
+const PLACEHOLDER_BG = ["bg-secondary/15", "bg-primary/15", "bg-accent/15"];
+
+export function ArticleCard({ article, index = 0 }: { article: Article; index?: number }) {
   return (
     <Link
       href={`/kien-thuc-phap-luat/${article.slug}`}
       className="group flex flex-col overflow-hidden rounded-2xl border border-ink/10 bg-white transition-all hover:-translate-y-1 hover:shadow-lg hover:shadow-primary/5"
     >
-      <div className="flex aspect-[16/9] items-center justify-center bg-primary/15 px-6 text-center">
+      <div
+        className={cn(
+          "flex aspect-[16/9] items-center justify-center px-6 text-center",
+          PLACEHOLDER_BG[index % PLACEHOLDER_BG.length],
+        )}
+      >
         <span className="text-sm font-semibold uppercase tracking-wide text-ink">
           {categoryLabels[article.category]}
         </span>
