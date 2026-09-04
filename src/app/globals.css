@@ -1,14 +1,14 @@
 @import "tailwindcss";
 
 :root {
-  /* Bảng màu giao diện: xanh navy + vàng gold (theo yêu cầu thiết kế lại).
+  /* Bảng màu nhận diện thương hiệu (cập nhật): xanh dương làm màu chủ đạo.
      Lưu ý: logo vẫn giữ nguyên màu đỏ mận/cam gốc — đây là màu cho phần
      giao diện (nền, nút, icon...), không phải màu logo. */
-  --color-primary: #c9a227; /* Vàng gold - nút CTA, icon nhấn, nền tối */
-  --color-primary-dark: #8a6a16; /* Gold đậm - dùng làm CHỮ trên nền trắng (đạt tương phản WCAG AA) */
-  --color-secondary: #1d4e89; /* Xanh dương - màu phụ, dùng cho gradient trang trí */
-  --color-accent: #e3b23c; /* Vàng gold nhạt - điểm nhấn nhỏ (chấm, icon phụ) */
-  --color-ink: #0b2a4a; /* Xanh navy đậm - nền tối (header/footer/hero) + màu chữ */
+  --color-primary: #007fff; /* Xanh dương - màu chủ đạo, CTA/icon nhấn */
+  --color-primary-dark: #0a5cb8; /* Xanh dương đậm - dùng làm CHỮ/nút trên nền trắng (đạt tương phản WCAG AA) */
+  --color-secondary: #007f3f; /* Xanh lá - màu phụ */
+  --color-accent: #f27638; /* Cam - điểm nhấn */
+  --color-ink: #00142b; /* Xanh navy rất đậm - nền tối (header/footer/hero) + màu chữ */
 
   --background: #ffffff;
   --foreground: var(--color-ink);

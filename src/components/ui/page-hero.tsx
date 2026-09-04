@@ -31,7 +31,7 @@ export function PageHero({
           <span className="text-white/80">{breadcrumb}</span>
         </nav>
         {eyebrow ? (
-          <span className="mt-5 inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-accent">
+          <span className="mt-5 inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-white">
             <span className="h-1.5 w-1.5 rounded-full bg-accent" />
             {eyebrow}
           </span>
