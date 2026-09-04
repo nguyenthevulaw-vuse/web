@@ -7,9 +7,9 @@ export function CtaBanner() {
   return (
     <section className="py-20 sm:py-24">
       <Container>
-        <div className="relative overflow-hidden rounded-3xl border border-ink/10 bg-gradient-to-br from-primary/25 via-white to-secondary/20 px-8 py-14 text-center sm:px-16">
-          <div className="absolute -right-10 -top-10 h-56 w-56 rounded-full bg-primary/30 blur-2xl" />
-          <div className="absolute -bottom-16 -left-10 h-56 w-56 rounded-full bg-secondary/25 blur-2xl" />
+        <div className="relative overflow-hidden rounded-3xl border border-ink/10 bg-gradient-to-br from-secondary/25 via-primary/15 to-accent/20 px-8 py-14 text-center sm:px-16">
+          <div className="absolute -right-10 -top-10 h-56 w-56 rounded-full bg-secondary/30 blur-2xl" />
+          <div className="absolute -bottom-16 -left-10 h-56 w-56 rounded-full bg-accent/25 blur-2xl" />
 
           <div className="relative">
             <h2 className="text-2xl font-extrabold text-ink sm:text-3xl">

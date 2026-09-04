@@ -65,8 +65,8 @@ export default async function NewsListPage({
 
           {filtered.length > 0 ? (
             <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-              {filtered.map((article) => (
-                <ArticleCard key={article.slug} article={article} />
+              {filtered.map((article, index) => (
+                <ArticleCard key={article.slug} article={article} index={index} />
               ))}
             </div>
           ) : (
