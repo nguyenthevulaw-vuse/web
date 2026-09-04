@@ -1,11 +1,12 @@
 @import "tailwindcss";
 
 :root {
-  /* Bảng màu nhận diện thương hiệu (cập nhật): xanh dương làm màu chủ đạo.
-     Lưu ý: logo vẫn giữ nguyên màu đỏ mận/cam gốc — đây là màu cho phần
-     giao diện (nền, nút, icon...), không phải màu logo. */
-  --color-primary: #00f6ff; /* Xanh cyan sáng - màu chủ đạo, CTA/icon nhấn */
-  --color-primary-dark: #007a80; /* Xanh cyan đậm (cùng tông) - dùng làm CHỮ trên nền trắng, vì cyan sáng gốc gần như không đọc được trên nền trắng (đạt tương phản WCAG AA) */
+  /* Bảng màu nhận diện thương hiệu chính thức: xanh dương làm màu chủ đạo,
+     xanh lá + cam làm màu phụ/điểm nhấn. Lưu ý: logo vẫn giữ nguyên màu đỏ
+     mận/cam gốc — đây là màu cho phần giao diện (nền, nút, icon...), không
+     phải màu logo. */
+  --color-primary: #007fff; /* Xanh dương - màu chủ đạo, CTA/icon nhấn */
+  --color-primary-dark: #0a5cb8; /* Xanh dương đậm (cùng tông) - dùng làm CHỮ trên nền trắng, vì xanh dương sáng gốc chưa đủ tương phản cho chữ nhỏ (đạt tương phản WCAG AA) */
   --color-secondary: #007f3f; /* Xanh lá - màu phụ */
   --color-accent: #f27638; /* Cam - điểm nhấn */
   --color-ink: #00142b; /* Xanh navy rất đậm - nền tối (header/footer/hero) + màu chữ */
