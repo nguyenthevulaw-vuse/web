@@ -3,7 +3,6 @@ import { Be_Vietnam_Pro } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
-import { TopBar } from "@/components/layout/topbar";
 import { FloatingActions } from "@/components/layout/floating-actions";
 import { siteConfig } from "@/lib/site-config";
 
@@ -34,7 +33,6 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="vi" className={`${beVietnamPro.variable} h-full antialiased`}>
       <body className="flex min-h-full flex-col font-sans">
-        <TopBar />
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
