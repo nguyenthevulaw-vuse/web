@@ -33,7 +33,7 @@ export default async function ServicesPage() {
                 href={`/dich-vu/${area.slug}`}
                 className="group rounded-2xl border border-ink/10 bg-white p-6 transition-all hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5"
               >
-                <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10 text-primary-dark transition-colors group-hover:bg-primary group-hover:text-ink">
+                <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10 text-primary-dark transition-colors group-hover:bg-primary group-hover:text-white">
                   <PracticeIcon name={area.icon} className="h-6 w-6" />
                 </span>
                 <h2 className="mt-5 text-lg font-bold text-ink">{area.title}</h2>

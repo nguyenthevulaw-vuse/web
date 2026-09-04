@@ -10,8 +10,9 @@ type ActionItem = {
   href: string;
   icon: typeof Phone;
   className: string;
-  // Nền vàng gold cần chữ/icon màu tối (text-ink) để đủ tương phản — nền
-  // xanh navy/xanh dương thì icon trắng đã đủ tương phản.
+  // Chọn màu icon theo độ sáng của nền để đủ tương phản: nền cam (secondary)
+  // dùng icon tối (text-ink), nền xanh lá đậm (primary/primary-dark) dùng
+  // icon trắng.
   iconClassName: string;
   external?: boolean;
 };
@@ -29,7 +30,7 @@ const actions: ActionItem[] = [
     href: siteConfig.social.zalo,
     icon: MessageCircle,
     className: "bg-secondary hover:bg-secondary/90",
-    iconClassName: "text-white",
+    iconClassName: "text-ink",
     external: true,
   },
   {
@@ -37,7 +38,7 @@ const actions: ActionItem[] = [
     href: "/lien-he",
     icon: CalendarCheck,
     className: "bg-primary hover:brightness-95",
-    iconClassName: "text-ink",
+    iconClassName: "text-white",
   },
 ].filter((action) => action.href);
 

@@ -18,8 +18,8 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50">
-      {/* Dải màu xanh lá: logo, tên công ty, thông tin liên hệ */}
-      <div className="bg-secondary">
+      {/* Dải màu chủ đạo (xanh lá): logo, tên công ty, thông tin liên hệ */}
+      <div className="bg-primary">
         <Container className="flex flex-col gap-3 py-4 sm:flex-row sm:items-center sm:justify-between">
           <Link href="/" className="flex items-center gap-3" onClick={() => setOpen(false)}>
             <Image

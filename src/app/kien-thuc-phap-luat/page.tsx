@@ -42,7 +42,7 @@ export default async function NewsListPage({
               href="/kien-thuc-phap-luat"
               className={cn(
                 "rounded-full px-4 py-2 text-sm font-medium transition-colors",
-                !danh_muc ? "bg-primary text-ink" : "bg-ink/5 text-ink/70 hover:bg-ink/10",
+                !danh_muc ? "bg-primary text-white" : "bg-ink/5 text-ink/70 hover:bg-ink/10",
               )}
             >
               Tất cả
@@ -54,7 +54,7 @@ export default async function NewsListPage({
                 className={cn(
                   "rounded-full px-4 py-2 text-sm font-medium transition-colors",
                   danh_muc === cat
-                    ? "bg-primary text-ink"
+                    ? "bg-primary text-white"
                     : "bg-ink/5 text-ink/70 hover:bg-ink/10",
                 )}
               >

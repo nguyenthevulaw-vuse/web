@@ -4,10 +4,11 @@ import { cn } from "@/lib/utils";
 type Variant = "primary" | "secondary" | "outline" | "ghost";
 type Size = "md" | "lg";
 
-// Chữ màu ink (navy đậm) trên nút cyan/cam thay vì trắng — chữ trắng trên
-// nền sáng không đạt độ tương phản tối thiểu (WCAG AA ~4.5:1).
+// Màu chữ chọn theo độ sáng của nền để đạt tương phản WCAG AA ~4.5:1:
+// nút primary (xanh lá, nền tối) dùng chữ trắng; nút secondary (cam, nền
+// sáng) dùng chữ ink (navy đậm) vì chữ trắng trên nền cam không đủ tương phản.
 const variantClasses: Record<Variant, string> = {
-  primary: "bg-primary text-ink hover:brightness-95 shadow-sm shadow-primary/20",
+  primary: "bg-primary text-white hover:brightness-95 shadow-sm shadow-primary/20",
   secondary: "bg-accent text-ink hover:brightness-95 shadow-sm shadow-accent/20",
   outline: "border-2 border-ink/15 text-ink hover:border-primary-dark hover:text-primary-dark",
   ghost: "text-ink hover:bg-ink/5",
