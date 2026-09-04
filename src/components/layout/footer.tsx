@@ -40,7 +40,7 @@ export function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={label}
-                  className="flex h-9 w-9 items-center justify-center rounded-full bg-white text-ink/70 shadow-sm transition-colors hover:bg-primary hover:text-ink"
+                  className="flex h-9 w-9 items-center justify-center rounded-full bg-white text-ink/70 shadow-sm transition-colors hover:bg-primary hover:text-white"
                 >
                   <SocialIcon label={short} />
                 </a>

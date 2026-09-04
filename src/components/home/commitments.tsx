@@ -48,7 +48,7 @@ export function Commitments() {
               key={c.title}
               className="rounded-2xl border border-ink/10 bg-white p-6 shadow-sm"
             >
-              <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-primary text-ink">
+              <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-primary text-white">
                 <c.icon className="h-6 w-6" />
               </span>
               <h3 className="mt-5 text-base font-bold text-ink">{c.title}</h3>

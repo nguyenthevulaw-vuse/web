@@ -47,7 +47,7 @@ export function WhyChooseUs() {
               key={reason.title}
               className="rounded-2xl bg-white p-6 text-center shadow-sm ring-1 ring-ink/5"
             >
-              <span className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-primary text-ink">
+              <span className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-primary text-white">
                 <reason.icon className="h-6 w-6" />
               </span>
               <h3 className="mt-5 text-base font-bold text-ink">{reason.title}</h3>

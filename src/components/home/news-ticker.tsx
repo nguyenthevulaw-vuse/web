@@ -37,7 +37,7 @@ export function NewsTicker({ articles }: { articles: Article[] }) {
       onMouseLeave={() => setPaused(false)}
     >
       <Container className="flex items-center gap-3 py-2.5">
-        <span className="hidden shrink-0 items-center gap-1.5 rounded-full bg-primary px-3 py-1 text-xs font-bold uppercase tracking-wide text-ink sm:flex">
+        <span className="hidden shrink-0 items-center gap-1.5 rounded-full bg-primary px-3 py-1 text-xs font-bold uppercase tracking-wide text-white sm:flex">
           <Megaphone className="h-3.5 w-3.5" />
           Tin mới
         </span>
