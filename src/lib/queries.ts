@@ -46,16 +46,23 @@ export async function getTeamMember(slug: string): Promise<TeamMember | undefine
   return members.find((m) => m.slug === slug);
 }
 
+// Sắp xếp bài mới nhất lên đầu — dữ liệu mẫu (fallback) không tự sắp xếp
+// theo thứ tự khai báo trong mảng, nên cần sort tường minh giống hệt cách
+// Supabase sắp xếp, để "bài mới" luôn đúng là bài có published_at gần nhất.
+function byLatest(items: Article[]): Article[] {
+  return [...items].sort((a, b) => b.published_at.localeCompare(a.published_at));
+}
+
 export async function getArticles(): Promise<Article[]> {
   const supabase = await createSupabaseServerClient();
-  if (!supabase) return fallbackArticles;
+  if (!supabase) return byLatest(fallbackArticles);
 
   const { data, error } = await supabase
     .from("articles")
     .select("*")
     .order("published_at", { ascending: false });
 
-  if (error || !data || data.length === 0) return fallbackArticles;
+  if (error || !data || data.length === 0) return byLatest(fallbackArticles);
   return data as Article[];
 }
 
