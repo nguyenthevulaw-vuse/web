@@ -13,10 +13,16 @@ export function Hero() {
       <Container className="relative py-20 sm:py-28">
         <div className="grid items-center gap-14 lg:grid-cols-[1.1fr_0.9fr]">
           <div>
-            <p className="max-w-xl text-lg leading-relaxed text-ink/60">
-              {siteConfig.description} Chúng tôi giúp bạn hiểu rõ quyền lợi và
-              đưa ra quyết định đúng đắn trong mọi vấn đề pháp lý.
-            </p>
+            <div className="relative">
+              <div
+                aria-hidden
+                className="absolute -inset-x-6 -inset-y-8 -z-10 rounded-[50%] bg-white/90 shadow-xl shadow-primary/10 blur-md sm:-inset-x-12 sm:-inset-y-10"
+              />
+              <p className="max-w-xl text-justify text-lg leading-relaxed text-ink/60">
+                {siteConfig.description} Chúng tôi giúp bạn hiểu rõ quyền lợi và
+                đưa ra quyết định đúng đắn trong mọi vấn đề pháp lý.
+              </p>
+            </div>
             <div className="mt-9 flex flex-wrap items-center gap-4">
               <Button href="/lien-he" size="lg">
                 Đặt lịch tư vấn miễn phí
