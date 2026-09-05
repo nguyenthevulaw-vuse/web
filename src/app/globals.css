@@ -56,6 +56,21 @@ body {
   line-height: 1.8;
 }
 
+/* Chữ chạy ngang cho thanh "Tin mới" — trượt từ mép phải sang hết mép
+   trái, tốc độ tỉ lệ theo độ dài chữ (đặt qua biến --marquee-duration). */
+@keyframes marquee {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee var(--marquee-duration, 14s) linear 1;
+}
+
 .prose-legal p + p {
   margin-top: 1.1rem;
 }

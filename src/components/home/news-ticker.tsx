@@ -1,26 +1,26 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { ChevronLeft, ChevronRight, Megaphone } from "lucide-react";
 import { Container } from "@/components/ui/container";
 import type { Article } from "@/lib/types";
 
+// Tốc độ chữ chạy: ~90ms cho mỗi ký tự trong tiêu đề, giới hạn trong
+// khoảng 10-22s để tiêu đề ngắn không chạy quá nhanh, tiêu đề dài không
+// chạy quá lâu.
+function marqueeDuration(title: string) {
+  return Math.min(22, Math.max(10, title.length * 0.09));
+}
+
 /**
- * Thanh tin tức chạy — hiển thị lần lượt tiêu đề các bài viết mới nhất,
- * chuyển bằng nút mũi tên trái/phải hoặc tự động sau vài giây.
+ * Thanh tin tức chạy — tiêu đề bài viết mới nhất trượt ngang liên tục
+ * (marquee) qua thanh, tự động chuyển sang tin tiếp theo khi chạy hết một
+ * lượt; có thể chuyển tay bằng nút mũi tên trái/phải hoặc dừng khi rê chuột.
  */
 export function NewsTicker({ articles }: { articles: Article[] }) {
   const [index, setIndex] = useState(0);
   const [paused, setPaused] = useState(false);
-
-  useEffect(() => {
-    if (paused || articles.length <= 1) return;
-    const timer = setInterval(() => {
-      setIndex((i) => (i + 1) % articles.length);
-    }, 5000);
-    return () => clearInterval(timer);
-  }, [paused, articles.length]);
 
   if (articles.length === 0) return null;
 
@@ -51,11 +51,19 @@ export function NewsTicker({ articles }: { articles: Article[] }) {
           <ChevronLeft className="h-4 w-4" />
         </button>
 
-        <div className="min-w-0 flex-1 overflow-hidden text-center">
+        <div className="relative min-w-0 flex-1 overflow-hidden">
           <Link
             key={current.slug}
             href={`/kien-thuc-phap-luat/${current.slug}`}
-            className="inline-block truncate text-sm font-medium text-ink/80 transition-colors hover:text-primary-dark"
+            onAnimationEnd={() => {
+              if (articles.length > 1) goTo(1);
+            }}
+            style={{
+              "--marquee-duration": `${marqueeDuration(current.title)}s`,
+              animationPlayState: paused ? "paused" : "running",
+              animationIterationCount: articles.length > 1 ? 1 : Infinity,
+            } as React.CSSProperties}
+            className="animate-marquee inline-block whitespace-nowrap text-sm font-medium text-ink/80 transition-colors hover:text-primary-dark"
           >
             {current.title}
           </Link>
