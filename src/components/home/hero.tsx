@@ -13,10 +13,10 @@ export function Hero() {
       <Container className="relative py-20 sm:py-28">
         <div className="grid items-center gap-14 lg:grid-cols-[1.1fr_0.9fr]">
           <div>
-            <div className="relative">
+            <div className="relative z-0">
               <div
                 aria-hidden
-                className="absolute -inset-x-6 -inset-y-8 -z-10 rounded-[50%] bg-white/90 shadow-xl shadow-primary/10 blur-md sm:-inset-x-12 sm:-inset-y-10"
+                className="absolute -inset-x-8 -inset-y-10 -z-10 rounded-[50%] border-2 border-primary/30 bg-primary/15 sm:-inset-x-16 sm:-inset-y-14"
               />
               <p className="max-w-xl text-justify text-lg leading-relaxed text-ink/60">
                 {siteConfig.description} Chúng tôi giúp bạn hiểu rõ quyền lợi và
