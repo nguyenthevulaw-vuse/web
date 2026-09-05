@@ -182,6 +182,58 @@ export const articles: Article[] = [
     author: "LS. Nguyễn Thế Vũ",
     published_at: "2026-06-18",
   },
+  {
+    id: "7",
+    slug: "quy-dinh-moi-ve-ma-so-thue-2026",
+    title: "Từ 1/7/2026: Quy định mới về mã số thuế người dân, doanh nghiệp cần biết",
+    excerpt:
+      "Thông tư 90/2026/TT-BTC thay thế Thông tư 86/2024/TT-BTC từ 1/7/2026, tổ chức lại toàn bộ cơ chế đăng ký thuế theo mô hình hai cấp và số hóa toàn trình.",
+    content:
+      "Thông tư 90/2026/TT-BTC của Bộ Tài chính thiết lập lại toàn bộ cơ chế quản lý đăng ký thuế theo ba trục thay đổi lớn: cơ quan thuế tổ chức theo mô hình hai cấp (Thuế tỉnh, thành phố và Thuế cơ sở) thay cho cấp chi cục cũ; kết quả đăng ký thuế được số hóa gần như toàn trình, cấp bản điện tử có ký số qua Cổng Dịch vụ công quốc gia hoặc VNeID với thời hạn xử lý phổ biến 3 ngày làm việc; và mã số thuế được gắn chặt với dữ liệu định danh cá nhân, đi kèm cơ chế quản lý rủi ro cho phép cơ quan thuế chủ động chuyển trạng thái mã số thuế sang diện chờ xác minh. Mã số thuế được phân thành hai loại 10 số (đơn vị độc lập, cá nhân) và 13 số (đơn vị phụ thuộc, mã số nộp thay). Người dân và doanh nghiệp nên chủ động tra cứu, đối chiếu thông tin đăng ký thuế với Cơ sở dữ liệu quốc gia về dân cư để tránh bị đưa vào diện xác minh, gây gián đoạn hoạt động kinh doanh.",
+    category: "thue",
+    author: "LS. Nguyễn Thế Vũ",
+    published_at: "2026-08-25",
+    image: "/thue/mst-thay-doi-2026.jpg",
+  },
+  {
+    id: "8",
+    slug: "xu-ly-ma-so-thue-khi-sap-nhap-doanh-nghiep",
+    title: "Sáp nhập, đổi loại hình, chuyển trụ sở: Doanh nghiệp xử lý mã số thuế thế nào?",
+    excerpt:
+      "Hướng dẫn nguyên tắc giữ, cấp mới hay chấm dứt mã số thuế khi doanh nghiệp tái cấu trúc theo Thông tư 90/2026/TT-BTC.",
+    content:
+      "Thông tư 90/2026/TT-BTC quy định rõ số phận mã số thuế theo từng hình thức tổ chức lại doanh nghiệp: khi chia, bên bị chia chấm dứt mã số thuế và các đơn vị mới được cấp mã mới; khi tách, bên bị tách giữ nguyên mã số thuế còn đơn vị được tách nhận mã mới; khi sáp nhập, bên nhận giữ nguyên mã số còn bên bị sáp nhập chấm dứt; khi hợp nhất, các bên bị hợp nhất chấm dứt và tổ chức mới được cấp mã mới; riêng chuyển đổi loại hình doanh nghiệp chỉ cần thông báo thay đổi thông tin, giữ nguyên mã số thuế. Khi chuyển trụ sở sang tỉnh, thành phố khác, doanh nghiệp phải nộp hồ sơ tại nơi chuyển đi trước, chờ thông báo chuyển địa điểm rồi mới đăng ký tại nơi chuyển đến trong 10 ngày làm việc — làm sai trình tự này là nguyên nhân phổ biến khiến mã số thuế bị treo. Trước khi giải thể hoặc chấm dứt hoạt động, doanh nghiệp phải hoàn thành đầy đủ nghĩa vụ hóa đơn, khai thuế và nộp thuế.",
+    category: "thue",
+    author: "LS. Nguyễn Thế Vũ",
+    published_at: "2026-08-26",
+    image: "/thue/sap-nhap-doi-loai-hinh.jpg",
+  },
+  {
+    id: "9",
+    slug: "ho-kinh-doanh-ma-so-thue-bi-khoa",
+    title: "Hộ kinh doanh: Vì sao mã số thuế có thể bị khóa dù vẫn đang buôn bán bình thường?",
+    excerpt:
+      "Thông tư 90/2026/TT-BTC dành hẳn một chương cho hộ kinh doanh, đơn giản hóa thủ tục nhưng siết chặt cơ chế xác minh 'không hoạt động tại địa chỉ'.",
+    content:
+      "Lần đầu tiên hộ kinh doanh, hộ gia đình và cá nhân kinh doanh có một chương riêng trong quy định đăng ký thuế. Rủi ro lớn nhất là bị chuyển sang trạng thái 'chờ xác minh' khi có dấu hiệu như không nộp hồ sơ khai thuế dù đã nhắc, hoặc thư của cơ quan thuế bị trả lại vì không có người nhận; nếu trong 5 ngày làm việc hộ không giải trình được, cơ quan thuế sẽ xác minh thực tế và có thể chuyển mã số thuế sang trạng thái 'không hoạt động tại địa chỉ', ảnh hưởng trực tiếp đến việc xuất hóa đơn. Khi nhận được thông báo qua tài khoản thuế điện tử, EtaxMobile hoặc VNeID, hộ kinh doanh cần nộp hồ sơ còn thiếu hoặc giải trình ngay để được khôi phục nhanh chóng, thay vì chờ bị khóa rồi mới xử lý. Một điểm cần lưu ý: khi mã số thuế kinh doanh của hộ chấm dứt, mã số thuế cá nhân của chủ hộ vẫn được giữ nguyên cho các nghĩa vụ thuế thu nhập cá nhân khác.",
+    category: "thue",
+    author: "LS. Nguyễn Thế Vũ",
+    published_at: "2026-08-27",
+    image: "/thue/ho-kinh-doanh-khoa-mst.jpg",
+  },
+  {
+    id: "10",
+    slug: "ma-so-thue-nop-thay-tmdt-xuyen-bien-gioi",
+    title: "Sàn thương mại điện tử, nhà cung cấp nước ngoài và 'mã số thuế nộp thay'",
+    excerpt:
+      "Thông tư 90/2026/TT-BTC lần đầu thiết lập cơ chế mã số thuế riêng cho nền kinh tế số: sàn TMĐT khấu trừ nộp thay, nhà cung cấp nước ngoài và thuế tối thiểu toàn cầu.",
+    content:
+      "Thông tư 90/2026/TT-BTC lần đầu đưa vào hệ thống mã số thuế dành riêng cho hoạt động số và xuyên biên giới. Chủ sàn thương mại điện tử trong nước có chức năng đặt hàng và thanh toán trực tuyến nay thuộc diện khấu trừ, nộp thay thuế cho nhà cung cấp nước ngoài và cá nhân kinh doanh trên nền tảng, được cấp một mã số thuế nộp thay riêng (10 chữ số). Nhà cung cấp nước ngoài phát sinh doanh thu tại Việt Nam qua nền tảng số đăng ký thuế trực tiếp qua Hệ thống thông tin quản lý thuế, nhưng được miễn đăng ký nếu toàn bộ doanh thu đã được bên khác khấu trừ, nộp thay đầy đủ. Đây cũng là lần đầu tiên quy định thuế tối thiểu toàn cầu được nối vào quy trình đăng ký thuế trong nước, áp dụng cho các tập đoàn đa quốc gia. Doanh nghiệp vận hành sàn cần theo dõi sát nghĩa vụ khấu trừ nộp thay để không gián đoạn giao dịch của hàng nghìn người bán trên nền tảng.",
+    category: "thue",
+    author: "LS. Nguyễn Thế Vũ",
+    published_at: "2026-08-28",
+    image: "/thue/tmdt-xuyen-bien-gioi.jpg",
+  },
 ];
 
 export const faqs: FaqItem[] = [

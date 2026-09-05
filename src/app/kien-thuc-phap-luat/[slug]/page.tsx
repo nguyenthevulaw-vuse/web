@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import { ArrowLeft, CalendarDays, User } from "lucide-react";
 import { PageHero } from "@/components/ui/page-hero";
@@ -65,6 +66,19 @@ export default async function ArticleDetailPage({
             <p className="mt-6 text-lg font-medium leading-relaxed text-ink/80">
               {article.excerpt}
             </p>
+
+            {article.image ? (
+              <div className="relative mt-8 aspect-[16/9] overflow-hidden rounded-2xl">
+                <Image
+                  src={article.image}
+                  alt={article.title}
+                  fill
+                  sizes="(min-width: 1024px) 768px, 100vw"
+                  className="object-cover"
+                  priority
+                />
+              </div>
+            ) : null}
 
             <div className="prose-legal mt-6 border-t border-ink/10 pt-6 text-base">
               <p>{article.content}</p>

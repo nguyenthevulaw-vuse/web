@@ -25,7 +25,8 @@ export type ArticleCategory =
   | "lao-dong"
   | "dat-dai"
   | "hon-nhan-gia-dinh"
-  | "hinh-su";
+  | "hinh-su"
+  | "thue";
 
 export type Article = {
   id: string;
@@ -36,6 +37,9 @@ export type Article = {
   category: ArticleCategory;
   author: string;
   published_at: string;
+  // Ảnh minh hoạ bài viết (đường dẫn trong /public) — không bắt buộc, nếu
+  // không có thì ArticleCard hiển thị nền màu placeholder như trước.
+  image?: string;
 };
 
 export type FaqItem = {
@@ -60,5 +64,6 @@ export const categoryLabels: Record<ArticleCategory | "chung", string> = {
   "dat-dai": "Đất đai - Bất động sản",
   "hon-nhan-gia-dinh": "Hôn nhân & Gia đình",
   "hinh-su": "Hình sự",
+  thue: "Thuế",
   chung: "Chung",
 };

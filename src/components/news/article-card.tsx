@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowRight, CalendarDays } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import type { Article } from "@/lib/types";
@@ -6,7 +7,8 @@ import { categoryLabels } from "@/lib/types";
 import { cn, formatDate } from "@/lib/utils";
 
 // Nền ảnh minh hoạ đổi màu lần lượt cam - xanh lá - xanh dương theo vị trí
-// thẻ trong danh sách để tạo điểm nhấn đa sắc thay vì một màu cố định.
+// thẻ trong danh sách để tạo điểm nhấn đa sắc thay vì một màu cố định — chỉ
+// dùng khi bài viết chưa có ảnh minh hoạ riêng (article.image).
 const PLACEHOLDER_BG = ["bg-secondary/15", "bg-primary/15", "bg-accent/15"];
 
 export function ArticleCard({ article, index = 0 }: { article: Article; index?: number }) {
@@ -15,16 +17,28 @@ export function ArticleCard({ article, index = 0 }: { article: Article; index?: 
       href={`/kien-thuc-phap-luat/${article.slug}`}
       className="group flex flex-col overflow-hidden rounded-2xl border border-ink/10 bg-white transition-all hover:-translate-y-1 hover:shadow-lg hover:shadow-primary/5"
     >
-      <div
-        className={cn(
-          "flex aspect-[16/9] items-center justify-center px-6 text-center",
-          PLACEHOLDER_BG[index % PLACEHOLDER_BG.length],
-        )}
-      >
-        <span className="text-sm font-semibold uppercase tracking-wide text-ink">
-          {categoryLabels[article.category]}
-        </span>
-      </div>
+      {article.image ? (
+        <div className="relative aspect-[16/9] overflow-hidden">
+          <Image
+            src={article.image}
+            alt={article.title}
+            fill
+            sizes="(min-width: 1024px) 380px, 100vw"
+            className="object-cover transition-transform duration-300 group-hover:scale-105"
+          />
+        </div>
+      ) : (
+        <div
+          className={cn(
+            "flex aspect-[16/9] items-center justify-center px-6 text-center",
+            PLACEHOLDER_BG[index % PLACEHOLDER_BG.length],
+          )}
+        >
+          <span className="text-sm font-semibold uppercase tracking-wide text-ink">
+            {categoryLabels[article.category]}
+          </span>
+        </div>
+      )}
       <div className="flex flex-1 flex-col p-5">
         <Badge tone="primary">{categoryLabels[article.category]}</Badge>
         <h3 className="mt-3 line-clamp-2 text-base font-bold text-ink group-hover:text-primary-dark">
