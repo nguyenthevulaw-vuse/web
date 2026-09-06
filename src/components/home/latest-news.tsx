@@ -6,8 +6,11 @@ import { ArticleCard } from "@/components/news/article-card";
 import type { Article } from "@/lib/types";
 
 export function LatestNews({ articles }: { articles: Article[] }) {
+  // Không đặt padding-top riêng — mục này luôn nằm ngay sau ServicesOverview
+  // (cũng nền trắng, đã có padding-bottom py-20/24), đặt thêm padding-top sẽ
+  // cộng dồn thành khoảng trắng quá lớn giữa 2 mục.
   return (
-    <section className="py-20 sm:py-24">
+    <section className="pb-20 sm:pb-24">
       <Container>
         <div className="flex flex-col justify-between gap-6 sm:flex-row sm:items-end">
           <SectionHeading
