@@ -42,14 +42,6 @@ export function Hero() {
               </Button>
             </div>
 
-            <div className="mt-12 grid max-w-md grid-cols-3 gap-6 border-t border-ink/10 pt-8">
-              {siteConfig.stats.slice(0, 3).map((stat) => (
-                <div key={stat.label}>
-                  <p className="text-2xl font-extrabold text-secondary">{stat.value}</p>
-                  <p className="mt-1 text-xs leading-snug text-ink/50">{stat.label}</p>
-                </div>
-              ))}
-            </div>
           </div>
 
           <div className="relative hidden lg:block">

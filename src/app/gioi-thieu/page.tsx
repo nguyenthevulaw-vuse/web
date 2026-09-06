@@ -3,7 +3,6 @@ import { Compass, Eye, Target, ShieldCheck, Telescope, Rocket } from "lucide-rea
 import { PageHero } from "@/components/ui/page-hero";
 import { Container } from "@/components/ui/container";
 import { SectionHeading } from "@/components/ui/section-heading";
-import { StatsStrip } from "@/components/home/stats-strip";
 import { TeamPreview } from "@/components/home/team-preview";
 import { siteConfig } from "@/lib/site-config";
 import { getTeamMembers } from "@/lib/queries";
@@ -136,8 +135,6 @@ export default async function AboutPage() {
           </div>
         </Container>
       </section>
-
-      <StatsStrip />
 
       <section className="py-16 sm:py-20">
         <Container>
