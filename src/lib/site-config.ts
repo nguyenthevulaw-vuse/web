@@ -42,9 +42,6 @@ export const siteConfig = {
   director: {
     name: "Nguyễn Thế Vũ",
     title: "Giám đốc",
-    barCardNumber: "6396",
-    barCardDate: "25/7/2011",
-    barAssociation: "Đoàn Luật sư Thành phố Hồ Chí Minh",
   },
 
   // Phạm vi hành nghề theo Giấy đăng ký hoạt động.

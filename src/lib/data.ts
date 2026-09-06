@@ -106,7 +106,7 @@ export const teamMembers: TeamMember[] = [
     slug: "nguyen-the-vu",
     name: "LS. Nguyễn Thế Vũ",
     title: "Giám đốc",
-    summary: "Thẻ luật sư số 6396 — Thành viên Đoàn Luật sư TP. Hồ Chí Minh.",
+    summary: "Người sáng lập và Giám đốc NTVLaw.",
     bio: "Luật sư Nguyễn Thế Vũ là người sáng lập và Giám đốc NTVLaw. Luật sư có nhiều năm kinh nghiệm tư vấn pháp lý doanh nghiệp, tái cấu trúc, quản trị rủi ro và tố tụng tranh chấp. Trải qua các vị trí tư vấn và quản lý pháp chế tại những thương hiệu lớn như Trung Nguyên Coffee, Giấy Sài Gòn, Tập đoàn Xây dựng Hòa Bình và Quỹ ASIF Foundation, ông sở hữu am hiểu sâu sắc về vận hành nội bộ, hoạt động đầu tư, xây dựng dự án cũng như cơ chế quản trị của các tổ chức xã hội phi lợi nhuận.",
     initials: "NTV",
     order: 1,
@@ -133,6 +133,40 @@ export const teamMembers: TeamMember[] = [
       "Luật Bất động sản, Xây dựng & Dự án",
       "Tố tụng & Giải quyết Tranh chấp Thương mại / Đất đai",
       "Cố vấn Pháp lý & Quản trị cho các Tổ chức Xã hội, Doanh nghiệp Xã hội (DNXH)",
+    ],
+  },
+  {
+    id: "2",
+    slug: "vo-thi-phuong-vy",
+    name: "Võ Thị Phương Vy",
+    title: "Chuyên viên Pháp lý",
+    summary: "Hơn 5 năm kinh nghiệm pháp chế doanh nghiệp và hành chính nhân sự.",
+    bio: "Võ Thị Phương Vy là Cử nhân Luật Kinh tế, hiện đang tham gia khóa đào tạo nghề Luật sư. Với hơn 5 năm kinh nghiệm ở vị trí pháp chế kiêm hành chính nhân sự tại nhiều doanh nghiệp, chị phụ trách soạn thảo và rà soát hợp đồng, thủ tục đăng ký doanh nghiệp và cấp phép ngành nghề có điều kiện, tư vấn tuân thủ pháp luật lao động - bảo hiểm xã hội, đồng thời hỗ trợ xử lý khiếu nại, tranh chấp và làm việc với các cơ quan nhà nước có thẩm quyền.",
+    initials: "VTPV",
+    order: 2,
+    image: "/doi-ngu/vo-thi-phuong-vy.jpg",
+    highlights: [
+      {
+        title: "Cẩn trọng & Tuân thủ",
+        description:
+          "Đề cao sự cẩn trọng, trách nhiệm và tính tuân thủ trong từng hồ sơ, văn bản pháp lý được giao xử lý.",
+      },
+      {
+        title: "Chủ động nhận diện rủi ro",
+        description:
+          "Không chỉ xử lý vấn đề khi phát sinh mà chủ động rà soát, nhận diện và kiểm soát rủi ro pháp lý cho doanh nghiệp.",
+      },
+      {
+        title: "Am hiểu đa lĩnh vực",
+        description:
+          "Kết hợp kinh nghiệm pháp chế doanh nghiệp với hành chính nhân sự, xử lý công việc toàn diện và hiệu quả.",
+      },
+    ],
+    expertise: [
+      "Soạn thảo, rà soát hợp đồng & hồ sơ pháp lý doanh nghiệp",
+      "Tư vấn thành lập, thay đổi đăng ký doanh nghiệp & cấp phép ngành nghề có điều kiện",
+      "Pháp luật lao động, tiền lương & bảo hiểm xã hội",
+      "Quản trị rủi ro pháp lý & tuân thủ nội bộ",
     ],
   },
 ];
