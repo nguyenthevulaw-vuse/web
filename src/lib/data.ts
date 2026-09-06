@@ -251,6 +251,7 @@ export const articles: Article[] = [
     category: "thue",
     author: "LS. Nguyễn Thế Vũ",
     published_at: "2026-08-25",
+    image: "/thue/thue.jpg",
   },
   {
     id: "8",
@@ -263,6 +264,7 @@ export const articles: Article[] = [
     category: "thue",
     author: "LS. Nguyễn Thế Vũ",
     published_at: "2026-08-26",
+    image: "/thue/thue.jpg",
   },
   {
     id: "9",
@@ -275,6 +277,7 @@ export const articles: Article[] = [
     category: "thue",
     author: "LS. Nguyễn Thế Vũ",
     published_at: "2026-08-27",
+    image: "/thue/thue.jpg",
   },
   {
     id: "10",
@@ -287,6 +290,7 @@ export const articles: Article[] = [
     category: "thue",
     author: "LS. Nguyễn Thế Vũ",
     published_at: "2026-08-28",
+    image: "/thue/thue.jpg",
   },
 ];
 
