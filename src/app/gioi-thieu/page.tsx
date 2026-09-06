@@ -58,21 +58,6 @@ const visionMission = [
   },
 ];
 
-const milestones = [
-  {
-    year: "25/7/2011",
-    text: "LS. Nguyễn Thế Vũ được cấp Thẻ luật sư số 6396, gia nhập Đoàn Luật sư Thành phố Hồ Chí Minh.",
-  },
-  {
-    year: "14/10/2011",
-    text: "Được Sở Tư pháp Thành phố Hồ Chí Minh cấp Giấy đăng ký hoạt động số 79.2011.02.1589/TP/ĐKHĐ, chính thức thành lập.",
-  },
-  {
-    year: "12/11/2025",
-    text: "Giấy đăng ký hoạt động được cập nhật, thay đổi lần thứ 4, tiếp tục hoạt động dưới tên giao dịch NTVLaw.",
-  },
-];
-
 export default async function AboutPage() {
   const members = await getTeamMembers();
 
@@ -87,46 +72,33 @@ export default async function AboutPage() {
 
       <section className="py-16 sm:py-20">
         <Container>
-          <div className="grid gap-12 lg:grid-cols-2">
-            <div>
-              <SectionHeading eyebrow="Câu chuyện" title="Hành trình phát triển" />
-              <p className="prose-legal mt-6 text-base">
-                {siteConfig.fullName} được thành lập với mong muốn trở thành đối tác pháp
-                lý tin cậy cho doanh nghiệp và cá nhân tại Việt Nam. Trải qua nhiều năm hoạt
-                động, chúng tôi không ngừng mở rộng đội ngũ, nâng cao chuyên môn để đáp ứng
-                nhu cầu tư vấn pháp lý ngày càng đa dạng của khách hàng.
-              </p>
-              <p className="prose-legal mt-4 text-base">
-                Bên cạnh hoạt động tư vấn, chúng tôi chú trọng chia sẻ kiến thức pháp luật
-                đến cộng đồng thông qua các bài viết, hướng dẫn thực tiễn — giúp khách hàng
-                chủ động hơn trong việc bảo vệ quyền và lợi ích hợp pháp của mình.
-              </p>
+          <div className="max-w-2xl">
+            <SectionHeading eyebrow="Câu chuyện" title="Hành trình phát triển" />
+            <p className="prose-legal mt-6 text-base">
+              {siteConfig.fullName} được thành lập với mong muốn trở thành đối tác pháp
+              lý tin cậy cho doanh nghiệp và cá nhân tại Việt Nam. Trải qua nhiều năm hoạt
+              động, chúng tôi không ngừng mở rộng đội ngũ, nâng cao chuyên môn để đáp ứng
+              nhu cầu tư vấn pháp lý ngày càng đa dạng của khách hàng.
+            </p>
+            <p className="prose-legal mt-4 text-base">
+              Bên cạnh hoạt động tư vấn, chúng tôi chú trọng chia sẻ kiến thức pháp luật
+              đến cộng đồng thông qua các bài viết, hướng dẫn thực tiễn — giúp khách hàng
+              chủ động hơn trong việc bảo vệ quyền và lợi ích hợp pháp của mình.
+            </p>
 
-              <div className="mt-6 rounded-2xl border border-ink/10 bg-primary-dark/[0.03] p-5 text-sm text-ink/70">
-                <p>
-                  <span className="font-semibold text-ink">Giấy đăng ký hoạt động:</span> Số{" "}
-                  {siteConfig.license.number} do {siteConfig.license.issuer} cấp lần đầu ngày{" "}
-                  {siteConfig.license.issuedFirstDate}, thay đổi lần gần nhất ngày{" "}
-                  {siteConfig.license.lastAmendedDate}.
-                </p>
-                <p className="mt-2">
-                  <span className="font-semibold text-ink">Người đại diện theo pháp luật:</span>{" "}
-                  LS. {siteConfig.director.name} — {siteConfig.director.title}, Thẻ luật sư số{" "}
-                  {siteConfig.director.barCardNumber} (cấp {siteConfig.director.barCardDate}),
-                  thành viên {siteConfig.director.barAssociation}.
-                </p>
-              </div>
-            </div>
-
-            <div className="space-y-5">
-              {milestones.map((m) => (
-                <div key={m.year} className="flex gap-4">
-                  <span className="flex h-12 w-16 shrink-0 items-center justify-center rounded-xl bg-primary/10 text-sm font-bold text-primary-dark">
-                    {m.year}
-                  </span>
-                  <p className="pt-2.5 text-sm leading-relaxed text-ink/70">{m.text}</p>
-                </div>
-              ))}
+            <div className="mt-6 rounded-2xl border border-ink/10 bg-primary-dark/[0.03] p-5 text-sm text-ink/70">
+              <p>
+                <span className="font-semibold text-ink">Giấy đăng ký hoạt động:</span> Số{" "}
+                {siteConfig.license.number} do {siteConfig.license.issuer} cấp lần đầu ngày{" "}
+                {siteConfig.license.issuedFirstDate}, thay đổi lần gần nhất ngày{" "}
+                {siteConfig.license.lastAmendedDate}.
+              </p>
+              <p className="mt-2">
+                <span className="font-semibold text-ink">Người đại diện theo pháp luật:</span>{" "}
+                LS. {siteConfig.director.name} — {siteConfig.director.title}, Thẻ luật sư số{" "}
+                {siteConfig.director.barCardNumber} (cấp {siteConfig.director.barCardDate}),
+                thành viên {siteConfig.director.barAssociation}.
+              </p>
             </div>
           </div>
         </Container>
