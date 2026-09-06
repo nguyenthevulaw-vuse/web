@@ -7,13 +7,11 @@ import { PracticeIcon } from "@/components/ui/practice-icon";
 import { getPracticeAreas } from "@/lib/queries";
 import { cn } from "@/lib/utils";
 
-// Nền icon luân phiên xanh lá - cam - xanh dương thay vì một màu cố định
-// cho đỡ đơn điệu.
-const ICON_BG = [
-  "bg-primary/10 text-primary-dark group-hover:bg-primary group-hover:text-white",
-  "bg-secondary/10 text-secondary group-hover:bg-secondary group-hover:text-ink",
-  "bg-accent/10 text-accent group-hover:bg-accent group-hover:text-white",
-];
+// Icon nền màu đậm (không dùng tint mờ /10 nữa vì các màu tint nhìn quá
+// giống nhau, thiếu nổi bật) luân phiên xanh lá - cam - xanh dương, kèm dải
+// màu nhấn cùng tông phía trên mỗi thẻ để phân biệt trực quan hơn.
+const ICON_BG = ["bg-primary text-white", "bg-secondary text-ink", "bg-accent text-white"];
+const CARD_ACCENT = ["border-t-primary", "border-t-secondary", "border-t-accent"];
 
 export const metadata: Metadata = {
   title: "Dịch vụ pháp lý",
@@ -40,11 +38,14 @@ export default async function ServicesPage() {
               <Link
                 key={area.slug}
                 href={`/dich-vu/${area.slug}`}
-                className="group rounded-2xl border border-ink/10 bg-white p-6 transition-all hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5"
+                className={cn(
+                  "group rounded-2xl border border-t-4 border-ink/10 bg-white p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-lg hover:shadow-primary/10",
+                  CARD_ACCENT[index % CARD_ACCENT.length],
+                )}
               >
                 <span
                   className={cn(
-                    "flex h-12 w-12 items-center justify-center rounded-xl transition-colors",
+                    "flex h-12 w-12 items-center justify-center rounded-xl shadow-sm transition-transform group-hover:scale-105",
                     ICON_BG[index % ICON_BG.length],
                   )}
                 >
