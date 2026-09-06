@@ -4,7 +4,7 @@ import { PageHero } from "@/components/ui/page-hero";
 import { Container } from "@/components/ui/container";
 import { ArticleCard } from "@/components/news/article-card";
 import { getArticles } from "@/lib/queries";
-import { categoryLabels, type ArticleCategory } from "@/lib/types";
+import { categoryLabels, type Article, type ArticleCategory } from "@/lib/types";
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
@@ -25,6 +25,21 @@ export default async function NewsListPage({
   ) as ArticleCategory[];
 
   const filtered = danh_muc ? articles.filter((a) => a.category === danh_muc) : articles;
+
+  // Ở chế độ "Tất cả", gom các bài viết theo chủ đề và chỉ hiển thị 1 thẻ đại
+  // diện cho mỗi chủ đề (bài viết mới nhất của chủ đề đó) — tránh tình trạng
+  // một chủ đề có nhiều bài viết (ví dụ Thuế) chiếm nhiều thẻ trong khi các
+  // chủ đề khác chỉ có 1 bài, gây mất cân đối. Bấm vào thẻ sẽ dẫn tới bài
+  // viết duy nhất (nếu chủ đề chỉ có 1 bài) hoặc trang danh mục liệt kê đầy
+  // đủ các bài viết (nếu chủ đề có nhiều hơn 1 bài).
+  const topics = categories
+    .map((cat) => {
+      const items = articles.filter((a) => a.category === cat);
+      return items.length > 0 ? { category: cat, latest: items[0], count: items.length } : null;
+    })
+    .filter((topic): topic is { category: ArticleCategory; latest: Article; count: number } =>
+      topic !== null,
+    );
 
   return (
     <>
@@ -63,7 +78,23 @@ export default async function NewsListPage({
             ))}
           </div>
 
-          {filtered.length > 0 ? (
+          {!danh_muc ? (
+            <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              {topics.map((topic, index) => (
+                <ArticleCard
+                  key={topic.category}
+                  article={topic.latest}
+                  index={index}
+                  href={
+                    topic.count > 1
+                      ? `/kien-thuc-phap-luat?danh_muc=${topic.category}`
+                      : undefined
+                  }
+                  articleCount={topic.count}
+                />
+              ))}
+            </div>
+          ) : filtered.length > 0 ? (
             <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
               {filtered.map((article, index) => (
                 <ArticleCard key={article.slug} article={article} index={index} />
