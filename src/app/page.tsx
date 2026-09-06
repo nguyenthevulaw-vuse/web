@@ -1,7 +1,6 @@
 import { NewsTicker } from "@/components/home/news-ticker";
 import { ImageSlider } from "@/components/home/image-slider";
 import { Hero } from "@/components/home/hero";
-import { StatsStrip } from "@/components/home/stats-strip";
 import { ServicesOverview } from "@/components/home/services-overview";
 import { WhyChooseUs } from "@/components/home/why-choose-us";
 import { Process } from "@/components/home/process";
@@ -23,7 +22,6 @@ export default async function HomePage() {
       <NewsTicker articles={articles} />
       <ImageSlider />
       <Hero />
-      <StatsStrip />
       <ServicesOverview areas={areas} />
       <WhyChooseUs />
       <Process />
