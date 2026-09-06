@@ -69,13 +69,16 @@ export type ContactSubmission = {
   message: string;
 };
 
+// Thuế đặt đầu tiên vì là chủ đề được khách hàng quan tâm, tìm đọc nhiều
+// nhất — thứ tự khai báo ở đây quyết định thứ tự hiển thị của tab lọc danh
+// mục và lưới chủ đề ở trang Kiến thức pháp luật.
 export const categoryLabels: Record<ArticleCategory | "chung", string> = {
+  thue: "Thuế",
   "doanh-nghiep": "Doanh nghiệp",
   "dan-su": "Dân sự",
   "lao-dong": "Lao động",
   "dat-dai": "Đất đai - Bất động sản",
   "hon-nhan-gia-dinh": "Hôn nhân & Gia đình",
   "hinh-su": "Hình sự",
-  thue: "Thuế",
   chung: "Chung",
 };
