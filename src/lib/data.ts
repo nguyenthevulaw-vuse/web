@@ -107,9 +107,33 @@ export const teamMembers: TeamMember[] = [
     name: "LS. Nguyễn Thế Vũ",
     title: "Giám đốc",
     summary: "Thẻ luật sư số 6396 — Thành viên Đoàn Luật sư TP. Hồ Chí Minh.",
-    bio: "Luật sư Nguyễn Thế Vũ là người sáng lập và Giám đốc NTVLaw, được cấp Thẻ luật sư số 6396 ngày 25/7/2011, thành viên Đoàn Luật sư Thành phố Hồ Chí Minh. Luật sư trực tiếp phụ trách tư vấn pháp luật, tham gia tố tụng và đại diện ngoài tố tụng cho khách hàng là doanh nghiệp và cá nhân.",
+    bio: "Luật sư Nguyễn Thế Vũ là người sáng lập và Giám đốc NTVLaw, được cấp Thẻ luật sư số 6396 ngày 25/7/2011, thành viên Đoàn Luật sư Thành phố Hồ Chí Minh. Luật sư có nhiều năm kinh nghiệm tư vấn pháp lý doanh nghiệp, tái cấu trúc, quản trị rủi ro và tố tụng tranh chấp. Trải qua các vị trí tư vấn và quản lý pháp chế tại những thương hiệu lớn như Trung Nguyên Coffee, Giấy Sài Gòn, Tập đoàn Xây dựng Hòa Bình và Quỹ ASIF Foundation, ông sở hữu am hiểu sâu sắc về vận hành nội bộ, hoạt động đầu tư, xây dựng dự án cũng như cơ chế quản trị của các tổ chức xã hội phi lợi nhuận.",
     initials: "NTV",
     order: 1,
+    image: "/doi-ngu/nguyen-the-vu.jpg",
+    highlights: [
+      {
+        title: "Tận tâm",
+        description:
+          "Luôn đồng hành, lắng nghe và đặt lợi ích hợp pháp cùng sự an toàn của khách hàng làm trọng tâm trong mọi tư vấn pháp lý.",
+      },
+      {
+        title: "Minh bạch",
+        description:
+          "Rõ ràng về phương án, quy trình, rủi ro pháp lý và chi phí dịch vụ, mang lại sự tin tưởng tuyệt đối cho đối tác và khách hàng.",
+      },
+      {
+        title: "Thực chiến & Toàn diện",
+        description:
+          "Kết hợp giữa lý luận pháp lý vững chắc và kinh nghiệm quản trị thực tế từ các tập đoàn đa ngành.",
+      },
+    ],
+    expertise: [
+      "Tư vấn Pháp lý Doanh nghiệp, Đầu tư & M&A",
+      "Luật Bất động sản, Xây dựng & Dự án",
+      "Tố tụng & Giải quyết Tranh chấp Thương mại / Đất đai",
+      "Cố vấn Pháp lý & Quản trị cho các Tổ chức Xã hội, Doanh nghiệp Xã hội (DNXH)",
+    ],
   },
 ];
 
