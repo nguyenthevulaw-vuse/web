@@ -20,7 +20,7 @@ const commitments = [
     icon: MessageSquareText,
     title: "Tư vấn rõ ràng, dễ hiểu",
     description:
-      "Luật sư giải thích quy định pháp luật và phương án xử lý bằng ngôn ngữ dễ hiểu, giúp khách hàng nắm rõ quyền lợi trước khi quyết định.",
+      "Luật sư giải thích quy định pháp luật và phương án xử lý bằng ngôn ngữ dễ hiểu, giúp khách hàng nắm rõ quyền lợi và tự tin đưa ra quyết định mang tính chiến lược cho riêng mình.",
   },
   {
     icon: Lock,

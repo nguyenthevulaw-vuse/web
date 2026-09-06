@@ -21,8 +21,12 @@ export const siteConfig = {
   shortName: "NTVLaw",
   tradingName: "NTV LAW",
   tagline: "Your Trusted Legal Partner",
+  // Nội dung mô tả công ty — đã rà soát để bám sát Tầm nhìn (nâng cao nhận
+  // thức, năng lực pháp lý cho khách hàng và cộng đồng) và Sứ mệnh (giải
+  // pháp pháp lý hiệu quả, thiết kế riêng theo nhu cầu từng khách hàng) ở
+  // trang Giới thiệu — dùng chung cho Hero, Footer, CTA và meta mô tả trang.
   description:
-    "NTVLaw là công ty luật cung cấp dịch vụ tư vấn pháp lý, tham gia tố tụng và đại diện ngoài tố tụng cho doanh nghiệp và cá nhân, đồng thời chia sẻ kiến thức pháp luật hữu ích tới cộng đồng.",
+    "NTVLaw đồng hành cùng doanh nghiệp và cá nhân bằng giải pháp pháp lý hiệu quả, tư vấn, tham gia tố tụng và đại diện ngoài tố tụng theo đúng nhu cầu của từng khách hàng, đồng thời chia sẻ kiến thức pháp luật hữu ích tới cộng đồng.",
   url: "https://www.ntvlaw.vn",
   locale: "vi_VN",
 
