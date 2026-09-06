@@ -345,6 +345,20 @@ export const articles: Article[] = [
     published_at: "2026-09-04",
     image: "/lao-dong/lao-dong.jpg",
   },
+  {
+    id: "15",
+    slug: "he-thong-toa-an-nhan-dan-sau-cai-cach-2025",
+    title:
+      "Hệ thống Toà án nhân dân Việt Nam sau cải cách 2025: Cẩm nang hiểu đúng cho người dân và doanh nghiệp",
+    excerpt:
+      "Từ 1/7/2025, không còn Toà án nhân dân cấp huyện và cấp cao — thay vào đó là mô hình toà án gọn hơn với Toà án nhân dân khu vực mới, ảnh hưởng trực tiếp đến việc bạn nên nộp đơn khởi kiện ở đâu.",
+    content:
+      "Theo Luật Tổ chức Toà án nhân dân (Văn bản hợp nhất số 82/VBHN-VPQH), Toà án nhân dân là cơ quan duy nhất nhân danh Nhà nước phán xử đúng - sai, có tội - vô tội trong một tranh chấp; hệ thống hiện nay gồm 4 nhóm: Toà án nhân dân tối cao, Toà án nhân dân cấp tỉnh, Toà án nhân dân khu vực (thay thế Toà án nhân dân cấp huyện đã bị xoá bỏ từ 1/7/2025 theo Luật số 81/2025/QH15), cùng Toà án chuyên biệt tại Trung tâm tài chính quốc tế và các Toà án quân sự. Toà án nhân dân khu vực là 'cửa vào' gần dân nhất, giải quyết sơ thẩm phần lớn tranh chấp hợp đồng, dân sự, lao động, kinh doanh - thương mại, và tại một số nơi còn có Toà Phục hồi - phá sản, Toà Sở hữu trí tuệ chuyên trách; Toà án nhân dân cấp tỉnh xét xử sơ thẩm các vụ án hình sự nghiêm trọng và phúc thẩm bản án của Toà án khu vực bị kháng cáo, kháng nghị; Toà án nhân dân tối cao là 'trạm cuối' giám đốc thẩm, tái thẩm và phát triển án lệ để bảo đảm áp dụng thống nhất pháp luật. Một vụ án thường trải qua 3 chặng dễ nhầm lẫn: sơ thẩm (lần xét xử đầu tiên), phúc thẩm (khi có kháng cáo, kháng nghị trong thời hạn luật định, thường 15 ngày, nếu không thì bản án sơ thẩm có hiệu lực ngay), và giám đốc thẩm/tái thẩm — không phải cấp xét xử thứ ba mà là thủ tục đặc biệt xét lại bản án đã có hiệu lực, chỉ người có thẩm quyền (như Chánh án Toà án nhân dân tối cao, cấp tỉnh) mới được kháng nghị chứ không phải quyền đương nhiên của người dân. Thẩm phán nay chỉ còn 2 ngạch (Thẩm phán Toà án nhân dân tối cao và Thẩm phán Toà án nhân dân), xét xử độc lập chỉ tuân theo pháp luật; Hội thẩm đại diện cho nhân dân và ngang quyền biểu quyết với Thẩm phán khi xét xử sơ thẩm; nguyên tắc bảo đảm tranh tụng cho phép các bên trình bày, đưa chứng cứ và tranh luận công khai tại phiên toà. Hệ thống cũng đang chuyển dần sang toà án điện tử (số hoá hồ sơ, xét xử trực tuyến, công khai bản án) và coi trọng án lệ để các vụ việc tương tự được xử thống nhất. Với người dân và doanh nghiệp, thay đổi quan trọng nhất cần ghi nhớ là: không còn 'toà án quận/huyện' như trước — trước khi khởi kiện, cần xác định đúng Toà án nhân dân khu vực hoặc cấp tỉnh có thẩm quyền để tránh nộp nhầm nơi, mất thời gian và có thể lỡ thời hiệu khởi kiện.",
+    category: "toa-an",
+    author: "LS. Nguyễn Thế Vũ",
+    published_at: "2026-09-05",
+    image: "/toa-an/toa-an.jpg",
+  },
 ];
 
 export const faqs: FaqItem[] = [

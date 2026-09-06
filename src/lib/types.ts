@@ -38,7 +38,8 @@ export type ArticleCategory =
   | "dat-dai"
   | "hon-nhan-gia-dinh"
   | "hinh-su"
-  | "thue";
+  | "thue"
+  | "toa-an";
 
 export type Article = {
   id: string;
@@ -80,5 +81,6 @@ export const categoryLabels: Record<ArticleCategory | "chung", string> = {
   "dat-dai": "Đất đai - Bất động sản",
   "hon-nhan-gia-dinh": "Hôn nhân & Gia đình",
   "hinh-su": "Hình sự",
+  "toa-an": "Tòa án",
   chung: "Chung",
 };
