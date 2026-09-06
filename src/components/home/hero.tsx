@@ -21,7 +21,7 @@ export function Hero() {
                 aria-hidden
                 className="absolute -inset-x-6 -inset-y-5 -z-10 rounded-3xl border border-ink/10 bg-white shadow-lg shadow-primary/10 sm:-inset-x-8 sm:-inset-y-6"
               />
-              <p className="max-w-xl text-justify text-lg leading-relaxed text-ink/60">
+              <p className="max-w-xl text-center text-lg leading-relaxed text-ink/60">
                 <span aria-hidden className="mr-1 font-serif text-3xl font-bold text-secondary">
                   “
                 </span>
