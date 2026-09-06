@@ -195,6 +195,7 @@ export const articles: Article[] = [
     category: "lao-dong",
     author: "LS. Nguyễn Thế Vũ",
     published_at: "2026-08-12",
+    image: "/lao-dong/lao-dong.jpg",
   },
   {
     id: "3",
@@ -291,6 +292,58 @@ export const articles: Article[] = [
     author: "LS. Nguyễn Thế Vũ",
     published_at: "2026-08-28",
     image: "/thue/thue.jpg",
+  },
+  {
+    id: "11",
+    slug: "giao-ket-hop-dong-lao-dong-dien-tu",
+    title: "Giao kết hợp đồng lao động và hợp đồng lao động điện tử: Những điều doanh nghiệp phải làm đúng",
+    excerpt:
+      "Hợp đồng ký sai loại, thiếu nội dung hay giao kết không đúng hình thức khiến doanh nghiệp mất lợi thế khi tranh chấp và có thể bị xử phạt — kể cả khi giao kết qua phương tiện điện tử.",
+    content:
+      "Dù hai bên đặt tên hợp đồng khác đi (hợp đồng dịch vụ, cộng tác viên, khoán việc...), nếu nội dung thể hiện việc làm có trả công và có sự quản lý, điều hành, giám sát thì vẫn được coi là hợp đồng lao động, doanh nghiệp không thể né tránh nghĩa vụ bảo hiểm, trợ cấp bằng cách đổi tên hợp đồng; pháp luật cũng chỉ cho phép 2 loại hợp đồng là không xác định thời hạn và xác định thời hạn tối đa 36 tháng, hợp đồng xác định thời hạn chỉ được ký thêm tối đa 1 lần, quá 30 ngày kể từ khi hết hạn mà không ký hợp đồng mới thì đương nhiên trở thành không xác định thời hạn, và phụ lục hợp đồng không được dùng để sửa thời hạn. Hợp đồng phải giao kết trước khi người lao động vào làm việc, có đủ nội dung chủ yếu về công việc, tiền lương, bảo hiểm theo quy định, có thể giao kết bằng văn bản, lời nói (dưới 1 tháng) hoặc qua phương tiện điện tử — hợp đồng điện tử có giá trị như văn bản nếu bảo đảm dữ liệu toàn vẹn, chữ ký điện tử hợp lệ (ưu tiên chữ ký số) và lưu trữ, kết xuất được khi cơ quan có thẩm quyền yêu cầu. Doanh nghiệp bị nghiêm cấm giữ giấy tờ tùy thân, văn bằng hoặc buộc người lao động đặt cọc tiền, tài sản; về thử việc, chỉ được thử 1 lần cho một công việc, thời hạn tối đa từ 6 đến 180 ngày tùy vị trí, lương thử việc ít nhất 85% lương chính thức. Theo Nghị định 283/2026/NĐ-CP (hiệu lực từ 10/9/2026, thay Nghị định 12/2022/NĐ-CP), giao kết hợp đồng sai loại hoặc thiếu nội dung bị phạt 2-25 triệu đồng, giữ giấy tờ hoặc buộc đặt cọc bị phạt 20-25 triệu đồng, vi phạm về thử việc bị phạt 0,5-5 triệu đồng — mức phạt đối với doanh nghiệp gấp đôi mức cá nhân, kèm theo buộc khắc phục hậu quả thường lớn hơn cả tiền phạt.",
+    category: "lao-dong",
+    author: "LS. Nguyễn Thế Vũ",
+    published_at: "2026-09-01",
+    image: "/lao-dong/lao-dong.jpg",
+  },
+  {
+    id: "12",
+    slug: "xu-ly-ky-luat-lao-dong-dung-quy-dinh",
+    title: "Xử lý kỷ luật lao động đúng quy định: Trình tự, thủ tục và những sai lầm khiến doanh nghiệp thua kiện",
+    excerpt:
+      "Phần lớn quyết định kỷ luật, sa thải bị tòa tuyên trái pháp luật không phải vì thiếu lý do chính đáng, mà vì làm sai trình tự, sai thời hiệu hoặc kỷ luật hành vi chưa được quy định trong nội quy lao động.",
+    content:
+      "Xử lý kỷ luật lao động phải tuân thủ 4 nguyên tắc bắt buộc: doanh nghiệp có nghĩa vụ chứng minh lỗi của người lao động, phải có sự tham gia của tổ chức đại diện người lao động, người lao động có quyền có mặt và tự bào chữa, và việc xử lý phải được lập biên bản; không được kỷ luật khi người lao động đang nghỉ ốm đau, điều dưỡng, bị tạm giữ tạm giam, chờ kết quả điều tra, hoặc là lao động nữ mang thai, nghỉ thai sản, nuôi con dưới 12 tháng tuổi. Pháp luật chỉ cho phép 4 hình thức kỷ luật là khiển trách, kéo dài thời hạn nâng lương không quá 6 tháng, cách chức và sa thải, nghiêm cấm phạt tiền hoặc cắt lương thay cho kỷ luật; sa thải — hình thức nặng nhất — chỉ được áp dụng trong 4 trường hợp luật định (trộm cắp, tham ô, tiết lộ bí mật kinh doanh gây thiệt hại nghiêm trọng, tái phạm khi chưa xóa kỷ luật, tự ý bỏ việc 5 ngày cộng dồn/30 ngày hoặc 20 ngày/365 ngày), và trừ nhóm hành vi nghiêm trọng nhất, các căn cứ sa thải khác đều phải được quy định cụ thể trong nội quy lao động. Thời hiệu xử lý kỷ luật là 6 tháng kể từ ngày vi phạm (12 tháng với hành vi liên quan tài chính, tài sản, bí mật kinh doanh), có thể kéo dài thêm tối đa 60 ngày trong một số trường hợp; trình tự chuẩn gồm 5 bước: lập biên bản vi phạm, thông báo họp trước ít nhất 5 ngày làm việc, tổ chức họp, lập biên bản họp và ra quyết định kỷ luật trong thời hiệu. Khi cần thiết, doanh nghiệp có thể tạm đình chỉ công việc tối đa 15 ngày (90 ngày trường hợp đặc biệt) nhưng phải tạm ứng 50% lương và hoàn trả đủ nếu người lao động không bị kỷ luật. Theo Nghị định 283/2026/NĐ-CP, kỷ luật sai trình tự, thủ tục, thời hiệu bị phạt 5-10 triệu đồng, còn xâm phạm sức khỏe/danh dự, phạt tiền thay kỷ luật hoặc kỷ luật hành vi không có trong nội quy bị phạt 20-40 triệu đồng (gấp đôi với doanh nghiệp), kèm theo buộc nhận lại người lao động và trả đủ lương những ngày nghỉ việc nếu sa thải bị tuyên trái luật.",
+    category: "lao-dong",
+    author: "LS. Nguyễn Thế Vũ",
+    published_at: "2026-09-02",
+    image: "/lao-dong/lao-dong.jpg",
+  },
+  {
+    id: "13",
+    slug: "noi-quy-lao-dong-va-thu-tuc-dang-ky",
+    title: "Nội quy lao động và thủ tục đăng ký: Hướng dẫn doanh nghiệp làm đúng ngay từ đầu",
+    excerpt:
+      "Không có nội quy lao động hợp lệ, đã đăng ký và còn hiệu lực, mọi quyết định kỷ luật của doanh nghiệp — đặc biệt là sa thải — đều có nguy cơ bị tuyên trái pháp luật.",
+    content:
+      "Mọi doanh nghiệp sử dụng lao động đều phải ban hành nội quy lao động; doanh nghiệp từ 10 người lao động trở lên bắt buộc phải có nội quy bằng văn bản, dưới 10 người thì thỏa thuận nội dung kỷ luật và trách nhiệm vật chất ngay trong hợp đồng lao động. Nội quy phải bao gồm đủ 9 nhóm nội dung theo quy định: thời giờ làm việc - nghỉ ngơi, trật tự nơi làm việc, an toàn vệ sinh lao động, phòng chống quấy rối tình dục, bảo vệ tài sản và bí mật kinh doanh, các trường hợp chuyển người lao động làm việc khác, hành vi vi phạm kỷ luật và hình thức xử lý tương ứng, trách nhiệm vật chất, và người có thẩm quyền xử lý kỷ luật — trong đó danh mục hành vi vi phạm cần liệt kê cụ thể, quy định chung chung như 'vi phạm nghiêm trọng' thường không đủ căn cứ khi ra tòa. Trước khi ban hành hoặc sửa đổi nội quy, doanh nghiệp bắt buộc phải tham khảo ý kiến tổ chức đại diện người lao động tại cơ sở; hồ sơ đăng ký gồm văn bản đề nghị, nội quy lao động và văn bản góp ý, phải nộp trong 10 ngày kể từ ngày ban hành tại cơ quan chuyên môn về lao động thuộc UBND cấp tỉnh nơi đăng ký kinh doanh — từ 1/3/2025 là Sở Nội vụ (thay Sở Lao động - Thương binh và Xã hội), và từ 1/7/2025 không còn ủy quyền cho cấp huyện do mô hình chính quyền 2 cấp. Nội quy có hiệu lực sau 15 ngày kể từ khi cơ quan có thẩm quyền nhận đủ hồ sơ, và sau khi ban hành phải được thông báo đến toàn bộ người lao động, niêm yết tại nơi làm việc. Theo Nghị định 283/2026/NĐ-CP, không thông báo hoặc không niêm yết nội quy bị phạt 1-3 triệu đồng, không có nội quy bằng văn bản, không đăng ký, không tham khảo ý kiến tổ chức đại diện người lao động hoặc dùng nội quy hết hiệu lực bị phạt 5-10 triệu đồng (gấp đôi với doanh nghiệp) — và nghiêm trọng hơn, kỷ luật dựa trên nội quy chưa có hiệu lực còn khiến quyết định kỷ luật có nguy cơ bị tuyên trái pháp luật, buộc nhận lại người lao động và bồi thường.",
+    category: "lao-dong",
+    author: "LS. Nguyễn Thế Vũ",
+    published_at: "2026-09-03",
+    image: "/lao-dong/lao-dong.jpg",
+  },
+  {
+    id: "14",
+    slug: "hanh-vi-de-bi-xu-phat-nghi-dinh-283-2026",
+    title: "Những hành vi doanh nghiệp dễ bị xử phạt về lao động và mức phạt theo Nghị định 283/2026/NĐ-CP",
+    excerpt:
+      "Từ 10/9/2026, Nghị định 283/2026/NĐ-CP thay thế Nghị định 12/2022/NĐ-CP, quy định lại toàn bộ mức xử phạt vi phạm hành chính trong lĩnh vực lao động — mức phạt đối với doanh nghiệp gấp đôi cá nhân.",
+    content:
+      "Nguyên tắc quan trọng nhất cần nhớ: mọi mức phạt tiền trong Nghị định 283/2026/NĐ-CP là mức áp dụng cho cá nhân, đối với tổ chức và doanh nghiệp mức phạt gấp 2 lần. Nhóm vi phạm về hợp đồng lao động (giao kết sai loại, thiếu nội dung, giữ giấy tờ, vi phạm thử việc, không trả đủ trợ cấp thôi việc) bị phạt từ 0,5 đến 25 triệu đồng tùy hành vi và số lượng người lao động; nhóm vi phạm về tiền lương (không công khai thang bảng lương, trả lương không đúng hạn/không đủ, trả dưới mức lương tối thiểu vùng) bị phạt 5-75 triệu đồng, kèm buộc trả đủ tiền lương còn thiếu cộng lãi — khoản này thường lớn hơn cả tiền phạt; nhóm vi phạm về thời giờ làm việc, nghỉ ngơi (huy động làm thêm giờ vượt mức cho phép, không bảo đảm nghỉ hằng tuần/hằng năm) bị phạt 2-75 triệu đồng. Nhóm vi phạm về kỷ luật lao động và nội quy bị phạt 1-40 triệu đồng; nhóm vi phạm về bảo hiểm xã hội gồm chậm đóng và trốn đóng bảo hiểm xã hội bắt buộc, bảo hiểm thất nghiệp — hành vi trốn đóng bị xử lý nghiêm khắc và có thể kèm trách nhiệm hình sự trong trường hợp nghiêm trọng; nhóm vi phạm về công đoàn và lao động nước ngoài gồm chậm/không đóng kinh phí công đoàn (phạt 12-20% số phải đóng, tối đa 75 triệu đồng), cản trở hoạt động công đoàn (3-75 triệu đồng) và sử dụng lao động nước ngoài không phép hoặc giấy phép hết hạn (mức phạt cao, có thể kèm trục xuất, đình chỉ hoạt động). Luật sư khuyến nghị doanh nghiệp tự rà soát tuân thủ (compliance audit) định kỳ tối thiểu mỗi năm một lần theo đúng 6 nhóm nêu trên, ưu tiên xử lý các lỗi 'đắt tiền' nhất là trả lương dưới mức tối thiểu, trốn/chậm đóng bảo hiểm xã hội và kinh phí công đoàn, đồng thời cập nhật toàn bộ quy trình nội bộ theo Nghị định 283/2026/NĐ-CP thay vì Nghị định 12/2022/NĐ-CP cũ.",
+    category: "lao-dong",
+    author: "LS. Nguyễn Thế Vũ",
+    published_at: "2026-09-04",
+    image: "/lao-dong/lao-dong.jpg",
   },
 ];
 
