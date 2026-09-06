@@ -8,6 +8,11 @@ export type PracticeArea = {
   order: number;
 };
 
+export type TeamHighlight = {
+  title: string;
+  description: string;
+};
+
 export type TeamMember = {
   id: string;
   slug: string;
@@ -17,6 +22,13 @@ export type TeamMember = {
   bio: string;
   initials: string;
   order: number;
+  // Ảnh chân dung (đường dẫn trong /public) — không bắt buộc, nếu không có
+  // thì hiển thị khối màu với chữ viết tắt (initials) như trước.
+  image?: string;
+  // Ưu điểm nổi bật và lĩnh vực chuyên sâu — không bắt buộc, chỉ hiển thị ở
+  // trang chi tiết luật sư khi có dữ liệu.
+  highlights?: TeamHighlight[];
+  expertise?: string[];
 };
 
 export type ArticleCategory =
