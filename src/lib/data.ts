@@ -107,7 +107,7 @@ export const teamMembers: TeamMember[] = [
     name: "LS. Nguyễn Thế Vũ",
     title: "Giám đốc",
     summary: "Thẻ luật sư số 6396 — Thành viên Đoàn Luật sư TP. Hồ Chí Minh.",
-    bio: "Luật sư Nguyễn Thế Vũ là người sáng lập và Giám đốc NTVLaw, được cấp Thẻ luật sư số 6396 ngày 25/7/2011, thành viên Đoàn Luật sư Thành phố Hồ Chí Minh. Luật sư có nhiều năm kinh nghiệm tư vấn pháp lý doanh nghiệp, tái cấu trúc, quản trị rủi ro và tố tụng tranh chấp. Trải qua các vị trí tư vấn và quản lý pháp chế tại những thương hiệu lớn như Trung Nguyên Coffee, Giấy Sài Gòn, Tập đoàn Xây dựng Hòa Bình và Quỹ ASIF Foundation, ông sở hữu am hiểu sâu sắc về vận hành nội bộ, hoạt động đầu tư, xây dựng dự án cũng như cơ chế quản trị của các tổ chức xã hội phi lợi nhuận.",
+    bio: "Luật sư Nguyễn Thế Vũ là người sáng lập và Giám đốc NTVLaw. Luật sư có nhiều năm kinh nghiệm tư vấn pháp lý doanh nghiệp, tái cấu trúc, quản trị rủi ro và tố tụng tranh chấp. Trải qua các vị trí tư vấn và quản lý pháp chế tại những thương hiệu lớn như Trung Nguyên Coffee, Giấy Sài Gòn, Tập đoàn Xây dựng Hòa Bình và Quỹ ASIF Foundation, ông sở hữu am hiểu sâu sắc về vận hành nội bộ, hoạt động đầu tư, xây dựng dự án cũng như cơ chế quản trị của các tổ chức xã hội phi lợi nhuận.",
     initials: "NTV",
     order: 1,
     image: "/doi-ngu/nguyen-the-vu.jpg",
