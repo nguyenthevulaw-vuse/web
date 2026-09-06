@@ -94,9 +94,7 @@ export default async function AboutPage() {
               </p>
               <p className="mt-2">
                 <span className="font-semibold text-ink">Người đại diện theo pháp luật:</span>{" "}
-                LS. {siteConfig.director.name} — {siteConfig.director.title}, Thẻ luật sư số{" "}
-                {siteConfig.director.barCardNumber} (cấp {siteConfig.director.barCardDate}),
-                thành viên {siteConfig.director.barAssociation}.
+                LS. {siteConfig.director.name} — {siteConfig.director.title}.
               </p>
             </div>
           </div>
