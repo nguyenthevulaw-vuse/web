@@ -67,6 +67,20 @@ export default async function TeamMemberPage({
               <h2 className="text-xl font-bold text-ink">Giới thiệu</h2>
               <p className="prose-legal mt-4 text-base">{member.bio}</p>
 
+              {member.expertise && member.expertise.length > 0 && (
+                <div className="mt-10">
+                  <h2 className="text-xl font-bold text-ink">Lĩnh vực chuyên sâu</h2>
+                  <ul className="mt-5 space-y-3">
+                    {member.expertise.map((item) => (
+                      <li key={item} className="flex items-start gap-3">
+                        <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-primary-dark" />
+                        <span className="text-sm leading-relaxed text-ink/70">{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
               {member.highlights && member.highlights.length > 0 && (
                 <div className="mt-10">
                   <h2 className="text-xl font-bold text-ink">Ưu điểm nổi bật</h2>
@@ -91,20 +105,6 @@ export default async function TeamMemberPage({
                       </div>
                     ))}
                   </div>
-                </div>
-              )}
-
-              {member.expertise && member.expertise.length > 0 && (
-                <div className="mt-10">
-                  <h2 className="text-xl font-bold text-ink">Lĩnh vực chuyên sâu</h2>
-                  <ul className="mt-5 space-y-3">
-                    {member.expertise.map((item) => (
-                      <li key={item} className="flex items-start gap-3">
-                        <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-primary-dark" />
-                        <span className="text-sm leading-relaxed text-ink/70">{item}</span>
-                      </li>
-                    ))}
-                  </ul>
                 </div>
               )}
 
