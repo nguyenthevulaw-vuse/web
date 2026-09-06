@@ -45,14 +45,14 @@ const visionMission = [
   {
     icon: Telescope,
     iconBg: "bg-primary text-white",
-    title: "Tầm nhìn của chúng tôi",
+    title: "Tầm nhìn",
     description:
       "Tầm nhìn của NTVLaw là thúc đẩy sự hiểu biết và năng lực pháp lý cho mọi khách hàng, giúp họ đưa ra các quyết định sáng suốt và mang tính chiến lược. Thông qua các dịch vụ của mình, chúng tôi hướng tới việc xây dựng một cộng đồng có nhận thức pháp lý tốt, có khả năng vận dụng pháp luật để mang lại lợi thế cho bản thân.",
   },
   {
     icon: Rocket,
     iconBg: "bg-accent text-white",
-    title: "Sứ mệnh của chúng tôi",
+    title: "Sứ mệnh",
     description:
       "Sứ mệnh của chúng tôi là mang đến những giải pháp pháp lý hiệu quả nhất, được thiết kế riêng theo nhu cầu của từng khách hàng. Bằng cách kết hợp chuyên môn pháp lý sâu rộng với phương châm lấy khách hàng làm trung tâm, chúng tôi nỗ lực giúp các cá nhân và doanh nghiệp vượt qua khó khăn một cách tự tin và hiệu quả.",
   },
