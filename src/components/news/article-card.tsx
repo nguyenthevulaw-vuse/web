@@ -11,10 +11,26 @@ import { cn, formatDate } from "@/lib/utils";
 // dùng khi bài viết chưa có ảnh minh hoạ riêng (article.image).
 const PLACEHOLDER_BG = ["bg-secondary/15", "bg-primary/15", "bg-accent/15"];
 
-export function ArticleCard({ article, index = 0 }: { article: Article; index?: number }) {
+export function ArticleCard({
+  article,
+  index = 0,
+  href,
+  articleCount,
+}: {
+  article: Article;
+  index?: number;
+  // Đường dẫn tuỳ chỉnh — dùng khi thẻ này đại diện cho cả một chủ đề (xem
+  // bên dưới) và cần trỏ tới trang danh mục thay vì bài viết đơn lẻ.
+  href?: string;
+  // Số bài viết mà thẻ này đại diện — khi > 1 (thẻ đại diện cho một chủ đề
+  // có nhiều bài viết), đổi nhãn "Đọc tiếp" thành "Xem tất cả X bài viết".
+  articleCount?: number;
+}) {
+  const isTopicCard = articleCount !== undefined && articleCount > 1;
+
   return (
     <Link
-      href={`/kien-thuc-phap-luat/${article.slug}`}
+      href={href ?? `/kien-thuc-phap-luat/${article.slug}`}
       className="group flex flex-col overflow-hidden rounded-2xl border border-ink/10 bg-white transition-all hover:-translate-y-1 hover:shadow-lg hover:shadow-primary/5"
     >
       {article.image ? (
@@ -53,7 +69,8 @@ export function ArticleCard({ article, index = 0 }: { article: Article; index?: 
             {formatDate(article.published_at)}
           </span>
           <span className="inline-flex items-center gap-1 font-semibold text-primary-dark opacity-0 transition-opacity group-hover:opacity-100">
-            Đọc tiếp <ArrowRight className="h-3.5 w-3.5" />
+            {isTopicCard ? `Xem tất cả ${articleCount} bài viết` : "Đọc tiếp"}
+            <ArrowRight className="h-3.5 w-3.5" />
           </span>
         </div>
       </div>
