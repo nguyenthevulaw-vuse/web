@@ -17,7 +17,7 @@ export function CtaBanner() {
             </h2>
             <p className="mx-auto mt-3 max-w-xl text-sm leading-relaxed text-ink/70 sm:text-base">
               Đội ngũ luật sư của {siteConfig.name} sẵn sàng lắng nghe và đồng hành cùng
-              bạn tìm ra giải pháp pháp lý tối ưu nhất.
+              bạn tìm ra giải pháp pháp lý hiệu quả nhất, phù hợp với nhu cầu riêng của bạn.
             </p>
             <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
               <Button href="/lien-he" size="lg" variant="secondary">

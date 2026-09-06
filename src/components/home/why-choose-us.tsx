@@ -1,4 +1,4 @@
-import { CheckCircle2, Clock3, ShieldCheck, Users2 } from "lucide-react";
+import { CheckCircle2, Lightbulb, ShieldCheck, Users2 } from "lucide-react";
 import { Container } from "@/components/ui/container";
 import { SectionHeading } from "@/components/ui/section-heading";
 import { cn } from "@/lib/utils";
@@ -21,10 +21,10 @@ const reasons = [
       "Cam kết bảo mật tuyệt đối thông tin khách hàng, tuân thủ nghiêm ngặt quy tắc đạo đức hành nghề luật sư.",
   },
   {
-    icon: Clock3,
-    title: "Phản hồi nhanh chóng",
+    icon: Lightbulb,
+    title: "Trao quyền pháp lý cho khách hàng",
     description:
-      "Tiếp nhận và phản hồi yêu cầu tư vấn trong thời gian sớm nhất, đồng hành cùng khách hàng đến khi vụ việc kết thúc.",
+      "Không chỉ xử lý vụ việc, chúng tôi giúp khách hàng hiểu rõ quyền lợi để chủ động, tự tin hơn trong những quyết định pháp lý về sau.",
   },
   {
     icon: CheckCircle2,
