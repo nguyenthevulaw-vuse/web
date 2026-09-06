@@ -251,7 +251,6 @@ export const articles: Article[] = [
     category: "thue",
     author: "LS. Nguyễn Thế Vũ",
     published_at: "2026-08-25",
-    image: "/thue/mst-thay-doi-2026.jpg",
   },
   {
     id: "8",
@@ -264,7 +263,6 @@ export const articles: Article[] = [
     category: "thue",
     author: "LS. Nguyễn Thế Vũ",
     published_at: "2026-08-26",
-    image: "/thue/sap-nhap-doi-loai-hinh.jpg",
   },
   {
     id: "9",
@@ -277,7 +275,6 @@ export const articles: Article[] = [
     category: "thue",
     author: "LS. Nguyễn Thế Vũ",
     published_at: "2026-08-27",
-    image: "/thue/ho-kinh-doanh-khoa-mst.jpg",
   },
   {
     id: "10",
@@ -290,7 +287,6 @@ export const articles: Article[] = [
     category: "thue",
     author: "LS. Nguyễn Thế Vũ",
     published_at: "2026-08-28",
-    image: "/thue/tmdt-xuyen-bien-gioi.jpg",
   },
 ];
 
