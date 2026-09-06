@@ -23,10 +23,10 @@ export default async function HomePage() {
       <ImageSlider />
       <Hero />
       <ServicesOverview areas={areas} />
+      <LatestNews articles={articles.slice(0, 3)} />
       <WhyChooseUs />
       <Process />
       <TeamPreview members={members} />
-      <LatestNews articles={articles.slice(0, 3)} />
       <Commitments />
       <CtaBanner />
     </>
