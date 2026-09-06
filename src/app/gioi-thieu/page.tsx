@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Compass, Eye, Target, ShieldCheck } from "lucide-react";
+import { Compass, Eye, Target, ShieldCheck, Telescope, Rocket } from "lucide-react";
 import { PageHero } from "@/components/ui/page-hero";
 import { Container } from "@/components/ui/container";
 import { SectionHeading } from "@/components/ui/section-heading";
@@ -38,6 +38,23 @@ const values = [
     icon: Eye,
     title: "Minh bạch",
     description: "Thông tin, chi phí dịch vụ rõ ràng, không phát sinh ẩn trong quá trình hợp tác.",
+  },
+];
+
+const visionMission = [
+  {
+    icon: Telescope,
+    iconBg: "bg-primary text-white",
+    title: "Tầm nhìn của chúng tôi",
+    description:
+      "Tầm nhìn của NTVLaw là thúc đẩy sự hiểu biết và năng lực pháp lý cho mọi khách hàng, giúp họ đưa ra các quyết định sáng suốt và mang tính chiến lược. Thông qua các dịch vụ của mình, chúng tôi hướng tới việc xây dựng một cộng đồng có nhận thức pháp lý tốt, có khả năng vận dụng pháp luật để mang lại lợi thế cho bản thân.",
+  },
+  {
+    icon: Rocket,
+    iconBg: "bg-accent text-white",
+    title: "Sứ mệnh của chúng tôi",
+    description:
+      "Sứ mệnh của chúng tôi là mang đến những giải pháp pháp lý hiệu quả nhất, được thiết kế riêng theo nhu cầu của từng khách hàng. Bằng cách kết hợp chuyên môn pháp lý sâu rộng với phương châm lấy khách hàng làm trung tâm, chúng tôi nỗ lực giúp các cá nhân và doanh nghiệp vượt qua khó khăn một cách tự tin và hiệu quả.",
   },
 ];
 
@@ -111,6 +128,39 @@ export default async function AboutPage() {
                 </div>
               ))}
             </div>
+          </div>
+        </Container>
+      </section>
+
+      <section className="bg-primary/5 py-16 sm:py-20">
+        <Container>
+          <SectionHeading
+            eyebrow="Định hướng"
+            title="Tầm nhìn & Sứ mệnh"
+            description="Kim chỉ nam cho mọi hoạt động tư vấn và đồng hành cùng khách hàng của chúng tôi."
+            align="center"
+            className="mx-auto"
+          />
+          <div className="mt-12 grid gap-6 lg:grid-cols-2 lg:gap-8">
+            {visionMission.map((item) => (
+              <div
+                key={item.title}
+                className="rounded-3xl border border-ink/10 bg-white p-8 shadow-sm sm:p-10"
+              >
+                <span
+                  className={cn(
+                    "flex h-14 w-14 items-center justify-center rounded-2xl",
+                    item.iconBg,
+                  )}
+                >
+                  <item.icon className="h-7 w-7" />
+                </span>
+                <h3 className="mt-6 text-xl font-bold text-ink">{item.title}</h3>
+                <p className="prose-legal mt-4 text-justify text-base">
+                  {item.description}
+                </p>
+              </div>
+            ))}
           </div>
         </Container>
       </section>
