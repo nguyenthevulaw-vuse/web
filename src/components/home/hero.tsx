@@ -14,9 +14,13 @@ export function Hero() {
         <div className="grid items-center gap-14 lg:grid-cols-[1.1fr_0.9fr]">
           <div>
             <div className="relative z-0">
+              {/* Nền ô van chỉ để làm điểm nhấn trang trí phía sau đoạn trích dẫn —
+                  cố ý bo hẹp theo chiều dọc (inset dương) để dòng đầu/dòng cuối
+                  “tràn” ra ngoài viền, không ôm trọn cả đoạn văn; đồng thời kéo
+                  rộng theo chiều ngang (inset âm lớn) để ô van bè ngang hơn. */}
               <div
                 aria-hidden
-                className="absolute -inset-x-6 -inset-y-3 -z-10 rounded-[50%] border border-ink/10 bg-white shadow-lg shadow-primary/10 sm:-inset-x-10 sm:-inset-y-4"
+                className="absolute -inset-x-10 inset-y-6 -z-10 rounded-[50%] border border-ink/10 bg-white shadow-lg shadow-primary/10 sm:-inset-x-20 sm:inset-y-8"
               />
               <p className="max-w-xl text-justify text-lg leading-relaxed text-ink/60">
                 <span aria-hidden className="mr-1 font-serif text-3xl font-bold text-secondary">
