@@ -16,11 +16,17 @@ export function Hero() {
             <div className="relative z-0">
               <div
                 aria-hidden
-                className="absolute -inset-x-8 -inset-y-10 -z-10 rounded-[50%] border-2 border-primary/30 bg-primary/15 sm:-inset-x-16 sm:-inset-y-14"
+                className="absolute -inset-x-6 -inset-y-3 -z-10 rounded-[50%] border border-ink/10 bg-white shadow-lg shadow-primary/10 sm:-inset-x-10 sm:-inset-y-4"
               />
               <p className="max-w-xl text-justify text-lg leading-relaxed text-ink/60">
+                <span aria-hidden className="mr-1 font-serif text-3xl font-bold text-secondary">
+                  “
+                </span>
                 {siteConfig.description} Chúng tôi giúp bạn hiểu rõ quyền lợi và
                 đưa ra quyết định đúng đắn trong mọi vấn đề pháp lý.
+                <span aria-hidden className="ml-1 font-serif text-3xl font-bold text-secondary">
+                  ”
+                </span>
               </p>
             </div>
             <div className="mt-9 flex flex-wrap items-center gap-4">
