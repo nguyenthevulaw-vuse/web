@@ -80,8 +80,23 @@ export default async function ArticleDetailPage({
               </div>
             ) : null}
 
+            {/* Nội dung bài viết được chia theo đoạn bằng dòng trống ("\n\n") —
+                đoạn bắt đầu bằng "## " được coi là tiêu đề phụ. Với các bài viết
+                cũ chỉ có 1 đoạn duy nhất (không có "\n\n"), cách chia này vẫn
+                hiển thị y hệt như trước (1 thẻ <p> duy nhất). */}
             <div className="prose-legal mt-6 border-t border-ink/10 pt-6 text-base">
-              <p>{article.content}</p>
+              {article.content.split("\n\n").map((block, index) =>
+                block.startsWith("## ") ? (
+                  <h2
+                    key={index}
+                    className="mt-8 text-xl font-bold text-ink first:mt-0"
+                  >
+                    {block.slice(3)}
+                  </h2>
+                ) : (
+                  <p key={index}>{block}</p>
+                ),
+              )}
             </div>
 
             <div className="mt-10 rounded-2xl border border-ink/10 bg-primary-dark/[0.03] p-6 text-sm leading-relaxed text-ink/60">
