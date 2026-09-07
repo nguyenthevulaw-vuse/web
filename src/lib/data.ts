@@ -352,8 +352,121 @@ export const articles: Article[] = [
       "Hệ thống Toà án nhân dân Việt Nam sau cải cách 2025: Cẩm nang hiểu đúng cho người dân và doanh nghiệp",
     excerpt:
       "Từ 1/7/2025, không còn Toà án nhân dân cấp huyện và cấp cao — thay vào đó là mô hình toà án gọn hơn với Toà án nhân dân khu vực mới, ảnh hưởng trực tiếp đến việc bạn nên nộp đơn khởi kiện ở đâu.",
-    content:
-      "Theo Luật Tổ chức Toà án nhân dân (Văn bản hợp nhất số 82/VBHN-VPQH), Toà án nhân dân là cơ quan duy nhất nhân danh Nhà nước phán xử đúng - sai, có tội - vô tội trong một tranh chấp; hệ thống hiện nay gồm 4 nhóm: Toà án nhân dân tối cao, Toà án nhân dân cấp tỉnh, Toà án nhân dân khu vực (thay thế Toà án nhân dân cấp huyện đã bị xoá bỏ từ 1/7/2025 theo Luật số 81/2025/QH15), cùng Toà án chuyên biệt tại Trung tâm tài chính quốc tế và các Toà án quân sự. Toà án nhân dân khu vực là 'cửa vào' gần dân nhất, giải quyết sơ thẩm phần lớn tranh chấp hợp đồng, dân sự, lao động, kinh doanh - thương mại, và tại một số nơi còn có Toà Phục hồi - phá sản, Toà Sở hữu trí tuệ chuyên trách; Toà án nhân dân cấp tỉnh xét xử sơ thẩm các vụ án hình sự nghiêm trọng và phúc thẩm bản án của Toà án khu vực bị kháng cáo, kháng nghị; Toà án nhân dân tối cao là 'trạm cuối' giám đốc thẩm, tái thẩm và phát triển án lệ để bảo đảm áp dụng thống nhất pháp luật. Một vụ án thường trải qua 3 chặng dễ nhầm lẫn: sơ thẩm (lần xét xử đầu tiên), phúc thẩm (khi có kháng cáo, kháng nghị trong thời hạn luật định, thường 15 ngày, nếu không thì bản án sơ thẩm có hiệu lực ngay), và giám đốc thẩm/tái thẩm — không phải cấp xét xử thứ ba mà là thủ tục đặc biệt xét lại bản án đã có hiệu lực, chỉ người có thẩm quyền (như Chánh án Toà án nhân dân tối cao, cấp tỉnh) mới được kháng nghị chứ không phải quyền đương nhiên của người dân. Thẩm phán nay chỉ còn 2 ngạch (Thẩm phán Toà án nhân dân tối cao và Thẩm phán Toà án nhân dân), xét xử độc lập chỉ tuân theo pháp luật; Hội thẩm đại diện cho nhân dân và ngang quyền biểu quyết với Thẩm phán khi xét xử sơ thẩm; nguyên tắc bảo đảm tranh tụng cho phép các bên trình bày, đưa chứng cứ và tranh luận công khai tại phiên toà. Hệ thống cũng đang chuyển dần sang toà án điện tử (số hoá hồ sơ, xét xử trực tuyến, công khai bản án) và coi trọng án lệ để các vụ việc tương tự được xử thống nhất. Với người dân và doanh nghiệp, thay đổi quan trọng nhất cần ghi nhớ là: không còn 'toà án quận/huyện' như trước — trước khi khởi kiện, cần xác định đúng Toà án nhân dân khu vực hoặc cấp tỉnh có thẩm quyền để tránh nộp nhầm nơi, mất thời gian và có thể lỡ thời hiệu khởi kiện.",
+    content: `Từ ngày 1/7/2025, bản đồ tư pháp Việt Nam đã thay đổi căn bản: không còn Toà án nhân dân cấp huyện và Toà án nhân dân cấp cao, thay vào đó là mô hình toà án gọn hơn với sự xuất hiện của Toà án nhân dân khu vực. Đây là đợt sắp xếp lại bộ máy toà án lớn nhất trong nhiều thập kỷ, ảnh hưởng trực tiếp đến việc "kiện ở đâu, xử thế nào" của mỗi người dân và doanh nghiệp.
+
+Bài viết này giúp bạn hình dung toàn cảnh hệ thống toà án hiện hành một cách dễ hiểu nhất: toà án làm gì, có mấy cấp, một vụ án đi qua những chặng nào, ai là người ngồi ghế xét xử, và khi có tranh chấp thì bạn nên gõ cửa toà nào.
+
+## Vì sao bạn cần hiểu về hệ thống toà án?
+
+Hình dung bạn cho một người bạn vay 200 triệu đồng, có giấy viết tay hẳn hoi, nhưng đến hạn không đòi được. Hoặc doanh nghiệp của bạn ký hợp đồng cung cấp hàng, giao xong nhưng đối tác "quên" thanh toán. Khi mọi thương lượng đều bế tắc, cánh cửa cuối cùng để đòi lại công bằng chính là toà án.
+
+Nhưng nộp đơn ở đâu? Trước đây câu trả lời quen thuộc là "toà án quận/huyện nơi bị đơn cư trú". Từ 1/7/2025, câu trả lời đó không còn đúng nữa — vì cấp huyện trong hệ thống toà án đã bị xoá bỏ. Nếu không nắm được thay đổi này, bạn có thể nộp nhầm nơi, mất thời gian, thậm chí lỡ thời hiệu khởi kiện.
+
+Đó là lý do việc hiểu đúng cấu trúc toà án hiện hành không còn là chuyện của riêng giới luật sư, mà là kiến thức thiết thực cho bất kỳ ai.
+
+## Toà án là gì và giữ vai trò gì trong bộ máy nhà nước?
+
+Theo Điều 2 Luật Tổ chức Toà án nhân dân, Toà án nhân dân là cơ quan xét xử của nước Cộng hoà xã hội chủ nghĩa Việt Nam, thực hiện quyền tư pháp.
+
+Nói bằng ngôn ngữ đời thường: trong cả bộ máy nhà nước, toà án là nơi duy nhất có quyền nhân danh Nhà nước phán xử ai đúng – ai sai, ai có tội – ai vô tội, ai thắng – ai thua trong một tranh chấp. Một quyết định của cơ quan hành chính có thể bị kiện; nhưng bản án của toà, khi đã có hiệu lực, buộc các bên phải thi hành.
+
+Để dễ nhớ, hãy hình dung con đường của một vụ án hình sự: Công an điều tra → Viện kiểm sát truy tố → TOÀ ÁN xét xử và ra bản án.
+
+Ba cơ quan, ba vai trò khác nhau. Công an thu thập chứng cứ, Viện kiểm sát quyết định có đưa ra xét xử hay không, còn chỉ duy nhất toà án mới có quyền tuyên một người có tội và định hình phạt. Nguyên tắc này bảo vệ bạn: không ai bị coi là có tội cho đến khi có bản án có hiệu lực của toà.
+
+Nhiệm vụ của toà án không dừng ở việc "xử án". Theo Điều 3, toà án còn: xét xử, giải quyết các vụ án hình sự, hành chính, dân sự (bao gồm hôn nhân – gia đình, kinh doanh – thương mại, lao động) và các vụ việc phá sản, phục hồi doanh nghiệp; quyết định những vấn đề liên quan đến quyền con người, quyền và nghĩa vụ của cơ quan, tổ chức, cá nhân; phát hiện và kiến nghị về tính hợp hiến, hợp pháp của văn bản quy phạm pháp luật trong quá trình xét xử; tổng kết thực tiễn xét xử và phát triển án lệ để bảo đảm áp dụng thống nhất pháp luật.
+
+## Cuộc cải cách lớn 2024 – 2026: Từ đâu mà có "toà án khu vực"?
+
+Chỉ trong khoảng hai năm, hệ thống toà án Việt Nam trải qua hai lần thay đổi lớn: từ 1/1/2025, Luật Tổ chức Toà án nhân dân số 34/2024/QH15 có hiệu lực, đặt nền móng cho mô hình tổ chức mới; từ 1/7/2025, Luật số 81/2025/QH15 tiếp tục sửa đổi để đồng bộ với mô hình chính quyền địa phương 2 cấp (tỉnh – xã) — chính thức xoá bỏ Toà án nhân dân cấp huyện và Toà án nhân dân cấp cao, thành lập Toà án nhân dân khu vực. Toàn bộ các quy định hiện hành được hợp nhất trong Văn bản hợp nhất số 82/VBHN-VPQH.
+
+Điểm thay đổi lớn nhất cần nhớ: Trước 1/7/2025, hệ thống gồm 4 loại — TAND tối cao, TAND cấp cao, TAND cấp tỉnh, TAND cấp huyện. Từ 1/7/2025, không còn TAND cấp cao và TAND cấp huyện; thay vào đó là mô hình gọn hơn, trong đó Toà án nhân dân khu vực đảm nhận vai trò xét xử sơ thẩm ở địa phương. Nếu bạn quen với cách gọi "TAND quận 1" hay "toà huyện X", thì nay các toà này đã được thay bằng TAND khu vực trực thuộc TAND cấp tỉnh, thành phố.
+
+## Hệ thống toà án hiện nay gồm những cấp nào?
+
+Theo Điều 4, tổ chức toà án hiện nay bao gồm: Toà án nhân dân tối cao; Toà án nhân dân cấp tỉnh (tỉnh, thành phố trực thuộc trung ương); Toà án nhân dân khu vực; Toà án chuyên biệt tại Trung tâm tài chính quốc tế; các Toà án quân sự (trung ương; quân khu và tương đương; khu vực).
+
+Thẩm quyền thành lập, giải thể TAND cấp tỉnh và TAND khu vực thuộc về Uỷ ban Thường vụ Quốc hội, theo đề nghị của Chánh án TAND tối cao. Đó là lý do khi một đơn vị hành chính mới ra đời, toà án cũng được điều chỉnh theo — ví dụ, khi thành lập thành phố Đồng Nai, Uỷ ban Thường vụ Quốc hội đã lập TAND thành phố Đồng Nai trên cơ sở kế thừa TAND tỉnh Đồng Nai (Nghị quyết 252/NQ-UBTVQH16).
+
+## Toà án nhân dân tối cao — "đỉnh" của hệ thống
+
+TAND tối cao là cơ quan xét xử cao nhất của cả nước (Điều 46). Đây vừa là nơi xét xử cấp cao nhất, vừa là cơ quan quản lý toàn ngành về tổ chức. Nhiệm vụ chính gồm: giám đốc thẩm, tái thẩm các bản án, quyết định đã có hiệu lực bị kháng nghị; phúc thẩm vụ án hình sự mà bản án sơ thẩm của TAND cấp tỉnh bị kháng cáo, kháng nghị; tổng kết thực tiễn xét xử, phát triển án lệ, bảo đảm áp dụng thống nhất pháp luật; quản lý các toà án về mặt tổ chức, đào tạo cán bộ, trình dự án luật, pháp lệnh.
+
+Cơ quan chuyên môn cao nhất bên trong TAND tối cao là Hội đồng Thẩm phán TAND tối cao, gồm từ 23 đến 27 người (Điều 48 – 49). Khi xét xử giám đốc thẩm, tái thẩm, Hội đồng họp với 5 Thẩm phán hoặc toàn thể Thẩm phán. Quyết định của Hội đồng Thẩm phán là quyết định cao nhất, có hiệu lực và không bị kháng nghị — đây thực sự là "trạm cuối" của một vụ án.
+
+TAND tối cao cũng có ba Toà Phúc thẩm đặt tại Hà Nội, Đà Nẵng và Thành phố Hồ Chí Minh (Nghị quyết 85/2025/UBTVQH15).
+
+## Toà án nhân dân cấp tỉnh — cấp trung gian
+
+TAND cấp tỉnh (đặt tại tỉnh, thành phố trực thuộc trung ương) giữ vai trò "bản lề": vừa xét xử sơ thẩm một số vụ án lớn, vừa xét xử phúc thẩm bản án của TAND khu vực. Theo Điều 55, cấp này: sơ thẩm các vụ án hình sự nghiêm trọng theo quy định của luật; phúc thẩm bản án, quyết định của TAND khu vực bị kháng cáo, kháng nghị; giám đốc thẩm, tái thẩm bản án của TAND khu vực đã có hiệu lực bị kháng nghị.
+
+Bên trong TAND cấp tỉnh có các Toà chuyên trách: Toà Hình sự, Toà Dân sự, Toà Hành chính, Toà Kinh tế, Toà Lao động, Toà Gia đình và người chưa thành niên (Điều 56). Số lượng toà chuyên trách không cố định mà tăng giảm theo khối lượng công việc bình quân 3 năm liên tiếp (Thông tư 08/2025/TT-TANDTC): TAND cấp tỉnh có bình quân từ 5.000 vụ/năm trở lên được tổ chức 06 Toà chuyên trách; từ 2.000 đến dưới 5.000 vụ được tổ chức 05 Toà chuyên trách; từ 1.000 đến dưới 2.000 vụ được tổ chức 04 Toà chuyên trách; dưới 1.000 vụ được tổ chức 03 Toà chuyên trách.
+
+## Toà án nhân dân khu vực — "cửa vào" gần dân nhất
+
+Đây là điểm mới quan trọng nhất của cuộc cải cách. TAND khu vực là cấp toà án mới, thay thế cho TAND cấp huyện trước đây. Mỗi toà khu vực phụ trách một địa bàn gồm nhiều đơn vị hành chính cơ sở (phường, xã), do Uỷ ban Thường vụ Quốc hội quyết định phạm vi thẩm quyền theo lãnh thổ.
+
+Với đại đa số người dân và doanh nghiệp, đây chính là "cửa vào" đầu tiên khi có tranh chấp, bởi TAND khu vực giải quyết sơ thẩm phần lớn các vụ án, vụ việc ở địa phương (Điều 59).
+
+TAND khu vực có các toà chuyên trách: Toà Hình sự, Toà Dân sự, Toà Kinh tế, Toà Hành chính, Toà Gia đình và người chưa thành niên. Đặc biệt, tại một số TAND khu vực còn có hai toà chuyên môn hoá cao: Toà Phục hồi, phá sản — chuyên xử lý phá sản và phục hồi doanh nghiệp; và Toà Sở hữu trí tuệ — chuyên xử tranh chấp về sở hữu trí tuệ, chuyển giao công nghệ.
+
+Ý nghĩa đối với doanh nghiệp / tổ chức: tranh chấp hợp đồng, lao động, kinh doanh – thương mại thường được giải quyết sơ thẩm ngay tại TAND khu vực có thẩm quyền; còn vụ việc phá sản hoặc tranh chấp sở hữu trí tuệ có thể được đưa đến TAND khu vực chuyên trách.
+
+## Toà án chuyên biệt và Toà án quân sự
+
+Ngoài các cấp trên, hệ thống còn hai nhánh đặc thù: Toà án chuyên biệt tại Trung tâm tài chính quốc tế (Điều 62) là loại toà hoàn toàn mới, bổ sung theo Luật số 150/2025/QH15 (hiệu lực 1/1/2026), chuyên giải quyết các tranh chấp đặc thù trong lĩnh vực tài chính — trình tự, thủ tục và cả ngôn ngữ sử dụng do Quốc hội quy định riêng. Toà án quân sự (Điều 64 – 72) được tổ chức trong Quân đội nhân dân, xét xử các vụ án hình sự mà bị cáo là quân nhân tại ngũ và một số vụ án khác; hệ thống gồm ba cấp: Toà án quân sự trung ương; Toà án quân sự quân khu và tương đương; Toà án quân sự khu vực.
+
+## Một vụ án "đi" như thế nào? Ba chặng cần phân biệt
+
+Đây là phần dễ gây nhầm lẫn nhất, nhưng lại quan trọng nhất để hiểu quyền của bạn. Pháp luật phân biệt ba loại nhiệm vụ xét xử: sơ thẩm, phúc thẩm, và xét lại bản án đã có hiệu lực.
+
+Sơ thẩm — "vòng 1" của vụ án: Sơ thẩm là lần xét xử đầu tiên (Điều 23). Toà xem xét toàn diện tình tiết, chứng cứ, nghe các bên tranh luận rồi lần đầu ra bản án. Đây là nơi vụ việc được "mổ xẻ" kỹ nhất về mặt sự thật.
+
+Phúc thẩm — "vòng 2" khi có kháng cáo, kháng nghị: Nếu một bên không đồng ý với bản án sơ thẩm, họ có quyền kháng cáo (nếu là đương sự) hoặc Viện kiểm sát kháng nghị, trong thời hạn luật định (thường 15 ngày). Khi đó vụ án được đưa lên toà cấp trên trực tiếp để xét xử lại — gọi là phúc thẩm (Điều 24). Toà phúc thẩm có quyền giữ nguyên, sửa, hoặc huỷ bản án sơ thẩm.
+
+Lưu ý quan trọng: Không phải vụ án nào cũng đi qua phúc thẩm. Nếu hết thời hạn mà không ai kháng cáo, kháng nghị, thì bản án sơ thẩm có hiệu lực ngay và các bên phải thi hành. Vì vậy, để mất thời hạn kháng cáo có thể khiến bạn mất luôn cơ hội "lật ngược" một bản án bất lợi.
+
+Giám đốc thẩm, tái thẩm — không phải "cấp xử thứ ba": Nhiều người lầm tưởng đây là cấp xét xử thứ ba, nhưng không phải (Điều 25). Đây là thủ tục đặc biệt để xem xét lại bản án đã có hiệu lực: giám đốc thẩm là xét lại khi phát hiện bản án có vi phạm pháp luật nghiêm trọng; tái thẩm là xét lại khi xuất hiện tình tiết mới có thể làm thay đổi bản chất vụ án. Điểm mấu chốt: người dân không thể tự mình "xin" giám đốc thẩm như một quyền đương nhiên. Chỉ những người có thẩm quyền (như Chánh án TAND tối cao, Chánh án TAND cấp tỉnh…) mới được kháng nghị theo thủ tục này.
+
+So sánh phúc thẩm với giám đốc thẩm/tái thẩm: về đối tượng, phúc thẩm áp dụng cho bản án chưa có hiệu lực, còn giám đốc thẩm/tái thẩm áp dụng cho bản án đã có hiệu lực; về việc ai khởi động, phúc thẩm do đương sự kháng cáo hoặc Viện kiểm sát kháng nghị, còn giám đốc thẩm/tái thẩm do người có thẩm quyền kháng nghị; về thời hạn, phúc thẩm có thời hạn ngắn theo luật định (ví dụ 15 ngày), còn giám đốc thẩm/tái thẩm có thời hạn dài hơn theo luật tố tụng; về bản chất, phúc thẩm là một cấp xét xử, còn giám đốc thẩm/tái thẩm là thủ tục xét lại đặc biệt.
+
+## Ai là người ngồi ghế xét xử?
+
+Hiểu về những con người trong toà cũng giúp bạn hình dung phiên xử của mình sẽ diễn ra thế nào.
+
+Thẩm phán: Thẩm phán là người được Chủ tịch nước bổ nhiệm để xét xử. Khi nhậm chức, Thẩm phán tuyên thệ trung thành với Tổ quốc, Nhân dân và Hiến pháp, và "thực hành công lý chỉ tuân theo pháp luật". Một thay đổi đáng chú ý: mô hình cũ có 4 loại thẩm phán (sơ cấp, trung cấp, cao cấp và Thẩm phán TAND tối cao); nay gộp lại còn hai ngạch (Điều 90): Thẩm phán TAND tối cao — do Chủ tịch nước bổ nhiệm căn cứ nghị quyết phê chuẩn của Quốc hội; và Thẩm phán Toà án nhân dân — do Chủ tịch nước bổ nhiệm theo đề nghị của Chánh án TAND tối cao, chia theo bậc. Việc bổ nhiệm Thẩm phán TAND lần đầu phải qua kỳ thi tuyển chọn (Điều 91), và khi xét xử, Thẩm phán độc lập, chỉ tuân theo pháp luật (Điều 102).
+
+Hội thẩm — tiếng nói của người dân trong phiên toà: Hội thẩm là đại diện của nhân dân tham gia xét xử, thể hiện tính dân chủ của hoạt động tư pháp (Điều 121 – 134). Điều bất ngờ với nhiều người: khi xét xử sơ thẩm, Hội thẩm ngang quyền với Thẩm phán khi biểu quyết về bản án. Nghĩa là số phận một vụ án ở cấp sơ thẩm không chỉ nằm trong tay thẩm phán chuyên nghiệp.
+
+Thẩm tra viên và Thư ký toà án: Đứng sau mỗi phiên xử còn có Thẩm tra viên (thẩm tra hồ sơ, hỗ trợ giám đốc thẩm, tái thẩm) và Thư ký toà án (ghi biên bản, tống đạt giấy tờ, hỗ trợ thủ tục tố tụng) — Điều 111 – 119.
+
+## Những nguyên tắc bảo vệ quyền lợi của bạn
+
+Dù ở cấp nào, hoạt động xét xử đều phải tuân theo các nguyên tắc nền tảng. Sáu nguyên tắc dưới đây trực tiếp bảo vệ người dân: nguyên tắc độc lập xét xử (Điều 6, Điều 11) nghĩa là Thẩm phán, Hội thẩm xét xử độc lập, chỉ tuân theo pháp luật, không tổ chức, cá nhân nào được can thiệp; nguyên tắc bình đẳng trước pháp luật (Điều 7) nghĩa là mọi người, mọi tổ chức đều bình đẳng trước Toà án; nguyên tắc xét xử 2 cấp (Điều 9) nghĩa là một vụ án có thể được xét xử sơ thẩm rồi phúc thẩm; nguyên tắc có Hội thẩm tham gia (Điều 10) nghĩa là người dân (Hội thẩm) cùng Thẩm phán tham gia xét xử sơ thẩm; nguyên tắc xét xử tập thể, quyết định theo đa số (Điều 12) nghĩa là Hội đồng xét xử biểu quyết, quyết định theo đa số; và nguyên tắc bảo đảm tranh tụng (Điều 13) nghĩa là các bên được trình bày, tranh luận công khai tại phiên toà.
+
+Trong đó, đáng chú ý nhất với người dân là nguyên tắc bảo đảm tranh tụng (Điều 13): bạn — hoặc luật sư của bạn — có quyền trình bày, đưa chứng cứ và tranh luận công khai tại phiên toà. Đây chính là "sân chơi" để bảo vệ quan điểm của mình, và cũng là lý do việc chuẩn bị lập luận, chứng cứ kỹ lưỡng lại quan trọng đến vậy.
+
+## Toà án điện tử và án lệ: hai xu hướng đang định hình
+
+Toà án điện tử: Luật xác định chủ trương xây dựng toà án điện tử (Điều 148): số hoá hồ sơ, xét xử trực tuyến, công khai bản án trên môi trường điện tử. Với doanh nghiệp, điều này đồng nghĩa nhiều thủ tục tố tụng dần chuyển sang trực tuyến — một lý do để chuẩn hoá và lưu trữ hồ sơ điện tử ngay từ bây giờ.
+
+Án lệ: Án lệ là những lập luận, phán quyết trong một bản án đã có hiệu lực, được Hội đồng Thẩm phán TAND tối cao lựa chọn và Chánh án công bố để các toà tham khảo khi xử vụ việc tương tự (Điều 30 – 32). Nói cách khác, án lệ giúp các toà "xử giống nhau cho những trường hợp giống nhau" — tăng tính dự đoán được cho người dân và doanh nghiệp.
+
+## Tra cứu nhanh: Vụ việc của bạn thuộc toà nào?
+
+Bảng dưới đây tổng hợp cấp giải quyết sơ thẩm thường gặp cho một số loại vụ việc phổ biến: tranh chấp hợp đồng, dân sự thông thường thường do TAND khu vực giải quyết sơ thẩm; tranh chấp lao động, kinh doanh – thương mại thường do TAND khu vực (Toà Kinh tế/Lao động nếu có) giải quyết sơ thẩm; phá sản, phục hồi doanh nghiệp do TAND khu vực có Toà Phục hồi, phá sản giải quyết sơ thẩm; tranh chấp sở hữu trí tuệ, chuyển giao công nghệ do TAND khu vực có Toà Sở hữu trí tuệ giải quyết sơ thẩm; vụ án hình sự nghiêm trọng do TAND cấp tỉnh giải quyết sơ thẩm; và vụ án mà bị cáo là quân nhân tại ngũ do Toà án quân sự giải quyết.
+
+Lưu ý: đây là hướng dẫn khái quát. Thẩm quyền cụ thể của từng toà (theo loại việc, theo lãnh thổ, theo giá trị tranh chấp) được quy định chi tiết trong các luật tố tụng và có thể thay đổi tuỳ tình tiết. Với vụ việc quan trọng, bạn nên đối chiếu văn bản luật hiện hành hoặc tham vấn luật sư trước khi nộp đơn.
+
+## Kết luận
+
+Cuộc cải cách 2024 – 2026 đã tạo ra một hệ thống toà án gọn hơn nhưng cũng khác nhiều so với những gì phần lớn người dân quen thuộc. Có bốn ý cốt lõi đáng nhớ: toà án là nơi duy nhất nhân danh Nhà nước phán xử đúng – sai, có tội – vô tội; hệ thống nay gồm TAND tối cao, TAND cấp tỉnh, TAND khu vực, cùng Toà án chuyên biệt và các Toà án quân sự; một vụ án có thể đi qua sơ thẩm, phúc thẩm và — trong trường hợp đặc biệt — giám đốc thẩm/tái thẩm; và TAND khu vực là "cửa vào" gần dân nhất, thay thế cho toà cấp huyện trước đây.
+
+Pháp luật về tổ chức toà án vẫn đang trong quá trình hoàn thiện và có thể tiếp tục được điều chỉnh theo các đơn vị hành chính mới. Khi đối mặt với một vụ việc cụ thể, hãy luôn đối chiếu văn bản luật đang có hiệu lực và cân nhắc tham vấn người có chuyên môn để bảo vệ tốt nhất quyền lợi của mình.
+
+## Nguồn tham khảo
+
+Luật Tổ chức Toà án nhân dân số 34/2024/QH15 (hiệu lực 01/01/2025); Luật số 81/2025/QH15 sửa đổi, bổ sung Luật Tổ chức Toà án nhân dân (hiệu lực 01/7/2025); Văn bản hợp nhất số 82/VBHN-VPQH — Luật Tổ chức Toà án nhân dân; Luật số 150/2025/QH15 về Toà án chuyên biệt tại Trung tâm tài chính quốc tế (hiệu lực 01/01/2026); Nghị quyết 85/2025/UBTVQH15 về cơ cấu tổ chức TAND tối cao; Thông tư 08/2025/TT-TANDTC về tổ chức các Toà chuyên trách; Nghị quyết 252/NQ-UBTVQH16 (ví dụ thành lập toà án theo đơn vị hành chính mới).`,
     category: "toa-an",
     author: "LS. Nguyễn Thế Vũ",
     published_at: "2026-09-05",
