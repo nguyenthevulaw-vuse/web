@@ -247,8 +247,43 @@ export const articles: Article[] = [
     title: "Từ 1/7/2026: Quy định mới về mã số thuế người dân, doanh nghiệp cần biết",
     excerpt:
       "Thông tư 90/2026/TT-BTC thay thế Thông tư 86/2024/TT-BTC từ 1/7/2026, tổ chức lại toàn bộ cơ chế đăng ký thuế theo mô hình hai cấp và số hóa toàn trình.",
-    content:
-      "Thông tư 90/2026/TT-BTC của Bộ Tài chính thiết lập lại toàn bộ cơ chế quản lý đăng ký thuế theo ba trục thay đổi lớn: cơ quan thuế tổ chức theo mô hình hai cấp (Thuế tỉnh, thành phố và Thuế cơ sở) thay cho cấp chi cục cũ; kết quả đăng ký thuế được số hóa gần như toàn trình, cấp bản điện tử có ký số qua Cổng Dịch vụ công quốc gia hoặc VNeID với thời hạn xử lý phổ biến 3 ngày làm việc; và mã số thuế được gắn chặt với dữ liệu định danh cá nhân, đi kèm cơ chế quản lý rủi ro cho phép cơ quan thuế chủ động chuyển trạng thái mã số thuế sang diện chờ xác minh. Mã số thuế được phân thành hai loại 10 số (đơn vị độc lập, cá nhân) và 13 số (đơn vị phụ thuộc, mã số nộp thay). Người dân và doanh nghiệp nên chủ động tra cứu, đối chiếu thông tin đăng ký thuế với Cơ sở dữ liệu quốc gia về dân cư để tránh bị đưa vào diện xác minh, gây gián đoạn hoạt động kinh doanh.",
+    content: `Thông tư 90/2026/TT-BTC chính thức thay thế Thông tư 86/2024/TT-BTC kể từ ngày 1/7/2026, thiết lập lại toàn bộ cơ chế quản lý về đăng ký thuế theo mô hình chính quyền hai cấp và nền hành chính số. Từ thẩm quyền tiếp nhận hồ sơ, việc cấp mã số thuế, đến các quy định về tạm ngừng hoạt động – tất cả đều có những thay đổi quan trọng, đòi hỏi sự tuân thủ nghiêm ngặt để tránh rủi ro pháp lý và gián đoạn hoạt động kinh doanh.
+
+Ngày 30/6/2026, Bộ Tài chính ban hành Thông tư số 90/2026/TT-BTC quy định về đăng ký thuế, hướng dẫn chi tiết Luật Quản lý thuế số 108/2025/QH15 và Nghị định 252/2026/NĐ-CP. Văn bản có hiệu lực từ 1/7/2026 và thay thế hoàn toàn Thông tư 86/2024/TT-BTC.
+
+Có thể xem đây là khung pháp lý nền tảng cho mọi thủ tục liên quan đến mã số thuế – từ khâu cấp mới (đăng ký lần đầu), thay đổi thông tin, tạm ngừng, cho đến khi chấm dứt hiệu lực và khôi phục. Mọi cá nhân có thu nhập và tổ chức, doanh nghiệp đều thuộc đối tượng điều chỉnh của văn bản này.
+
+## Vì sao lần này khác? Ba trục thay đổi lớn
+
+Trục 1 – Cơ quan thuế "hai cấp" thay cho cấp chi cục cũ: điểm thay đổi đáng chú ý nhất là thẩm quyền tiếp nhận hồ sơ. Phù hợp với chủ trương sáp nhập và tinh gọn bộ máy hành chính (loại bỏ hoàn toàn cấp quản lý tương đương cấp huyện), hệ thống cơ quan thuế được tổ chức lại theo mô hình hai cấp: Thuế tỉnh, thành phố (quản lý tổ chức, doanh nghiệp, đơn vị quy mô lớn) và Thuế cơ sở (quản lý hộ kinh doanh, cá nhân, tổ chức nhỏ tại địa bàn). Người nộp thuế cần xác định chính xác cơ quan quản lý trực tiếp để tránh nộp sai thẩm quyền, làm kéo dài thời gian giải quyết thủ tục.
+
+Trục 2 – Số hóa gần như toàn trình: kết quả đăng ký thuế được cấp bản điện tử có ký số, gửi qua Cổng Dịch vụ công quốc gia, Ứng dụng định danh quốc gia (VNeID) hoặc Hệ thống thông tin quản lý thuế, và có giá trị pháp lý như bản giấy. Thời hạn xử lý phổ biến là 3 ngày làm việc. Thông tư còn thiết lập cơ chế đối chiếu tự động với Cơ sở dữ liệu quốc gia về dân cư và một "quy trình dự phòng" bằng bản giấy khi hệ thống gặp sự cố.
+
+Trục 3 – Mã số thuế gắn với "định danh" và tăng cường quản lý rủi ro: nguyên tắc "mỗi tổ chức một mã số thuế duy nhất suốt đời hoạt động; mỗi cá nhân một mã số thuế duy nhất suốt đời" được củng cố. Song song, cơ quan thuế được trao công cụ mạnh: chủ động chuyển trạng thái mã số thuế sang diện "chờ xác minh" rồi "không hoạt động tại địa chỉ đã đăng ký" dựa trên đánh giá rủi ro – kể cả ngay từ khâu đăng ký lần đầu hoặc đăng ký hóa đơn điện tử.
+
+## Cấu trúc mã số thuế: phân loại 10 và 13 số
+
+Thông tư phân định rõ cấu trúc mã số thuế do cơ quan thuế cấp: 10 chữ số cho đơn vị độc lập, cá nhân nước ngoài, người Việt Nam ở nước ngoài chưa có số định danh; 13 chữ số (có dấu gạch ngang) cho đơn vị phụ thuộc và một số nhóm nộp thay.
+
+Một điểm đáng chú ý là việc quy định chi tiết về "mã số thuế nộp thay" – được cấp riêng cho bên khấu trừ, nộp thay thuế của cá nhân/tổ chức khác (ví dụ: sàn thương mại điện tử, bên Việt Nam ký hợp đồng với nhà thầu nước ngoài, tổ chức ủy nhiệm thu…).
+
+Lưu ý quan trọng: khi mã số thuế chính của người nộp thuế thay đổi trạng thái (tạm ngừng, chấm dứt, khôi phục), mã số thuế nộp thay và các mã 13 số đi kèm sẽ tự động cập nhật trạng thái tương ứng. Đối với các đơn vị chủ quản, việc thiếu sót trong cập nhật, xử lý trạng thái mã số thuế của đơn vị phụ thuộc có thể dẫn đến ách tắc toàn bộ thủ tục hành chính của đơn vị chính.
+
+## Điểm mới cần ghi nhớ so với Thông tư 86/2024
+
+So với trước 1/7/2026, Thông tư 90/2026 thay đổi 5 điểm nổi bật: về đầu mối cơ quan thuế, trước đây là Cục Thuế/Chi cục Thuế thì nay là Thuế tỉnh, thành phố và Thuế cơ sở; về hộ kinh doanh, cá nhân kinh doanh, trước đây quy định nằm chung thì nay có hẳn một chương riêng (Chương III); về sàn thương mại điện tử trong nước, trước đây chưa có mã số nộp thay riêng thì nay được cấp mã số nộp thay để khấu trừ, nộp thay; về thuế tối thiểu toàn cầu, trước đây chưa quy định thì nay có mã số 10 số riêng để kê khai bổ sung; và về sự cố hệ thống, trước đây chưa có quy trình chuẩn thì nay đã có quy trình dự phòng bằng bản giấy.
+
+## Khuyến nghị từ chuyên gia ASIF
+
+Với người dân: nên chủ động tra cứu trạng thái mã số thuế trên Cổng Dịch vụ công quốc gia hoặc ứng dụng thuế điện tử, đảm bảo dữ liệu đồng nhất với Cơ sở dữ liệu quốc gia về dân cư. Sự bất đồng bộ dữ liệu là nguyên nhân phổ biến dẫn đến việc chậm trễ xử lý hồ sơ.
+
+Với doanh nghiệp: bộ phận kế toán – pháp chế nên rà soát toàn bộ danh mục mã số thuế của trụ sở chính và các đơn vị phụ thuộc, xác định đúng đầu mối cơ quan thuế mới, và cập nhật quy trình nội bộ theo các mốc thời hạn (2, 3, 7, 10 ngày làm việc) mà Thông tư quy định.
+
+Thông tư 90/2026 không ban hành một sắc thuế mới, nhưng tác động trực tiếp đến các nghiệp vụ quản lý thuế thường xuyên của người nộp thuế. Việc chủ động cập nhật theo thẩm quyền quản lý mới và duy trì đúng trạng thái mã số thuế là giải pháp tối ưu để doanh nghiệp và cá nhân giảm thiểu rủi ro pháp lý.
+
+## Nguồn tham khảo
+
+Thông tư 90/2026/TT-BTC của Bộ Tài chính quy định về đăng ký thuế (hiệu lực 1/7/2026, thay thế Thông tư 86/2024/TT-BTC); Luật Quản lý thuế số 108/2025/QH15; Nghị định 252/2026/NĐ-CP.`,
     category: "thue",
     author: "LS. Nguyễn Thế Vũ",
     published_at: "2026-08-25",
@@ -260,8 +295,47 @@ export const articles: Article[] = [
     title: "Sáp nhập, đổi loại hình, chuyển trụ sở: Doanh nghiệp xử lý mã số thuế thế nào?",
     excerpt:
       "Hướng dẫn nguyên tắc giữ, cấp mới hay chấm dứt mã số thuế khi doanh nghiệp tái cấu trúc theo Thông tư 90/2026/TT-BTC.",
-    content:
-      "Thông tư 90/2026/TT-BTC quy định rõ số phận mã số thuế theo từng hình thức tổ chức lại doanh nghiệp: khi chia, bên bị chia chấm dứt mã số thuế và các đơn vị mới được cấp mã mới; khi tách, bên bị tách giữ nguyên mã số thuế còn đơn vị được tách nhận mã mới; khi sáp nhập, bên nhận giữ nguyên mã số còn bên bị sáp nhập chấm dứt; khi hợp nhất, các bên bị hợp nhất chấm dứt và tổ chức mới được cấp mã mới; riêng chuyển đổi loại hình doanh nghiệp chỉ cần thông báo thay đổi thông tin, giữ nguyên mã số thuế. Khi chuyển trụ sở sang tỉnh, thành phố khác, doanh nghiệp phải nộp hồ sơ tại nơi chuyển đi trước, chờ thông báo chuyển địa điểm rồi mới đăng ký tại nơi chuyển đến trong 10 ngày làm việc — làm sai trình tự này là nguyên nhân phổ biến khiến mã số thuế bị treo. Trước khi giải thể hoặc chấm dứt hoạt động, doanh nghiệp phải hoàn thành đầy đủ nghĩa vụ hóa đơn, khai thuế và nộp thuế.",
+    content: `Với doanh nghiệp và tổ chức, Thông tư 90/2026/TT-BTC vẽ lại toàn bộ chuỗi thủ tục mã số thuế: giữ nguyên khi nào, cấp mới khi nào, chấm dứt khi nào. Một quyết định tái cấu trúc sai bước có thể khiến mã số thuế bị treo, kéo theo hóa đơn và nghĩa vụ thuế đình trệ.
+
+Chương II của Thông tư dành riêng cho tổ chức đăng ký thuế – từ doanh nghiệp, hợp tác xã, đến chi nhánh, văn phòng đại diện và các tổ chức kinh tế đăng ký trực tiếp với cơ quan thuế. Dưới đây là những tình huống doanh nghiệp gặp thường xuyên nhất.
+
+## Đăng ký lần đầu: một cửa liên thông vẫn là "đường chính"
+
+Doanh nghiệp, hợp tác xã, đơn vị phụ thuộc đăng ký thuế cùng lúc với đăng ký kinh doanh theo cơ chế một cửa liên thông – nộp tại cơ quan đăng ký kinh doanh, không phải làm thủ tục riêng với cơ quan thuế. Chỉ những tổ chức thuộc diện đăng ký trực tiếp (tổ chức kinh tế chuyên ngành, đơn vị sự nghiệp có kinh doanh, tổ chức khác…) mới nộp hồ sơ tại Thuế tỉnh, thành phố nơi đặt trụ sở, kèm Tờ khai mẫu 01-ĐKT và các bảng kê tương ứng. Kết quả trả trong 3 ngày làm việc.
+
+## Chuyển trụ sở khác tỉnh: đúng trình tự "đi trước, đến sau"
+
+Đây là nơi nhiều doanh nghiệp vấp. Khi thay đổi địa chỉ làm thay đổi cơ quan thuế quản lý, trình tự bắt buộc là: nộp hồ sơ tại cơ quan thuế nơi chuyển đi trước, chờ Thông báo chuyển địa điểm (mẫu 09-MST), rồi mới đăng ký thay đổi với cơ quan đăng ký kinh doanh và nộp hồ sơ tại nơi chuyển đến trong 10 ngày làm việc.
+
+Rủi ro bị treo mã số thuế: nếu đã hoàn tất thủ tục tại nơi chuyển đi nhưng không nộp hồ sơ ở nơi chuyển đến và cũng không hủy chuyển địa điểm, cơ quan thuế sẽ xác minh thực tế. Kết quả "không hoạt động tại địa chỉ" sẽ đẩy mã số thuế sang trạng thái 06 – đồng nghĩa hóa đơn và nhiều giao dịch bị đình trệ.
+
+## Tổ chức lại doanh nghiệp: nhớ nguyên tắc "giữ – cấp mới – chấm dứt"
+
+Thông tư phân định rất rõ số phận mã số thuế trong từng hình thức tái cấu trúc (Điều 19): khi chia, bên bị chia chấm dứt mã số thuế và các đơn vị mới được cấp mã mới; khi tách, bên bị tách giữ nguyên mã số thuế còn đơn vị được tách nhận mã mới; khi sáp nhập, bên nhận giữ nguyên mã số, không phát sinh đơn vị mới, còn bên bị sáp nhập chấm dứt; khi hợp nhất, các bên bị hợp nhất chấm dứt và tổ chức sau hợp nhất được cấp mã mới; riêng chuyển đổi loại hình doanh nghiệp chỉ cần thông báo thay đổi thông tin trong 10 ngày làm việc, giữ nguyên mã số thuế. Với các trường hợp chuyển đổi mô hình (đơn vị phụ thuộc ↔ đơn vị độc lập, hoặc chuyển sang chủ quản khác), nguyên tắc là cấp mã mới cho đơn vị sau chuyển đổi và chấm dứt mã cũ.
+
+## Trước khi "khai tử" mã số thuế: hoàn thành nghĩa vụ
+
+Doanh nghiệp muốn giải thể, chấm dứt hoạt động chi nhánh phải hoàn tất ba nhóm nghĩa vụ trước: hóa đơn, hồ sơ khai thuế và tiền thuế (xử lý cả số nộp thừa, số thuế giá trị gia tăng chưa khấu trừ). Đơn vị chủ quản chỉ chấm dứt được mã số thuế sau khi toàn bộ đơn vị phụ thuộc đã chấm dứt xong. Trường hợp đơn vị phụ thuộc không đủ khả năng hoàn thành nghĩa vụ, đơn vị chủ quản có thể cam kết kế thừa bằng văn bản điện tử.
+
+Mốc 180 ngày cần lưu tâm: sau khi cơ quan thuế xác nhận doanh nghiệp đã hoàn thành nghĩa vụ để giải thể, nếu quá 180 ngày mà cơ quan đăng ký kinh doanh chưa ghi nhận giải thể, cơ quan thuế có quyền đề nghị cập nhật tình trạng "đã giải thể" làm cơ sở chấm dứt mã số thuế. Đừng để hồ sơ dở dang giữa hai cơ quan.
+
+## Khôi phục mã số thuế: cửa vẫn mở, nhưng có điều kiện
+
+Doanh nghiệp bị thông báo "không hoạt động tại địa chỉ" nhưng chưa bị thu hồi giấy phép và chưa chấm dứt mã số thuế vẫn có thể nộp văn bản đề nghị khôi phục (mẫu 25/ĐKT). Điều kiện tiên quyết: hoàn thành nghĩa vụ khai thuế, nộp thuế, hóa đơn còn thiếu và chấp hành xử phạt. Cơ quan thuế sẽ xác minh thực tế tại trụ sở trước khi khôi phục; nếu quá 30 ngày không hoàn thành nghĩa vụ mà không giải trình được, hồ sơ bị từ chối.
+
+## Khuyến nghị từ chuyên gia ASIF
+
+Lập "bản đồ" mã số thuế nội bộ: liệt kê trụ sở chính, toàn bộ đơn vị phụ thuộc, địa điểm kinh doanh và mã số nộp thay – kèm đầu mối cơ quan thuế quản lý mỗi đơn vị.
+
+Chuẩn hóa quy trình theo mốc ngày: gắn từng thủ tục với thời hạn luật định để không lỡ hạn.
+
+Không tách rời khâu thuế và khâu đăng ký kinh doanh: phần lớn rủi ro treo mã số thuế đến từ việc làm xong một bên mà bỏ dở bên còn lại.
+
+Trong tái cấu trúc doanh nghiệp, mã số thuế không phải chi tiết kỹ thuật – nó là sợi dây pháp lý nối liền nghĩa vụ cũ và tư cách mới. Xử lý đúng trình tự ngay từ đầu rẻ hơn rất nhiều so với gỡ rối khi mã số đã bị khóa.
+
+## Nguồn tham khảo
+
+Thông tư 90/2026/TT-BTC của Bộ Tài chính, Chương II (Điều 19 và các điều liên quan) quy định về đăng ký thuế đối với tổ chức.`,
     category: "thue",
     author: "LS. Nguyễn Thế Vũ",
     published_at: "2026-08-26",
@@ -273,8 +347,45 @@ export const articles: Article[] = [
     title: "Hộ kinh doanh: Vì sao mã số thuế có thể bị khóa dù vẫn đang buôn bán bình thường?",
     excerpt:
       "Thông tư 90/2026/TT-BTC dành hẳn một chương cho hộ kinh doanh, đơn giản hóa thủ tục nhưng siết chặt cơ chế xác minh 'không hoạt động tại địa chỉ'.",
-    content:
-      "Lần đầu tiên hộ kinh doanh, hộ gia đình và cá nhân kinh doanh có một chương riêng trong quy định đăng ký thuế. Rủi ro lớn nhất là bị chuyển sang trạng thái 'chờ xác minh' khi có dấu hiệu như không nộp hồ sơ khai thuế dù đã nhắc, hoặc thư của cơ quan thuế bị trả lại vì không có người nhận; nếu trong 5 ngày làm việc hộ không giải trình được, cơ quan thuế sẽ xác minh thực tế và có thể chuyển mã số thuế sang trạng thái 'không hoạt động tại địa chỉ', ảnh hưởng trực tiếp đến việc xuất hóa đơn. Khi nhận được thông báo qua tài khoản thuế điện tử, EtaxMobile hoặc VNeID, hộ kinh doanh cần nộp hồ sơ còn thiếu hoặc giải trình ngay để được khôi phục nhanh chóng, thay vì chờ bị khóa rồi mới xử lý. Một điểm cần lưu ý: khi mã số thuế kinh doanh của hộ chấm dứt, mã số thuế cá nhân của chủ hộ vẫn được giữ nguyên cho các nghĩa vụ thuế thu nhập cá nhân khác.",
+    content: `Lần đầu tiên hộ kinh doanh và cá nhân kinh doanh có một chương riêng trong quy định về đăng ký thuế. Thông tư 90/2026/TT-BTC vừa đơn giản hóa thủ tục cho nhóm này, vừa siết chặt cơ chế "không hoạt động tại địa chỉ" – nơi rủi ro bị khóa mã số thuế rình rập nhiều nhất.
+
+Chương III của Thông tư 90/2026 dành trọn cho hộ kinh doanh, hộ gia đình và cá nhân kinh doanh. Đây là tín hiệu cho thấy nhóm đối tượng này được quản lý ngày càng bài bản, đặc biệt trong bối cảnh chuyển đổi cách tính thuế và số hóa mạnh mẽ.
+
+## Đăng ký lần đầu: nộp ở đâu?
+
+Hộ kinh doanh đăng ký cùng đăng ký kinh doanh thì theo cơ chế một cửa liên thông. Hộ gia đình, cá nhân kinh doanh không thuộc diện đăng ký kinh doanh nộp hồ sơ (Tờ khai mẫu 03-ĐKT hoặc hồ sơ khai thuế tích hợp) tại Thuế cơ sở theo thứ tự ưu tiên: nơi đặt trụ sở/địa điểm kinh doanh chính; nếu không có địa điểm cố định thì nơi cư trú của cá nhân, hộ; nếu là cho thuê bất động sản thì nơi có bất động sản (nhiều nơi thì chọn một). Nếu hồ sơ đầy đủ và thông tin khớp Cơ sở dữ liệu quốc gia về dân cư, cơ quan thuế cấp Giấy chứng nhận đăng ký thuế trong 3 ngày làm việc.
+
+Thông tin lệch = hồ sơ dừng: nếu thông tin cá nhân không khớp với dữ liệu dân cư, hồ sơ sẽ bị yêu cầu bổ sung. Quá 10 ngày làm việc không điều chỉnh, mã số thuế bị đưa về trạng thái "chờ cập nhật thông tin số định danh cá nhân". Kiểm tra kỹ họ tên, số định danh, ngày sinh trước khi nộp.
+
+## Điểm nóng: "không hoạt động tại địa chỉ đã đăng ký"
+
+Đây là rủi ro lớn nhất với hộ kinh doanh. Cơ quan thuế có thể chuyển mã số thuế sang trạng thái 09 "chờ xác minh" khi rơi vào các dấu hiệu như: không nộp hồ sơ khai thuế dù đã nhắc lần 2; thư của cơ quan thuế bị bưu điện trả lại vì "không có người nhận"; bị phân loại rủi ro cao khi đăng ký hóa đơn điện tử…
+
+Trong 5 ngày làm việc, nếu hộ vẫn không nộp hồ sơ hoặc không giải trình được, cơ quan thuế phối hợp chính quyền cấp xã/công an xác minh thực tế. Kết quả "không hoạt động" sẽ đẩy mã số thuế sang trạng thái 06 và bị công khai trên hệ thống – ảnh hưởng trực tiếp đến việc xuất hóa đơn và uy tín kinh doanh.
+
+Việc phải làm ngay nếu bị chuyển trạng thái: ngay khi nhận được thông báo (qua tài khoản thuế điện tử, email, EtaxMobile hoặc VNeID), hãy nộp hồ sơ khai thuế còn thiếu hoặc đến cơ quan thuế giải trình trước khi cơ quan thuế đi xác minh. Giải trình được chấp thuận thì trạng thái được khôi phục lại ngay – rẻ và nhanh hơn nhiều so với thủ tục khôi phục sau khi đã bị khóa.
+
+## Chấm dứt hoạt động: chủ hộ không mất mã số thuế cá nhân
+
+Khi hộ kinh doanh chấm dứt hoạt động, chuyển lên doanh nghiệp, hoặc bị thu hồi giấy chứng nhận, mã số thuế dùng cho hoạt động kinh doanh sẽ bị chấm dứt. Nhưng có một điểm nhân văn cần nhớ: khi mã số thuế kinh doanh của hộ bị chấm dứt, mã số thuế cá nhân của chủ hộ không bị chấm dứt và vẫn tiếp tục dùng cho các nghĩa vụ thuế khác của cá nhân đó (thuế thu nhập cá nhân, giảm trừ gia cảnh…).
+
+Trước khi nộp hồ sơ chấm dứt tại cơ quan đăng ký kinh doanh, hộ phải đến cơ quan thuế hoàn thành nghĩa vụ hóa đơn, khai thuế, nộp thuế (Điều 28). Riêng hộ chuyển lên doanh nghiệp nhỏ và vừa có thể để doanh nghiệp mới cam kết kế thừa nghĩa vụ thuế.
+
+## Khôi phục mã số thuế
+
+Hộ bị thông báo không hoạt động nhưng chưa bị thu hồi giấy chứng nhận và chưa chấm dứt mã số thuế vẫn được nộp văn bản đề nghị khôi phục (mẫu 25/ĐKT) – với điều kiện hoàn thành nghĩa vụ thuế, hóa đơn còn thiếu. Trường hợp cá nhân bị chấm dứt mã số thuế do bị tuyên bố mất tích/đã chết, nếu sau đó Tòa án hủy quyết định, cơ quan thuế khôi phục mã số thuế trong 3 ngày làm việc.
+
+## Khuyến nghị từ chuyên gia ASIF
+
+Giữ liên lạc "sống" với cơ quan thuế: cập nhật đúng số điện thoại, email, và dùng EtaxMobile/VNeID để không bỏ lỡ thông báo. Phần lớn trường hợp bị khóa mã số thuế bắt nguồn từ việc không nhận được thông báo.
+
+Nộp tờ khai đúng hạn, kể cả khi doanh thu thấp: "không nộp hồ sơ khai thuế dù đã nhắc" là dấu hiệu đầu tiên khiến bị đưa vào diện xác minh.
+
+Thông báo khi tạm ngừng hoặc đổi địa điểm: đừng "biến mất" khỏi địa chỉ đã đăng ký mà không báo – đó chính là kịch bản dẫn đến trạng thái 06.
+
+## Nguồn tham khảo
+
+Thông tư 90/2026/TT-BTC của Bộ Tài chính, Chương III quy định về đăng ký thuế đối với hộ kinh doanh, hộ gia đình và cá nhân kinh doanh.`,
     category: "thue",
     author: "LS. Nguyễn Thế Vũ",
     published_at: "2026-08-27",
@@ -286,8 +397,39 @@ export const articles: Article[] = [
     title: "Sàn thương mại điện tử, nhà cung cấp nước ngoài và 'mã số thuế nộp thay'",
     excerpt:
       "Thông tư 90/2026/TT-BTC lần đầu thiết lập cơ chế mã số thuế riêng cho nền kinh tế số: sàn TMĐT khấu trừ nộp thay, nhà cung cấp nước ngoài và thuế tối thiểu toàn cầu.",
-    content:
-      "Thông tư 90/2026/TT-BTC lần đầu đưa vào hệ thống mã số thuế dành riêng cho hoạt động số và xuyên biên giới. Chủ sàn thương mại điện tử trong nước có chức năng đặt hàng và thanh toán trực tuyến nay thuộc diện khấu trừ, nộp thay thuế cho nhà cung cấp nước ngoài và cá nhân kinh doanh trên nền tảng, được cấp một mã số thuế nộp thay riêng (10 chữ số). Nhà cung cấp nước ngoài phát sinh doanh thu tại Việt Nam qua nền tảng số đăng ký thuế trực tiếp qua Hệ thống thông tin quản lý thuế, nhưng được miễn đăng ký nếu toàn bộ doanh thu đã được bên khác khấu trừ, nộp thay đầy đủ. Đây cũng là lần đầu tiên quy định thuế tối thiểu toàn cầu được nối vào quy trình đăng ký thuế trong nước, áp dụng cho các tập đoàn đa quốc gia. Doanh nghiệp vận hành sàn cần theo dõi sát nghĩa vụ khấu trừ nộp thay để không gián đoạn giao dịch của hàng nghìn người bán trên nền tảng.",
+    content: `Thông tư 90/2026/TT-BTC lần đầu đưa vào một hệ thống mã số thuế dành riêng cho nền kinh tế số: chủ sàn thương mại điện tử khấu trừ nộp thay, nhà cung cấp nước ngoài, và cả cơ chế đăng ký cho thuế tối thiểu toàn cầu. Đây là phần "mới" nhất và cũng phức tạp nhất của văn bản.
+
+Nếu Chương II và III xử lý các đối tượng truyền thống, thì rải rác trong Thông tư – đặc biệt tại Điều 4, Điều 5 và Điều 7 – là một khung quản lý thuế cho hoạt động số và xuyên biên giới, phản chiếu Luật Quản lý thuế 108/2025 và Nghị định 252/2026.
+
+## Chủ sàn TMĐT trong nước: từ trung gian thành "người nộp thay"
+
+Chủ quản nền tảng thương mại điện tử, nền tảng số có chức năng đặt hàng trực tuyến và thanh toán nay thuộc diện khấu trừ và nộp thay thuế cho nhà cung cấp nước ngoài, hộ và cá nhân kinh doanh hoạt động trên nền tảng. Để làm việc đó, sàn được cấp một mã số thuế nộp thay (10 chữ số) riêng, nộp hồ sơ tại cơ quan thuế quản lý trực tiếp bằng Tờ khai mẫu 04.1-ĐKT.
+
+## Nhà cung cấp nước ngoài: đăng ký thẳng qua hệ thống
+
+Tổ chức nước ngoài phát sinh doanh thu tại Việt Nam qua nền tảng số đăng ký thuế trực tiếp qua Hệ thống thông tin quản lý thuế (Tờ khai mẫu 01/NCCNN) và được cấp mã số thuế 10 chữ số. Điểm đáng chú ý mang tính giảm gánh nặng: nhà cung cấp nước ngoài không phải đăng ký thuế nếu toàn bộ doanh thu tại Việt Nam đã được bên khác khấu trừ, nộp thay đầy đủ.
+
+Về việc ai được cấp mã số thuế nào trong hoạt động số và xuyên biên giới: chủ sàn thương mại điện tử trong nước được cấp mã số nộp thay 10 số, đăng ký bằng mẫu 04.1-ĐKT tại cơ quan thuế quản lý; nhà cung cấp nước ngoài được cấp mã số 10 số, đăng ký trực tiếp qua Hệ thống (mẫu 01/NCCNN); bên Việt Nam khấu trừ cho nhà thầu nước ngoài được cấp mã số nộp thay 10 số bằng mẫu 04.1-ĐKT kèm bảng kê hợp đồng; từng nhà thầu nước ngoài (nếu cần) được cấp mã 13 số theo mã nộp thay, kê khai trong bảng kê BK04.1-ĐKT; và tổ chức nộp thuế tối thiểu toàn cầu được cấp mã số 10 số riêng theo Nghị định 236/2025/NĐ-CP.
+
+## Thuế tối thiểu toàn cầu bước vào khâu đăng ký thuế
+
+Tổ chức thuộc diện kê khai, nộp thuế thu nhập doanh nghiệp bổ sung theo cơ chế chống xói mòn cơ sở thuế toàn cầu được cấp mã số thuế 10 chữ số riêng để trực tiếp kê khai. Đây là lần đầu nội dung này được nối vào quy trình đăng ký thuế trong nước, áp dụng cho các tập đoàn đa quốc gia thuộc phạm vi Nghị quyết 107/2023/QH15.
+
+Nghĩa vụ dây chuyền của sàn TMĐT: khi trạng thái mã số thuế chính của sàn thay đổi, mọi mã số nộp thay và mã 13 số đi kèm tự động thay đổi theo. Đặc biệt, khi sàn không còn chức năng đặt hàng trực tuyến và thanh toán, mã số thuế phục vụ nộp thay sẽ bị chấm dứt hiệu lực. Doanh nghiệp vận hành nền tảng cần theo dõi sát để không gián đoạn nghĩa vụ khấu trừ đang thực hiện cho hàng nghìn người bán.
+
+## Khuyến nghị từ chuyên gia ASIF
+
+Với sàn TMĐT: xác định sớm mình có thuộc diện "chức năng đặt hàng + thanh toán" hay không, vì đây là ranh giới phát sinh nghĩa vụ khấu trừ nộp thay. Xây dựng quy trình đối soát mã số thuế người bán ngay trong hệ thống vận hành.
+
+Với doanh nghiệp Việt Nam ký hợp đồng nhà thầu nước ngoài: chuẩn bị bảng kê hợp đồng (BK04.1-ĐKT) đầy đủ; mỗi hợp đồng mới cần kê khai bổ sung thay vì xin mã mới.
+
+Với tập đoàn đa quốc gia: rà soát ngưỡng áp dụng thuế tối thiểu toàn cầu và đăng ký mã số thuế bổ sung đúng thời điểm để tránh rủi ro chậm kê khai.
+
+Nền kinh tế số đặt ra một nguyên tắc quản lý thuế mới: nghĩa vụ đi theo dòng tiền, không đi theo biên giới. Doanh nghiệp nền tảng và xuyên biên giới càng hiểu sớm vai trò "người nộp thay" của mình, càng chủ động biến tuân thủ thành lợi thế cạnh tranh.
+
+## Nguồn tham khảo
+
+Thông tư 90/2026/TT-BTC của Bộ Tài chính (Điều 4, Điều 5, Điều 7); Luật Quản lý thuế số 108/2025/QH15; Nghị định 252/2026/NĐ-CP; Nghị quyết 107/2023/QH15 về thuế tối thiểu toàn cầu; Nghị định 236/2025/NĐ-CP.`,
     category: "thue",
     author: "LS. Nguyễn Thế Vũ",
     published_at: "2026-08-28",
@@ -471,6 +613,91 @@ Luật Tổ chức Toà án nhân dân số 34/2024/QH15 (hiệu lực 01/01/202
     author: "LS. Nguyễn Thế Vũ",
     published_at: "2026-09-05",
     image: "/toa-an/toa-an.jpg",
+  },
+  {
+    id: "16",
+    slug: "cong-doan-quyen-loi-nguoi-lao-dong-trach-nhiem-doanh-nghiep",
+    title:
+      "Công đoàn tại doanh nghiệp: Quyền lợi người lao động và trách nhiệm doanh nghiệp cần biết",
+    excerpt:
+      "Luật Công đoàn 2024 (hiệu lực 1/7/2025) củng cố quyền của người lao động khi tham gia công đoàn, đồng thời làm rõ trách nhiệm đóng kinh phí công đoàn 2% quỹ lương của doanh nghiệp.",
+    content: `Từ 1/7/2025, Luật Công đoàn số 50/2024/QH15 chính thức có hiệu lực, thay thế Luật Công đoàn 2012 và đặt lại toàn bộ khung pháp lý về tổ chức, hoạt động và tài chính công đoàn tại Việt Nam. Với hàng triệu người lao động và hàng trăm nghìn doanh nghiệp, đây không phải là chuyện riêng của "cán bộ công đoàn" mà là những quyền lợi, nghĩa vụ tác động trực tiếp đến quan hệ lao động hằng ngày.
+
+Bài viết này giúp bạn hiểu công đoàn là gì, người lao động có những quyền gì khi tham gia công đoàn, doanh nghiệp có trách nhiệm gì, kinh phí công đoàn được tính và đóng ra sao, và điều gì xảy ra khi vi phạm các quy định này.
+
+## Công đoàn là gì và giữ vai trò gì?
+
+Theo Điều 1 Luật Công đoàn, Công đoàn Việt Nam là tổ chức chính trị - xã hội rộng lớn của giai cấp công nhân và người lao động, được thành lập trên cơ sở tự nguyện, là thành viên trong hệ thống chính trị do Đảng Cộng sản Việt Nam lãnh đạo. Công đoàn đại diện cho người lao động, cùng cơ quan nhà nước, tổ chức kinh tế, tổ chức xã hội chăm lo và bảo vệ quyền, lợi ích hợp pháp, chính đáng của người lao động; đồng thời tham gia quản lý nhà nước, quản lý kinh tế - xã hội, giám sát, phản biện xã hội, tham gia kiểm tra, thanh tra hoạt động của cơ quan, tổ chức, doanh nghiệp về các vấn đề liên quan đến quyền, nghĩa vụ của người lao động.
+
+Luật quy định rõ (Điều 2): công đoàn không chỉ "đại diện" mà còn có quyền, trách nhiệm cụ thể với đoàn viên; người lao động có quyền thành lập, gia nhập và hoạt động công đoàn; Nhà nước, doanh nghiệp có trách nhiệm tương ứng đối với công đoàn; và luật cũng quy định cách giải quyết tranh chấp, xử lý vi phạm pháp luật về công đoàn.
+
+## Hệ thống công đoàn 4 cấp
+
+Theo Điều 8, Công đoàn Việt Nam là tổ chức thống nhất gồm 4 cấp: cấp trung ương là Tổng Liên đoàn Lao động Việt Nam; công đoàn cấp tỉnh, ngành trung ương và tương đương (liên đoàn lao động tỉnh, thành phố trực thuộc trung ương; công đoàn ngành trung ương; công đoàn tập đoàn kinh tế, tổng công ty trực thuộc Tổng Liên đoàn); công đoàn cấp trên trực tiếp cơ sở (liên đoàn lao động cấp huyện; công đoàn ngành địa phương; công đoàn các khu công nghiệp, khu chế xuất, khu kinh tế, khu công nghệ cao…); và công đoàn cấp cơ sở, gồm công đoàn cơ sở và nghiệp đoàn cơ sở — đây chính là cấp gần người lao động nhất, thường được thành lập ngay tại từng doanh nghiệp, cơ quan, đơn vị.
+
+## Quyền thành lập, gia nhập và hoạt động công đoàn
+
+Theo Điều 5, người lao động Việt Nam có quyền thành lập, gia nhập và hoạt động công đoàn; người lao động là công dân nước ngoài làm việc tại Việt Nam theo hợp đồng lao động có thời hạn từ đủ 12 tháng trở lên cũng được gia nhập và hoạt động công đoàn tại công đoàn cơ sở. Việc thành lập, gia nhập thực hiện theo Điều lệ Công đoàn Việt Nam và pháp luật có liên quan.
+
+Đáng chú ý, tổ chức của người lao động tại doanh nghiệp (được thành lập theo Điều 172 Bộ luật Lao động 2019) nếu tự nguyện, tán thành Điều lệ Công đoàn Việt Nam thì có quyền gia nhập Công đoàn Việt Nam (Điều 6): nộp hồ sơ đến công đoàn cấp tỉnh, ngành trung ương và tương đương có thẩm quyền; khi được công nhận, tổ chức này đương nhiên chấm dứt tư cách tổ chức của người lao động tại doanh nghiệp, còn thành viên tự nguyện và đủ điều kiện thì được công nhận là đoàn viên công đoàn.
+
+## Công đoàn có những quyền, trách nhiệm gì với người lao động?
+
+Điều 11 liệt kê hàng loạt quyền, trách nhiệm cụ thể của công đoàn đối với đoàn viên và người lao động, trong đó đáng chú ý nhất là: đại diện cho tập thể người lao động thương lượng tập thể, ký kết và giám sát thực hiện thỏa ước lao động tập thể; đại diện theo pháp luật hoặc theo ủy quyền của người lao động khởi kiện vụ việc lao động tại Tòa án khi quyền, lợi ích hợp pháp bị vi phạm; tham gia xây dựng, giám sát thang lương, bảng lương, định mức lao động, nội quy lao động, quy chế trả lương, thưởng; đối thoại tại nơi làm việc với người sử dụng lao động; tổ chức hoạt động chăm lo đời sống, thăm hỏi khi ốm đau, thai sản, khó khăn, hoạn nạn; hỗ trợ pháp lý miễn phí cho đoàn viên và người lao động (tư vấn pháp luật, tham gia tố tụng với tư cách người bảo vệ quyền và lợi ích hợp pháp, đại diện ngoài tố tụng); và tổ chức, lãnh đạo đình công theo quy định của pháp luật.
+
+Ở nơi chưa có tổ chức đại diện người lao động tại cơ sở, công đoàn cấp trên có quyền, trách nhiệm đại diện, bảo vệ quyền, lợi ích hợp pháp của người lao động ngay khi được yêu cầu hoặc khi phát hiện dấu hiệu vi phạm (Điều 20).
+
+## Quyền của đoàn viên công đoàn
+
+Theo Điều 21, đoàn viên công đoàn có quyền: yêu cầu công đoàn đại diện, bảo vệ khi quyền lợi bị xâm phạm; được thông tin, thảo luận, đề xuất, biểu quyết công việc của công đoàn; ứng cử, đề cử, bầu cử cơ quan lãnh đạo công đoàn; chất vấn cán bộ lãnh đạo công đoàn các cấp; được hỗ trợ pháp lý miễn phí về công đoàn, lao động, việc làm, bảo hiểm xã hội, bảo hiểm thất nghiệp, bảo hiểm y tế, an toàn vệ sinh lao động; được tư vấn, hỗ trợ tìm việc làm, học nghề, thăm hỏi khi ốm đau, thai sản, khó khăn; tham gia hoạt động văn hóa, thể thao do công đoàn tổ chức; và được thụ hưởng chính sách thuê nhà ở xã hội của Tổng Liên đoàn Lao động Việt Nam.
+
+## Trách nhiệm của doanh nghiệp đối với công đoàn
+
+Điều 25 quy định người sử dụng lao động phải: thừa nhận, tôn trọng, tạo điều kiện và không cản trở, gây khó khăn khi người lao động thành lập, gia nhập, hoạt động công đoàn; phối hợp với công đoàn xây dựng, ban hành quy chế phối hợp hoạt động; trao đổi, cung cấp đầy đủ, chính xác, kịp thời thông tin khi công đoàn đề nghị; phối hợp tổ chức đối thoại, thương lượng tập thể, ký kết thỏa ước lao động tập thể; lấy ý kiến công đoàn trước khi quyết định các vấn đề liên quan đến quyền, nghĩa vụ người lao động; phối hợp giải quyết tranh chấp lao động; và bảo đảm điều kiện hoạt động công đoàn, đóng kinh phí công đoàn theo quy định.
+
+Về điều kiện làm việc cụ thể cho cán bộ công đoàn không chuyên trách (Điều 27), doanh nghiệp phải bố trí thời gian: 24 giờ làm việc/tháng cho chủ tịch, phó chủ tịch công đoàn cơ sở; 12 giờ làm việc/tháng cho ủy viên ban chấp hành, tổ trưởng, tổ phó tổ công đoàn để làm công tác công đoàn, và vẫn được trả lương như bình thường; thời gian tham dự đại hội, hội nghị, tập huấn do công đoàn cấp trên triệu tập không tính vào quỹ giờ này, vẫn được trả lương và được công đoàn chi trả chi phí đi lại, ăn ở.
+
+## Bảo vệ cán bộ công đoàn không chuyên trách
+
+Đây là điểm rất thiết thân với người lao động kiêm nhiệm công tác công đoàn. Theo Điều 28: nếu hợp đồng lao động hết hạn trong khi cán bộ công đoàn không chuyên trách đang trong nhiệm kỳ, hợp đồng được gia hạn cho đến hết nhiệm kỳ công đoàn; người sử dụng lao động không được đơn phương chấm dứt hợp đồng, sa thải, buộc thôi việc hoặc chuyển công việc khác đối với cán bộ công đoàn không chuyên trách nếu không có ý kiến thỏa thuận bằng văn bản của công đoàn cấp trên trực tiếp — nếu hai bên không thỏa thuận được thì phải báo cáo cơ quan, tổ chức có thẩm quyền, và chỉ sau 30 ngày kể từ ngày báo cáo, người sử dụng lao động mới có quyền tự quyết định (và chịu trách nhiệm về quyết định đó). Nếu bị chấm dứt hợp đồng, sa thải trái pháp luật, công đoàn có trách nhiệm yêu cầu cơ quan có thẩm quyền can thiệp hoặc đại diện khởi kiện tại Tòa án; nếu không thể trở lại làm việc cũ, cán bộ công đoàn được hỗ trợ tìm việc làm mới và được hỗ trợ tiền từ tài chính công đoàn trong thời gian gián đoạn việc làm.
+
+## Kinh phí công đoàn: ai phải đóng, đóng bao nhiêu, đóng khi nào?
+
+Theo Điều 29, tài chính công đoàn gồm 4 nguồn: đoàn phí do đoàn viên đóng theo Điều lệ Công đoàn Việt Nam; kinh phí công đoàn do cơ quan, tổ chức, đơn vị, doanh nghiệp, hợp tác xã, liên hiệp hợp tác xã đóng bằng 2% quỹ tiền lương làm căn cứ đóng bảo hiểm xã hội bắt buộc cho người lao động; ngân sách nhà nước cấp hỗ trợ; và nguồn thu khác từ hoạt động văn hóa, thể thao, kinh tế của công đoàn, từ đề án Nhà nước giao, viện trợ, tài trợ hợp pháp.
+
+Nghị định 105/2026/NĐ-CP hướng dẫn chi tiết: hầu hết doanh nghiệp, hợp tác xã, cơ quan, tổ chức, đơn vị đóng kinh phí công đoàn mỗi tháng một lần cùng thời điểm đóng bảo hiểm xã hội bắt buộc, chậm nhất là ngày cuối cùng của tháng tiếp theo; riêng doanh nghiệp nông nghiệp, lâm nghiệp, ngư nghiệp, diêm nghiệp trả lương theo chu kỳ sản xuất được đóng theo tháng hoặc 3 tháng một lần trên cơ sở đăng ký với công đoàn. Nguồn đóng được hạch toán vào chi phí hoạt động sản xuất, kinh doanh, dịch vụ của doanh nghiệp (hoặc từ ngân sách/nguồn thu sự nghiệp đối với đơn vị sự nghiệp công lập).
+
+## Chậm đóng, không đóng kinh phí công đoàn: ranh giới cần biết
+
+Nghị định 105/2026/NĐ-CP phân biệt rõ hai mức độ vi phạm (Điều 6): chậm đóng kinh phí công đoàn là chưa đóng hoặc đóng chưa đầy đủ số tiền phải đóng kể từ sau thời hạn quy định; không đóng kinh phí công đoàn là một trong các trường hợp nặng hơn — hoàn toàn không trích, không đóng; hoặc không đóng, đóng không đầy đủ số tiền trong 60 ngày kể từ ngày hết thời hạn đóng; hoặc không đóng, đóng không đầy đủ số người thuộc đối tượng phải đóng trong cùng thời hạn 60 ngày đó. Việc tạm dừng đóng hoặc giảm mức đóng theo đúng thủ tục được duyệt thì không bị coi là chậm đóng hay không đóng.
+
+## Miễn, giảm, tạm dừng đóng kinh phí công đoàn khi doanh nghiệp gặp khó khăn
+
+Luật Công đoàn (Điều 30) và Nghị định 105/2026/NĐ-CP mở ra cơ chế hỗ trợ doanh nghiệp thực sự khó khăn: doanh nghiệp, hợp tác xã, liên hiệp hợp tác xã giải thể hoặc phá sản theo đúng thủ tục pháp luật được xem xét miễn số tiền kinh phí công đoàn chưa đóng; doanh nghiệp đã hết thời gian tạm dừng đóng mà vẫn phải cắt giảm lao động ở mức đáng kể (từ 30% hoặc từ 30 người trở lên với doanh nghiệp dưới 200 lao động, từ 50 người với doanh nghiệp 200-1.000 lao động, từ 100 người với doanh nghiệp trên 1.000 lao động) được xem xét giảm mức đóng tối đa 20%, trong thời gian không quá 6 tháng; doanh nghiệp phải tạm dừng sản xuất kinh doanh từ 30 ngày trở lên do khó khăn kinh tế, thiên tai, hỏa hoạn, dịch bệnh, mất mùa (với ít nhất 50% lao động phải tạm dừng đóng bảo hiểm xã hội bắt buộc, hoặc thiệt hại trên 50% giá trị tài sản) được xem xét tạm dừng đóng kinh phí công đoàn tối đa 12 tháng — hết thời hạn phải đóng bù đầy đủ số tháng đã tạm dừng. Hồ sơ đề nghị gửi Tổng Liên đoàn Lao động Việt Nam hoặc Liên đoàn Lao động cấp tỉnh, được xem xét, trả lời bằng văn bản trong 15 ngày làm việc.
+
+## Các hành vi bị nghiêm cấm
+
+Điều 10 liệt kê một loạt hành vi bị cấm, đáng chú ý với người lao động và doanh nghiệp: cản trở, gây khó khăn trong việc thực hiện quyền công đoàn; phân biệt đối xử vì lý do tham gia công đoàn (sa thải, kỷ luật, đơn phương chấm dứt hợp đồng, phân biệt đối xử về lương, thưởng, thời giờ làm việc, hứa hẹn lợi ích để người lao động không tham gia công đoàn…); sử dụng biện pháp kinh tế, đe dọa tinh thần hoặc can thiệp, thao túng quá trình thành lập, hoạt động của công đoàn; không đóng, chậm đóng, đóng không đúng mức hoặc không đủ số người thuộc đối tượng phải đóng kinh phí công đoàn; và thông tin không đúng sự thật, xuyên tạc, phỉ báng về tổ chức, hoạt động công đoàn.
+
+## Vi phạm bị xử lý thế nào?
+
+Điều 36 Luật Công đoàn quy định: tùy tính chất, mức độ vi phạm, cơ quan, tổ chức, đơn vị, doanh nghiệp, cá nhân vi phạm quy định về công đoàn bị xử lý kỷ luật, xử phạt vi phạm hành chính hoặc truy cứu trách nhiệm hình sự; nếu gây thiệt hại thì phải bồi thường. Theo Nghị định 283/2026/NĐ-CP quy định xử phạt vi phạm hành chính trong lĩnh vực lao động (mức phạt áp dụng cho cá nhân; đối với tổ chức, doanh nghiệp mức phạt gấp 2 lần), nhóm vi phạm về công đoàn bị xử phạt gồm: chậm, không đóng kinh phí công đoàn bị phạt từ 12-20% số tiền phải đóng, tối đa 75 triệu đồng; cản trở hoạt động công đoàn bị phạt từ 3-75 triệu đồng, tùy hành vi.
+
+## Giải quyết tranh chấp về quyền công đoàn
+
+Theo Điều 35, tranh chấp về quyền công đoàn phát sinh trong quan hệ lao động được giải quyết theo pháp luật về lao động; tranh chấp trong quan hệ khác theo pháp luật có liên quan; còn tranh chấp liên quan đến việc người sử dụng lao động không thực hiện hoặc từ chối thực hiện trách nhiệm đối với công đoàn (ngoài hai trường hợp trên) thì công đoàn cơ sở hoặc công đoàn cấp trên trực tiếp có quyền kiến nghị cơ quan nhà nước có thẩm quyền giải quyết.
+
+## Kết luận
+
+Luật Công đoàn 2024 củng cố thêm nhiều quyền thiết thực cho người lao động (đại diện khởi kiện tại Tòa án, hỗ trợ pháp lý miễn phí, bảo vệ cán bộ công đoàn không chuyên trách khỏi bị sa thải tùy tiện) đồng thời làm rõ trách nhiệm tài chính của doanh nghiệp (đóng kinh phí công đoàn 2% quỹ lương, đúng hạn, đúng số người). Với doanh nghiệp, việc chủ động phối hợp với công đoàn cơ sở, đóng kinh phí công đoàn đúng hạn và tôn trọng quyền thành lập, gia nhập công đoàn của người lao động không chỉ là tuân thủ pháp luật mà còn giúp xây dựng quan hệ lao động ổn định, hài hòa, giảm thiểu rủi ro tranh chấp và xử phạt.
+
+## Nguồn tham khảo
+
+Luật Công đoàn số 50/2024/QH15 (hiệu lực 1/7/2025); Nghị định 105/2026/NĐ-CP quy định chi tiết và hướng dẫn thi hành một số điều của Luật Công đoàn về tài chính công đoàn (hiệu lực 16/5/2026); Nghị định 283/2026/NĐ-CP quy định xử phạt vi phạm hành chính trong lĩnh vực lao động; Bộ luật Lao động năm 2019 (Điều 172 về tổ chức của người lao động tại doanh nghiệp).`,
+    category: "lao-dong",
+    author: "LS. Nguyễn Thế Vũ",
+    published_at: "2026-09-07",
+    image: "/lao-dong/lao-dong.jpg",
   },
 ];
 
