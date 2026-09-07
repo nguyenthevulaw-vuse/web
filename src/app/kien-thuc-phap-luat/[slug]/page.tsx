@@ -94,7 +94,9 @@ export default async function ArticleDetailPage({
                     {block.slice(3)}
                   </h2>
                 ) : (
-                  <p key={index}>{block}</p>
+                  <p key={index} className="text-justify">
+                    {block}
+                  </p>
                 ),
               )}
             </div>
