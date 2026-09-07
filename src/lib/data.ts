@@ -273,14 +273,6 @@ Lưu ý quan trọng: khi mã số thuế chính của người nộp thuế tha
 
 So với trước 1/7/2026, Thông tư 90/2026 thay đổi 5 điểm nổi bật: về đầu mối cơ quan thuế, trước đây là Cục Thuế/Chi cục Thuế thì nay là Thuế tỉnh, thành phố và Thuế cơ sở; về hộ kinh doanh, cá nhân kinh doanh, trước đây quy định nằm chung thì nay có hẳn một chương riêng (Chương III); về sàn thương mại điện tử trong nước, trước đây chưa có mã số nộp thay riêng thì nay được cấp mã số nộp thay để khấu trừ, nộp thay; về thuế tối thiểu toàn cầu, trước đây chưa quy định thì nay có mã số 10 số riêng để kê khai bổ sung; và về sự cố hệ thống, trước đây chưa có quy trình chuẩn thì nay đã có quy trình dự phòng bằng bản giấy.
 
-## Khuyến nghị từ chuyên gia ASIF
-
-Với người dân: nên chủ động tra cứu trạng thái mã số thuế trên Cổng Dịch vụ công quốc gia hoặc ứng dụng thuế điện tử, đảm bảo dữ liệu đồng nhất với Cơ sở dữ liệu quốc gia về dân cư. Sự bất đồng bộ dữ liệu là nguyên nhân phổ biến dẫn đến việc chậm trễ xử lý hồ sơ.
-
-Với doanh nghiệp: bộ phận kế toán – pháp chế nên rà soát toàn bộ danh mục mã số thuế của trụ sở chính và các đơn vị phụ thuộc, xác định đúng đầu mối cơ quan thuế mới, và cập nhật quy trình nội bộ theo các mốc thời hạn (2, 3, 7, 10 ngày làm việc) mà Thông tư quy định.
-
-Thông tư 90/2026 không ban hành một sắc thuế mới, nhưng tác động trực tiếp đến các nghiệp vụ quản lý thuế thường xuyên của người nộp thuế. Việc chủ động cập nhật theo thẩm quyền quản lý mới và duy trì đúng trạng thái mã số thuế là giải pháp tối ưu để doanh nghiệp và cá nhân giảm thiểu rủi ro pháp lý.
-
 ## Nguồn tham khảo
 
 Thông tư 90/2026/TT-BTC của Bộ Tài chính quy định về đăng ký thuế (hiệu lực 1/7/2026, thay thế Thông tư 86/2024/TT-BTC); Luật Quản lý thuế số 108/2025/QH15; Nghị định 252/2026/NĐ-CP.`,
@@ -322,16 +314,6 @@ Mốc 180 ngày cần lưu tâm: sau khi cơ quan thuế xác nhận doanh nghi�
 ## Khôi phục mã số thuế: cửa vẫn mở, nhưng có điều kiện
 
 Doanh nghiệp bị thông báo "không hoạt động tại địa chỉ" nhưng chưa bị thu hồi giấy phép và chưa chấm dứt mã số thuế vẫn có thể nộp văn bản đề nghị khôi phục (mẫu 25/ĐKT). Điều kiện tiên quyết: hoàn thành nghĩa vụ khai thuế, nộp thuế, hóa đơn còn thiếu và chấp hành xử phạt. Cơ quan thuế sẽ xác minh thực tế tại trụ sở trước khi khôi phục; nếu quá 30 ngày không hoàn thành nghĩa vụ mà không giải trình được, hồ sơ bị từ chối.
-
-## Khuyến nghị từ chuyên gia ASIF
-
-Lập "bản đồ" mã số thuế nội bộ: liệt kê trụ sở chính, toàn bộ đơn vị phụ thuộc, địa điểm kinh doanh và mã số nộp thay – kèm đầu mối cơ quan thuế quản lý mỗi đơn vị.
-
-Chuẩn hóa quy trình theo mốc ngày: gắn từng thủ tục với thời hạn luật định để không lỡ hạn.
-
-Không tách rời khâu thuế và khâu đăng ký kinh doanh: phần lớn rủi ro treo mã số thuế đến từ việc làm xong một bên mà bỏ dở bên còn lại.
-
-Trong tái cấu trúc doanh nghiệp, mã số thuế không phải chi tiết kỹ thuật – nó là sợi dây pháp lý nối liền nghĩa vụ cũ và tư cách mới. Xử lý đúng trình tự ngay từ đầu rẻ hơn rất nhiều so với gỡ rối khi mã số đã bị khóa.
 
 ## Nguồn tham khảo
 
@@ -375,14 +357,6 @@ Trước khi nộp hồ sơ chấm dứt tại cơ quan đăng ký kinh doanh, h
 
 Hộ bị thông báo không hoạt động nhưng chưa bị thu hồi giấy chứng nhận và chưa chấm dứt mã số thuế vẫn được nộp văn bản đề nghị khôi phục (mẫu 25/ĐKT) – với điều kiện hoàn thành nghĩa vụ thuế, hóa đơn còn thiếu. Trường hợp cá nhân bị chấm dứt mã số thuế do bị tuyên bố mất tích/đã chết, nếu sau đó Tòa án hủy quyết định, cơ quan thuế khôi phục mã số thuế trong 3 ngày làm việc.
 
-## Khuyến nghị từ chuyên gia ASIF
-
-Giữ liên lạc "sống" với cơ quan thuế: cập nhật đúng số điện thoại, email, và dùng EtaxMobile/VNeID để không bỏ lỡ thông báo. Phần lớn trường hợp bị khóa mã số thuế bắt nguồn từ việc không nhận được thông báo.
-
-Nộp tờ khai đúng hạn, kể cả khi doanh thu thấp: "không nộp hồ sơ khai thuế dù đã nhắc" là dấu hiệu đầu tiên khiến bị đưa vào diện xác minh.
-
-Thông báo khi tạm ngừng hoặc đổi địa điểm: đừng "biến mất" khỏi địa chỉ đã đăng ký mà không báo – đó chính là kịch bản dẫn đến trạng thái 06.
-
 ## Nguồn tham khảo
 
 Thông tư 90/2026/TT-BTC của Bộ Tài chính, Chương III quy định về đăng ký thuế đối với hộ kinh doanh, hộ gia đình và cá nhân kinh doanh.`,
@@ -416,16 +390,6 @@ Về việc ai được cấp mã số thuế nào trong hoạt động số và
 Tổ chức thuộc diện kê khai, nộp thuế thu nhập doanh nghiệp bổ sung theo cơ chế chống xói mòn cơ sở thuế toàn cầu được cấp mã số thuế 10 chữ số riêng để trực tiếp kê khai. Đây là lần đầu nội dung này được nối vào quy trình đăng ký thuế trong nước, áp dụng cho các tập đoàn đa quốc gia thuộc phạm vi Nghị quyết 107/2023/QH15.
 
 Nghĩa vụ dây chuyền của sàn TMĐT: khi trạng thái mã số thuế chính của sàn thay đổi, mọi mã số nộp thay và mã 13 số đi kèm tự động thay đổi theo. Đặc biệt, khi sàn không còn chức năng đặt hàng trực tuyến và thanh toán, mã số thuế phục vụ nộp thay sẽ bị chấm dứt hiệu lực. Doanh nghiệp vận hành nền tảng cần theo dõi sát để không gián đoạn nghĩa vụ khấu trừ đang thực hiện cho hàng nghìn người bán.
-
-## Khuyến nghị từ chuyên gia ASIF
-
-Với sàn TMĐT: xác định sớm mình có thuộc diện "chức năng đặt hàng + thanh toán" hay không, vì đây là ranh giới phát sinh nghĩa vụ khấu trừ nộp thay. Xây dựng quy trình đối soát mã số thuế người bán ngay trong hệ thống vận hành.
-
-Với doanh nghiệp Việt Nam ký hợp đồng nhà thầu nước ngoài: chuẩn bị bảng kê hợp đồng (BK04.1-ĐKT) đầy đủ; mỗi hợp đồng mới cần kê khai bổ sung thay vì xin mã mới.
-
-Với tập đoàn đa quốc gia: rà soát ngưỡng áp dụng thuế tối thiểu toàn cầu và đăng ký mã số thuế bổ sung đúng thời điểm để tránh rủi ro chậm kê khai.
-
-Nền kinh tế số đặt ra một nguyên tắc quản lý thuế mới: nghĩa vụ đi theo dòng tiền, không đi theo biên giới. Doanh nghiệp nền tảng và xuyên biên giới càng hiểu sớm vai trò "người nộp thay" của mình, càng chủ động biến tuân thủ thành lợi thế cạnh tranh.
 
 ## Nguồn tham khảo
 
