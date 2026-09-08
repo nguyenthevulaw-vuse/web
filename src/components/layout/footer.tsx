@@ -27,8 +27,8 @@ export function Footer() {
             <Image
               src="/brand/ntvlaw-logo.png"
               alt={siteConfig.name}
-              width={809}
-              height={651}
+              width={1000}
+              height={833}
               className="h-14 w-auto"
             />
           </Link>
