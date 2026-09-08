@@ -25,8 +25,8 @@ export function Header() {
             <Image
               src="/brand/ntvlaw-logo.png"
               alt={siteConfig.name}
-              width={809}
-              height={651}
+              width={1000}
+              height={833}
               priority
               className="h-12 w-auto shrink-0 sm:h-14"
             />
