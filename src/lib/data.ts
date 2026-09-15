@@ -663,6 +663,97 @@ Luật Công đoàn số 50/2024/QH15 (hiệu lực 1/7/2025); Nghị định 10
     published_at: "2026-09-07",
     image: "/lao-dong/lao-dong.jpg",
   },
+  {
+    id: "17",
+    slug: "khai-sinh-truc-tuyen-lien-thong-4-thu-tuc-tre-duoi-6-tuoi",
+    title:
+      "Từ 01/9/2026: Khai sinh trực tuyến cho trẻ em dưới 6 tuổi có thể thực hiện đồng thời nhiều thủ tục hành chính",
+    excerpt:
+      "Nghị định 301/2026/NĐ-CP mở rộng cơ chế liên thông điện tử khi sinh con lên 4 thủ tục — khai sinh, thường trú, bảo hiểm y tế và cấp thẻ căn cước cho trẻ dưới 6 tuổi — đồng thời liên thông cả thủ tục khai tử.",
+    content: `6 điểm mới đáng chú ý của Nghị định 301/2026/NĐ-CP.
+
+Từ ngày 01/9/2026, cha mẹ có thể nộp hồ sơ trực tuyến để đăng ký khai sinh cho con, đồng thời thực hiện đăng ký thường trú, cấp thẻ bảo hiểm y tế và, nếu có nhu cầu, đề nghị cấp thẻ căn cước cho trẻ dưới 6 tuổi trong cùng một quy trình liên thông.
+
+Ngày 30/7/2026, Chính phủ ban hành Nghị định số 301/2026/NĐ-CP, sửa đổi, bổ sung Nghị định số 63/2024/NĐ-CP về liên thông điện tử hai nhóm thủ tục hành chính gắn với hai sự kiện hộ tịch quan trọng là đăng ký khai sinh và đăng ký khai tử.
+
+## Giảm số lần đi lại khi thực hiện thủ tục cho trẻ mới sinh
+
+Trước đây, khi một đứa trẻ chào đời, cha mẹ thường phải thực hiện nhiều thủ tục tại các cơ quan khác nhau, gồm đăng ký khai sinh, đăng ký thường trú và cấp thẻ bảo hiểm y tế. Mỗi thủ tục có biểu mẫu, hồ sơ và thời hạn xử lý riêng, dẫn đến phát sinh thời gian đi lại và chi phí tuân thủ cho người dân.
+
+Cơ chế liên thông điện tử theo Nghị định số 63/2024/NĐ-CP đã cho phép gộp ba thủ tục nêu trên trong một quy trình. Tuy nhiên, sau khi Luật Căn cước năm 2023 quy định trẻ em dưới 6 tuổi có thể được cấp thẻ căn cước theo nhu cầu, việc tích hợp thêm thủ tục này vào quy trình khai sinh trở thành yêu cầu thực tiễn.
+
+Nghị định 301/2026/NĐ-CP được ban hành nhằm bổ sung nội dung còn thiếu này, đồng thời điều chỉnh thời hạn, trách nhiệm xử lý và cơ chế phối hợp giữa các cơ quan trong hai nhóm thủ tục liên thông về khai sinh và khai tử.
+
+## 6 điểm mới nổi bật của Nghị định 301/2026/NĐ-CP
+
+![Quy trình 4 trong 1 thủ tục hành chính liên thông dành cho trẻ em dưới 6 tuổi: đăng ký khai sinh, đăng ký thường trú, thẻ bảo hiểm y tế và cấp thẻ căn cước công dân](/dan-su/khai-sinh-quy-trinh-4-trong-1.jpg =1536x1024)
+
+## 1. Bổ sung thủ tục cấp thẻ căn cước cho trẻ dưới 6 tuổi
+
+Điểm mới đáng chú ý nhất là nhóm thủ tục khi sinh con được mở rộng từ ba thủ tục lên bốn thủ tục: đăng ký khai sinh, đăng ký thường trú, cấp thẻ bảo hiểm y tế và cấp thẻ căn cước cho trẻ dưới 6 tuổi theo nhu cầu của người đại diện hợp pháp (Điều 1; Điều 6 khoản 4 bổ sung điểm 3a Nghị định 63/2024/NĐ-CP).
+
+Cần lưu ý: việc cấp thẻ căn cước cho trẻ dưới 6 tuổi là thủ tục thực hiện khi có nhu cầu, không phải nghĩa vụ bắt buộc. Khi nộp hồ sơ trực tuyến, cha mẹ hoặc người đại diện hợp pháp có thể tích chọn đề nghị cấp thẻ căn cước; đối với trẻ dưới 6 tuổi, cơ quan công an không thu nhận vân tay, không chụp ảnh khuôn mặt mà sử dụng dữ liệu khai sinh và dữ liệu liên quan đã được xác thực để phục vụ việc cấp thẻ (Điều 6 khoản 4).
+
+## 2. Giảm yêu cầu về giấy tờ bản cứng và chữ ký số trong hồ sơ trực tuyến
+
+Người dân có thể đăng nhập Cổng Dịch vụ công quốc gia hoặc ứng dụng VNeID để nộp hồ sơ. Đối với các thông tin đã có trong cơ sở dữ liệu quốc gia, hệ thống có thể tự động điền hoặc hỗ trợ đối chiếu, qua đó giảm yêu cầu người dân phải kê khai lại nhiều lần.
+
+Không yêu cầu nộp bản giấy trong trường hợp dữ liệu, giấy tờ điện tử đủ điều kiện xử lý, chuyển trọng tâm từ tiền kiểm sang hậu kiểm theo quy định (Điều 3 khoản 1).
+
+Không phải ký số biểu mẫu điện tử nếu người nộp hồ sơ đã đăng nhập, xác thực qua Cổng Dịch vụ công quốc gia hoặc VNeID theo quy định (Điều 3 khoản 3).
+
+## 3. Được xem xét hỗ trợ tài chính khi sinh con ngay tại bước khai sinh
+
+Khi tiếp nhận hồ sơ khai sinh, Chủ tịch Ủy ban nhân dân cấp xã đồng thời xem xét, quyết định việc hỗ trợ tài chính khi sinh con và chi trả cho người mẹ theo quy định của pháp luật về dân số (Điều 6 khoản 2 bổ sung điểm d).
+
+Nội dung này cần được hiểu là cơ chế xem xét, giải quyết trong cùng quy trình khi đáp ứng điều kiện theo pháp luật về dân số, không phải khoản hỗ trợ tự động áp dụng cho mọi trường hợp sinh con.
+
+![Hỗ trợ tài chính khi sinh con qua ứng dụng công dân số quốc gia — chính sách của Nhà nước đồng hành cùng gia đình trẻ](/dan-su/khai-sinh-ho-tro-tai-chinh.jpg =1000x1500)
+
+## 4. Quy định rõ thời hạn giải quyết và trách nhiệm khi chậm trả kết quả
+
+Nghị định 301/2026/NĐ-CP quy định rõ thời hạn giải quyết nhằm hạn chế tình trạng chậm xử lý hồ sơ: nhóm khai sinh, thường trú và thẻ bảo hiểm y tế được giải quyết tối đa 3 ngày làm việc, trường hợp phải xác minh thì tối đa 5 ngày làm việc (Điều 5); nếu chọn làm thêm thẻ căn cước thì tối đa 5 ngày làm việc (Điều 5; Điều 6 khoản 4); riêng khâu đăng ký khai sinh trên hệ thống hộ tịch được giải quyết trong 24 giờ kể từ khi nhận đủ hồ sơ hợp lệ (Điều 6 khoản 1).
+
+Đáng chú ý, nếu quá thời hạn giải quyết, cơ quan có thẩm quyền phải xin lỗi tổ chức, cá nhân bằng văn bản, nêu rõ lý do và hẹn lại ngày trả kết quả (Điều 5 khoản 3; Điều 3 khoản 2). Quy định này góp phần tăng trách nhiệm giải trình trong quá trình xử lý hồ sơ.
+
+## 5. Liên thông thủ tục khai tử, xóa đăng ký thường trú và giải quyết chế độ liên quan
+
+Nhóm thủ tục liên quan đến khai tử gồm đăng ký khai tử, xóa đăng ký thường trú và giải quyết chế độ mai táng phí, tử tuất. Thay vì thực hiện riêng lẻ từng bước, hồ sơ khai tử được chuyển tiếp giữa các cơ quan có thẩm quyền để xử lý các thủ tục tiếp theo theo cơ chế liên thông (Điều 10 sửa đổi Điều 14): sau khi có Trích lục khai tử, cơ quan cư trú tự xóa đăng ký thường trú trong 1 ngày làm việc.
+
+Hồ sơ được chuyển tới đúng cơ quan chi trả chế độ. Nghị định phân định rõ (Điều 2; Điều 10): cơ quan Bảo hiểm xã hội giải quyết trợ cấp mai táng, trợ cấp tuất tối đa 8 ngày làm việc, thôi hưởng trợ cấp tuất hằng tháng tối đa 2 ngày làm việc; ngành Y tế (với người đang hưởng bảo trợ xã hội) hỗ trợ chi phí mai táng tối đa 3 ngày làm việc; ngành Nội vụ (với người có công với cách mạng) giải quyết trợ cấp mai táng, trợ cấp tuất tối đa 18 ngày làm việc.
+
+## 6. Cập nhật thẩm quyền và thuật ngữ theo mô hình tổ chức mới
+
+Nghị định 301/2026/NĐ-CP sửa đổi nhiều cụm từ để phù hợp với mô hình chính quyền địa phương 2 cấp và việc sắp xếp chức năng giữa các bộ, ngành (Điều 15): thay "cấp huyện, cấp xã" thành "cấp xã" — người dân giải quyết thủ tục tại Bộ phận Một cửa cấp xã, không còn cấp huyện; thay "lao động, thương binh và xã hội" thành "nội vụ, y tế", phản ánh việc chuyển chức năng giữa các bộ; thay "Bộ Thông tin và Truyền thông" thành "Bộ Khoa học và Công nghệ".
+
+## Vẫn còn "khoảng trống" và điều cần chờ
+
+Là văn bản có nội dung chuyển tiếp, Nghị định 301/2026/NĐ-CP đặt ra một số mốc thời gian và điều kiện thực hiện mà người dân cần lưu ý để áp dụng đúng quy định.
+
+Chưa áp dụng cơ chế tự động đăng ký khai sinh ngay. Việc Ủy ban nhân dân cấp xã chủ động đăng ký khai sinh cho trẻ khi dữ liệu bệnh viện được kết nối, chia sẻ tự động chỉ áp dụng từ ngày 01/3/2027 (Điều 18 khoản 2).
+
+Tên gọi giấy tờ sẽ được điều chỉnh. Từ ngày 01/3/2027, cụm từ "Trích lục khai tử" được thay bằng "Giấy chứng tử" theo Luật Hộ tịch mới (Điều 18 khoản 2).
+
+Phần mềm dịch vụ công liên thông sẽ được tích hợp thống nhất. Việc tích hợp, thay thế trên Cổng Dịch vụ công quốc gia dự kiến hoàn thiện đến ngày 01/01/2027 (Điều 18 khoản 3), nên giai đoạn chuyển tiếp có thể phát sinh khác biệt về tốc độ xử lý giữa các địa phương.
+
+Hồ sơ nộp trước ngày 01/9/2026 tiếp tục được giải quyết theo Nghị định 63/2024/NĐ-CP, trừ trường hợp người dân đề nghị áp dụng quy định mới (Điều 18 khoản 1).
+
+Hiệu quả thực tế của cơ chế liên thông phụ thuộc vào mức độ sẵn sàng của dữ liệu giấy chứng sinh, giấy báo tử điện tử, khả năng kết nối giữa các hệ thống và hạ tầng số tại từng địa phương. Vì vậy, người dân vẫn nên theo dõi trạng thái hồ sơ và lưu giữ các giấy tờ điện tử cần thiết để bổ sung khi được yêu cầu hợp lệ.
+
+## Khuyến nghị đối với người dân
+
+Từ các thay đổi nêu trên, người dân có thể chủ động chuẩn bị hồ sơ và tài khoản số để sử dụng hiệu quả quy trình liên thông: cài đặt và hoàn tất định danh mức 2 trên tài khoản VNeID của cha hoặc mẹ để thuận tiện cho việc nộp hồ sơ, xác nhận thông tin và nhận thông báo kết quả; chuẩn bị giấy chứng sinh hoặc giấy báo tử ở dạng điện tử để đính kèm khi hệ thống chưa tự động khai thác được dữ liệu từ cơ sở khám chữa bệnh (Điều 4; Điều 8); nếu muốn cấp thẻ căn cước cho trẻ dưới 6 tuổi, cần tích chọn đề nghị ngay khi nộp hồ sơ vì đây là bước thực hiện theo nhu cầu và không mặc nhiên phát sinh trong mọi hồ sơ khai sinh; theo dõi thông báo trên Cổng Dịch vụ công quốc gia, VNeID hoặc tin nhắn điện thoại để kịp thời bổ sung thông tin khi được yêu cầu và biết thời điểm nhận kết quả; trường hợp có người thân qua đời, nên thực hiện đăng ký khai tử trước vì đây là thủ tục khởi đầu để hệ thống chuyển tiếp việc xóa đăng ký thường trú và giải quyết chế độ mai táng phí, tử tuất.
+
+Tóm lại, Nghị định 301/2026/NĐ-CP tiếp tục cụ thể hóa định hướng "người dân chỉ khai một lần, cơ quan nhà nước phối hợp xử lý nhiều việc". Từ ngày 01/9/2026, các thủ tục gắn với việc khai sinh và khai tử được thiết kế theo hướng liên thông, giảm yêu cầu giấy tờ, rút ngắn thời gian xử lý và tăng trách nhiệm giải trình của cơ quan có thẩm quyền. Đây là bước tiến đáng ghi nhận của cải cách hành chính số, đồng thời đòi hỏi sự chuẩn bị đồng bộ về dữ liệu, hạ tầng kỹ thuật và hướng dẫn thực hiện tại địa phương.
+
+## Nguồn tham khảo
+
+Nghị định số 301/2026/NĐ-CP ngày 30/7/2026 của Chính phủ (sửa đổi, bổ sung Nghị định số 63/2024/NĐ-CP ngày 10/6/2024); Luật Căn cước số 26/2023/QH15; Luật Hộ tịch; Luật Cư trú (sửa đổi). Các trích dẫn điều, khoản trong bài dẫn theo bản Nghị định 301/2026/NĐ-CP. Bài viết mang tính phổ biến pháp luật, không thay thế cho tư vấn pháp lý cho từng trường hợp cụ thể.`,
+    category: "dan-su",
+    author: "LS. Nguyễn Thế Vũ",
+    published_at: "2026-09-15",
+    image: "/dan-su/khai-sinh-lien-thong-vneid.jpg",
+  },
 ];
 
 export const faqs: FaqItem[] = [
