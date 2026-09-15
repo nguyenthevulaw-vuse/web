@@ -81,24 +81,47 @@ export default async function ArticleDetailPage({
             ) : null}
 
             {/* Nội dung bài viết được chia theo đoạn bằng dòng trống ("\n\n") —
-                đoạn bắt đầu bằng "## " được coi là tiêu đề phụ. Với các bài viết
-                cũ chỉ có 1 đoạn duy nhất (không có "\n\n"), cách chia này vẫn
-                hiển thị y hệt như trước (1 thẻ <p> duy nhất). */}
+                đoạn bắt đầu bằng "## " được coi là tiêu đề phụ, đoạn dạng
+                "![alt](/duong-dan-anh.jpg =WxH)" được coi là ảnh minh hoạ chèn
+                giữa bài (WxH là kích thước gốc của ảnh, dùng để next/image
+                giữ đúng tỉ lệ). Với các bài viết cũ chỉ có 1 đoạn duy nhất
+                (không có "\n\n"), cách chia này vẫn hiển thị y hệt như trước
+                (1 thẻ <p> duy nhất). */}
             <div className="prose-legal mt-6 border-t border-ink/10 pt-6 text-base">
-              {article.content.split("\n\n").map((block, index) =>
-                block.startsWith("## ") ? (
-                  <h2
-                    key={index}
-                    className="mt-8 text-xl font-bold text-ink first:mt-0"
-                  >
-                    {block.slice(3)}
-                  </h2>
-                ) : (
+              {article.content.split("\n\n").map((block, index) => {
+                const imageMatch = block.match(
+                  /^!\[(.*)\]\((\S+)\s+=(\d+)x(\d+)\)$/,
+                );
+                if (imageMatch) {
+                  const [, alt, src, width, height] = imageMatch;
+                  return (
+                    <Image
+                      key={index}
+                      src={src}
+                      alt={alt}
+                      width={Number(width)}
+                      height={Number(height)}
+                      sizes="(min-width: 1024px) 768px, 100vw"
+                      className="my-8 h-auto w-full rounded-2xl"
+                    />
+                  );
+                }
+                if (block.startsWith("## ")) {
+                  return (
+                    <h2
+                      key={index}
+                      className="mt-8 text-xl font-bold text-ink first:mt-0"
+                    >
+                      {block.slice(3)}
+                    </h2>
+                  );
+                }
+                return (
                   <p key={index} className="text-justify">
                     {block}
                   </p>
-                ),
-              )}
+                );
+              })}
             </div>
 
             <div className="mt-10 rounded-2xl border border-ink/10 bg-primary-dark/[0.03] p-6 text-sm leading-relaxed text-ink/60">
