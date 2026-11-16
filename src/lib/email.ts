@@ -151,24 +151,97 @@ async function sendViaResend(args: MailArgs) {
   }
 }
 
-/** Email thông báo nội bộ cho công ty khi có yêu cầu mới. */
+/**
+ * Email thông báo nội bộ cho công ty khi có yêu cầu mới. Dùng bố cục bảng +
+ * style nội tuyến để hiển thị đẹp, ổn định trên Outlook/Gmail/điện thoại.
+ */
 function buildNotificationHtml({ name, email, phone, subject, message }: ContactSubmission) {
+  const telHref = phone.replace(/[^0-9+]/g, "");
+  const replyHref = `mailto:${email}?subject=${encodeURIComponent(`Phản hồi: ${subject}`)}`;
+  const row = (label: string, value: string, extra = "") => `
+    <tr>
+      <td style="padding:10px 0;border-bottom:1px solid #eef1f0;font-size:13px;color:#6b7684;width:120px;vertical-align:top;">${label}</td>
+      <td style="padding:10px 0;border-bottom:1px solid #eef1f0;font-size:14px;color:#00142b;font-weight:bold;">${value}${extra}</td>
+    </tr>`;
   return `
-    <div style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #00142b; line-height: 1.6;">
-      <h2 style="color: #007f3f; margin: 0 0 12px;">Yêu cầu tư vấn mới từ website ${siteConfig.name}</h2>
-      <table cellpadding="6" style="border-collapse: collapse;">
-        <tr><td><strong>Họ tên</strong></td><td>${escapeHtml(name)}</td></tr>
-        <tr><td><strong>Số điện thoại</strong></td><td>${escapeHtml(phone)}</td></tr>
-        <tr><td><strong>Email</strong></td><td>${escapeHtml(email)}</td></tr>
-        <tr><td><strong>Chủ đề</strong></td><td>${escapeHtml(subject)}</td></tr>
-      </table>
-      <p style="margin-top: 16px;"><strong>Nội dung:</strong></p>
-      <p style="white-space: pre-wrap;">${escapeHtml(message)}</p>
-      <p style="margin-top: 24px; color: #6b6b6d; font-size: 12px;">
-        Email này được gửi tự động từ form Liên hệ trên website ${siteConfig.url}.
-        Bấm "Trả lời" để phản hồi trực tiếp cho khách hàng.
-      </p>
-    </div>
+  <div style="margin:0;padding:0;background-color:#f4f6f5;">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:#f4f6f5;padding:24px 12px;">
+      <tr>
+        <td align="center">
+          <table role="presentation" width="600" cellpadding="0" cellspacing="0" style="width:600px;max-width:100%;background-color:#ffffff;border-radius:14px;overflow:hidden;box-shadow:0 1px 4px rgba(0,20,43,0.08);font-family:Arial,Helvetica,sans-serif;">
+            <!-- Dải tiêu đề -->
+            <tr>
+              <td style="background-color:#00142b;padding:26px 32px;">
+                <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td style="font-size:12px;letter-spacing:1px;text-transform:uppercase;color:#7fe3b0;font-weight:bold;">
+                      ${siteConfig.name} &middot; Yêu cầu tư vấn mới
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="padding-top:6px;">
+                      <span style="display:inline-block;background-color:#f27638;color:#ffffff;font-size:11px;font-weight:bold;padding:4px 10px;border-radius:20px;letter-spacing:0.5px;">KHÁCH HÀNG MỚI</span>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr><td style="background-color:#007f3f;height:4px;line-height:4px;font-size:0;">&nbsp;</td></tr>
+
+            <!-- Thông tin khách -->
+            <tr>
+              <td style="padding:28px 32px 8px;">
+                <h2 style="margin:0 0 4px;font-size:18px;color:#00142b;">Thông tin khách hàng</h2>
+                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-top:8px;">
+                  ${row("Họ tên", escapeHtml(name))}
+                  ${row("Số điện thoại", `<a href="tel:${telHref}" style="color:#045c2e;text-decoration:none;">${escapeHtml(phone)}</a>`)}
+                  ${row("Email", `<a href="mailto:${escapeHtml(email)}" style="color:#045c2e;text-decoration:none;">${escapeHtml(email)}</a>`)}
+                  ${row("Chủ đề", escapeHtml(subject))}
+                </table>
+              </td>
+            </tr>
+
+            <!-- Nội dung -->
+            <tr>
+              <td style="padding:12px 32px 4px;">
+                <div style="font-size:13px;color:#6b7684;font-weight:bold;margin-bottom:8px;">Nội dung yêu cầu</div>
+                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:#f1f9f4;border-left:4px solid #007f3f;border-radius:8px;">
+                  <tr>
+                    <td style="padding:16px 18px;font-size:14px;color:#00142b;line-height:1.7;white-space:pre-wrap;">${escapeHtml(message)}</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- Nút trả lời -->
+            <tr>
+              <td style="padding:22px 32px 30px;">
+                <table role="presentation" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td style="border-radius:8px;background-color:#007f3f;">
+                      <a href="${replyHref}" style="display:inline-block;padding:12px 26px;font-size:15px;font-weight:bold;color:#ffffff;text-decoration:none;">
+                        &#9993;&nbsp; Trả lời khách hàng
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- Chân -->
+            <tr>
+              <td style="background-color:#f4f6f5;padding:16px 32px;border-top:1px solid #e6eae9;">
+                <div style="color:#8a94a1;font-size:11px;line-height:1.7;">
+                  Email tự động từ form Liên hệ trên ${siteConfig.url}. Bạn cũng có thể bấm
+                  "Trả lời" trong hộp thư — thư sẽ gửi thẳng tới địa chỉ email của khách.
+                </div>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </div>
   `;
 }
 
