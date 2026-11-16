@@ -16,23 +16,25 @@ import type { ContactSubmission } from "./types";
 export async function sendContactNotification(submission: ContactSubmission) {
   const toNotify = process.env.CONTACT_NOTIFICATION_EMAIL || siteConfig.contact.email;
 
-  // Email thông báo cho công ty — Reply-To là email khách để bấm "Trả lời"
-  // là phản hồi thẳng cho khách.
-  const notify = await sendEmail({
-    to: toNotify,
-    replyTo: submission.email,
-    subject: `Yêu cầu tư vấn mới từ website — ${submission.subject}`,
-    html: buildNotificationHtml(submission),
-  });
-
-  // Email cảm ơn gửi về cho khách — Reply-To là email công ty để khách trả
-  // lời là về đúng hộp thư công ty. Không chặn kết quả chung nếu lỗi.
-  void sendEmail({
-    to: submission.email,
-    replyTo: siteConfig.contact.email,
-    subject: `Cảm ơn bạn đã liên hệ ${siteConfig.name} — chúng tôi đã nhận được yêu cầu của bạn`,
-    html: buildAcknowledgementHtml(submission),
-  });
+  // Gửi song song và CHỜ xong cả hai email trước khi trả về — nếu không,
+  // môi trường serverless có thể tắt hàm trước khi email thứ hai kịp gửi.
+  //   1. Email thông báo cho công ty — Reply-To là email khách.
+  //   2. Email cảm ơn cho khách — Reply-To là email công ty.
+  // sendEmail tự bắt lỗi nên không ném ngoại lệ; lỗi 1 email không chặn email kia.
+  const [notify] = await Promise.all([
+    sendEmail({
+      to: toNotify,
+      replyTo: submission.email,
+      subject: `Yêu cầu tư vấn mới từ website — ${submission.subject}`,
+      html: buildNotificationHtml(submission),
+    }),
+    sendEmail({
+      to: submission.email,
+      replyTo: siteConfig.contact.email,
+      subject: `Cảm ơn bạn đã liên hệ ${siteConfig.name} — chúng tôi đã nhận được yêu cầu của bạn`,
+      html: buildAcknowledgementHtml(submission),
+    }),
+  ]);
 
   return { sent: notify.sent };
 }
